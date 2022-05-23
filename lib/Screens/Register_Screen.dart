@@ -388,9 +388,35 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     child: Container(
                       width: MediaQuery.of(context).size.width * 0.58,
                       height: 50,
-                      child: Buttons(
-                        buttonText: 'Register',
-                      ),
+                      child: Container(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 55,
+                            vertical: 10,
+                          ),
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                              colors: [
+                                Colors.blueAccent,
+                                Colors.blue.shade700,
+                                Colors.blue.shade800,
+                                Colors.blue.shade900,
+                              ],
+                              begin: Alignment.centerLeft,
+                              end: Alignment.centerRight,
+                            ),
+                            borderRadius: BorderRadius.circular(40),
+                          ),
+                          child: Center(
+                            child: Text(
+                              'Login',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 17.3,
+                              ),
+                            ),
+                          ),
+                        ),
                     ),
                   ),
                 ),
