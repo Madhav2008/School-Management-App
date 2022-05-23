@@ -117,7 +117,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     width: 100,
                     height: 100),
                 Text(
-                  'Recipo',
+                  'School',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold,
