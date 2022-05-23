@@ -411,22 +411,22 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       width: 5,
                     ),
                     GestureDetector(
-                        child: Text(
-                          'Login',
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.blue.shade100,
-                          ),
+                      child: Text(
+                        'Login',
+                        style: TextStyle(
+                          fontSize: 16.0,
+                          color: Colors.blue.shade100,
                         ),
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => LoginScreen(),
-                            ),
-                          );
-                        },
                       ),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => LoginScreen(),
+                          ),
+                        );
+                      },
+                    ),
                   ],
                 )
               ],
