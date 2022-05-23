@@ -13,10 +13,10 @@ class NavigationScreen extends StatefulWidget {
 class _NavigationScreenState extends State<NavigationScreen> {
   final List<Widget> _tabItems = [
     HomeScreen(),
-    CategoryScreen(),
-    PostRecipeScreen(),
-    SearchScreenNav(),
-    ProfileScreen()
+    // CategoryScreen(),
+    // PostRecipeScreen(),
+    // SearchScreenNav(),
+    // ProfileScreen()
   ];
   int _page = 0;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
