@@ -17,7 +17,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
   final TextEditingController contactController = TextEditingController();
   final TextEditingController bioController = TextEditingController();
 
-  File? _imageFile;
+  // File? _imageFile;
   String uploadedPath = "";
   late XFile _image;
   ImagePicker imagePicker = ImagePicker();
