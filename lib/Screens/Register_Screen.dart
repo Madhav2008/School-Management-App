@@ -19,7 +19,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   // File? _imageFile;
   String uploadedPath = "";
-  late XFile _image;
+  // late XFile _image;
   ImagePicker imagePicker = ImagePicker();
   bool _isLoading = false;
 
