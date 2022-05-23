@@ -12,7 +12,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -94,7 +94,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderSide:
-                              BorderSide(color: Colors.redAccent, width: 0.0),
+                              BorderSide(color: Colors.redAccent, width: 0.0,),
                         ),
                         prefixIcon: Icon(
                           Icons.lock,
