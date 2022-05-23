@@ -147,15 +147,15 @@ class _LoginScreenState extends State<LoginScreen> {
                           //     msg: "Login Successfully!!",
                           //     toastLength: Toast.LENGTH_SHORT,
                           //     gravity: ToastGravity.BOTTOM);
-                        }).catchError((error) {
-                          showDialog(
-                              context: context,
-                              builder: (con) {
-                                return AlertDialog(
-                                  title: Text("Error"),
-                                  content: Text(error.toString()),
-                                );
-                              });
+                        // }).catchError((error) {
+                        //   showDialog(
+                        //       context: context,
+                        //       builder: (con) {
+                        //         return AlertDialog(
+                        //           title: Text("Error"),
+                        //           content: Text(error.toString()),
+                        //         );
+                        //       });
                         });
                       },
                       child: Container(
