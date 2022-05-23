@@ -70,7 +70,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
                           borderSide: const BorderSide(
-                              color: Colors.redAccent, width: 0.0,),
+                            color: Colors.redAccent,
+                            width: 0.0,
+                          ),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderSide:
