@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:school_management_app/Screens/Home_Screen.dart';
+import 'package:school_management_app/Screens/Login_Screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({
@@ -22,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => HomeScreen(),
+            builder: (context) => LoginScreen(),
           ),
         );
       },
