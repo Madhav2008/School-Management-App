@@ -107,11 +107,11 @@ class _LoginScreenState extends State<ForgetScreen> {
                   child: GestureDetector(
                     onTap: () async {
                       // send();
-                      // Fluttertoast.showToast(
-                      //   msg: "Mail Sent Successfully!!",
-                      //   toastLength: Toast.LENGTH_SHORT,
-                      //   gravity: ToastGravity.BOTTOM,
-                      // );
+                      Fluttertoast.showToast(
+                        msg: "Mail Sent Successfully!!",
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                      );
                     },
                     child: Container(
                       width: MediaQuery.of(context).size.width * 0.5,
