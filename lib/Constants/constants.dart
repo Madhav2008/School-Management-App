@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 const black = Colors.black;
 const white = Colors.white;
 var primary = Colors.blue.shade900;
-const secondary = Color(0xFF25D366);
+const secondary = Colors.blue;
 const one = Color(0xFF128C7E);
 var grey = Colors.grey;
 const red = Colors.red;
