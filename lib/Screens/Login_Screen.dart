@@ -121,10 +121,11 @@ class _LoginScreenState extends State<LoginScreen> {
                       colors: Colors.redAccent,
                       onPress: () {
                         Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => ForgetScreen(),
-                            ),);
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ForgetScreen(),
+                          ),
+                        );
                       },
                     ),
                   ),
