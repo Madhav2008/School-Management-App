@@ -33,7 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(
-                    'https://ichef.bbci.co.uk/news/976/cpsprodpb/6693/production/_111995262_gettyimages-1139930327.jpg'),
+                    '../assets/images/Login.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
