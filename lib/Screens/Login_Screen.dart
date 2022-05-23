@@ -167,9 +167,10 @@ class _LoginScreenState extends State<LoginScreen> {
                         //       MaterialPageRoute(
                         //           builder: (context) => Navigation()));
                         Fluttertoast.showToast(
-                            msg: "Login Successfully!!",
-                            toastLength: Toast.LENGTH_SHORT,
-                            gravity: ToastGravity.BOTTOM,);
+                          msg: "Login Successfully!!",
+                          toastLength: Toast.LENGTH_SHORT,
+                          gravity: ToastGravity.BOTTOM,
+                        );
                         // }).catchError((error) {
                         //   showDialog(
                         //       context: context,
