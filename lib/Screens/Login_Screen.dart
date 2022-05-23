@@ -129,24 +129,26 @@ class _LoginScreenState extends State<LoginScreen> {
                   SizedBox(
                     height: 10,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 180),
-                    child: GestureDetector(
-                      child: Text(
-                        'Forget password?',
-                        style: TextStyle(
-                          fontSize: 16.0,
-                          color: Colors.blue.shade100,
-                        ),
-                      ),
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => ForgetScreen(),
+                  Align(
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 180),
+                      child: GestureDetector(
+                        child: Text(
+                          'Forget password?',
+                          style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.blue.shade100,
                           ),
-                        );
-                      },
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => ForgetScreen(),
+                            ),
+                          );
+                        },
+                      ),
                     ),
                   ),
                   SizedBox(
