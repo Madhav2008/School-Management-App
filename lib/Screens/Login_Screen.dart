@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:school_management_app/Constants/Constants.dart';
 import 'package:school_management_app/Screens/Forget_Password_Screen.dart';
 import 'package:school_management_app/Screens/Register_Screen.dart';
 
@@ -131,7 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         'Forget password?',
                         style: TextStyle(
                           fontSize: 16.0,
-                          color: primary,
+                          color: Colors.redAccent,
                         ),
                       ),
                       onTap: () {
@@ -184,7 +183,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                               colors: [
-                                primary,
+                                Colors.redAccent,
                                 Color.fromRGBO(226, 55, 68, 1.0),
                                 Color.fromRGBO(226, 55, 68, 0.80),
                                 Color.fromRGBO(226, 55, 68, 0.60),
