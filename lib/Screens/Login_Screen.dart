@@ -222,7 +222,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Text(
                         'Create new account?',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.white,
                           fontSize: 15,
                         ),
                       ),
