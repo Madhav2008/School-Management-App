@@ -189,7 +189,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                               colors: [
-                                Colors.redAccent,
+                                Colors.blue,
                                 Color.fromRGBO(226, 55, 68, 1.0),
                                 Color.fromRGBO(226, 55, 68, 0.80),
                                 Color.fromRGBO(226, 55, 68, 0.60),
