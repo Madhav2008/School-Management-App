@@ -98,7 +98,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         enabledBorder: OutlineInputBorder(
-                          borderSide: const BorderSide(
+                          borderSide: BorderSide(
                               color: Colors.blue.shade900, width: 0.0),
                         ),
                         focusedBorder: OutlineInputBorder(
