@@ -417,7 +417,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             context,
                             MaterialPageRoute(
                               builder: (context) => LoginScreen(),
-                            ));
+                            ),);
                       },
                     ),
                   ],
