@@ -24,14 +24,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
   bool _isLoading = false;
 
   void saveUser(uid) {
-    UserDatabase.addUser(
-      userId: uid,
-      userName: nameController.text,
-      bio: bioController.text,
-      userEmail: emailController.text,
-      contact: contactController.text,
-      img: uploadedPath,
-    );
+    // UserDatabase.addUser(
+    //   userId: uid,
+    //   userName: nameController.text,
+    //   bio: bioController.text,
+    //   userEmail: emailController.text,
+    //   contact: contactController.text,
+    //   img: uploadedPath,
+    // );
   }
 
   selectImage() async {
