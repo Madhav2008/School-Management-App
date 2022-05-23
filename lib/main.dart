@@ -38,7 +38,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      // so that the display can reflect the updated values. If we changed
       _counter++;
     });
   }
