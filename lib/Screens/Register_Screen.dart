@@ -419,7 +419,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           ),
                         ),
                         onTap: () {
-                          Navigator.pushReplacement(
+                          Navigator.push(
                             context,
                             MaterialPageRoute(
                               builder: (context) => LoginScreen(),
