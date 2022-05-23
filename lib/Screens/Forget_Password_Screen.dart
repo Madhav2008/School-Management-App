@@ -117,8 +117,10 @@ class _LoginScreenState extends State<ForgetScreen> {
                       width: MediaQuery.of(context).size.width * 0.5,
                       height: 50,
                       child: Container(
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 55, vertical: 10,),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 55,
+                          vertical: 10,
+                        ),
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: [
