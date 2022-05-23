@@ -118,7 +118,7 @@ class _LoginScreenState extends State<ForgetScreen> {
                       height: 50,
                       child: Container(
                         padding:
-                            EdgeInsets.symmetric(horizontal: 55, vertical: 10),
+                            EdgeInsets.symmetric(horizontal: 55, vertical: 10,),
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: [
