@@ -360,30 +360,30 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 Center(
                   child: GestureDetector(
                     onTap: () async {
-                      await authService
-                          .createUserWithEmailAndPassword(
-                              emailController.text, passwordController.text)
-                          .then((value) {
-                        Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Navigation()));
-                        final userId = FirebaseAuth.instance.currentUser!.uid;
-                        saveUser(userId);
-                        Fluttertoast.showToast(
-                            msg: "User Registered Successfully!!",
-                            toastLength: Toast.LENGTH_SHORT,
-                            gravity: ToastGravity.BOTTOM);
-                      }).catchError((error) {
-                        showDialog(
-                            context: context,
-                            builder: (con) {
-                              return AlertDialog(
-                                title: Text("Error"),
-                                content: Text(error.toString()),
-                              );
-                            });
-                      });
+                      // await authService
+                      //     .createUserWithEmailAndPassword(
+                      //         emailController.text, passwordController.text)
+                      //     .then((value) {
+                      //   Navigator.pushReplacement(
+                      //       context,
+                      //       MaterialPageRoute(
+                      //           builder: (context) => Navigation()));
+                      //   final userId = FirebaseAuth.instance.currentUser!.uid;
+                      //   saveUser(userId);
+                      //   Fluttertoast.showToast(
+                      //       msg: "User Registered Successfully!!",
+                      //       toastLength: Toast.LENGTH_SHORT,
+                      //       gravity: ToastGravity.BOTTOM);
+                      // }).catchError((error) {
+                      //   showDialog(
+                      //       context: context,
+                      //       builder: (con) {
+                      //         return AlertDialog(
+                      //           title: Text("Error"),
+                      //           content: Text(error.toString()),
+                      //         );
+                      //       });
+                      // });
                     },
                     child: Container(
                       width: MediaQuery.of(context).size.width * 0.58,
