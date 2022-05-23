@@ -229,7 +229,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.blue, width: 0.0),
+                        borderSide: BorderSide(color: Colors.blue, width: 0.0,),
                       ),
                       prefixIcon: Icon(
                         Icons.supervised_user_circle_outlined,
