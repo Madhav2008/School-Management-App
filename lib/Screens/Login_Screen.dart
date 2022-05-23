@@ -54,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   Text(
-                    'School Management',
+                    'School',
                     style: TextStyle(
                       fontSize: 40.0,
                       fontWeight: FontWeight.bold,
