@@ -69,23 +69,23 @@ class _RegisterScreenState extends State<RegisterScreen> {
   }
 
   void uploadImage() {
-    String imageFileName = DateTime.now().millisecondsSinceEpoch.toString();
-    final Reference storageReference =
-        FirebaseStorage.instance.ref().child('Images').child(imageFileName);
-    final UploadTask uploadTask = storageReference.putFile(File(_image.path));
-    uploadTask.snapshotEvents.listen((event) {
-      setState(() {
-        _isLoading = true;
-      });
-    });
-    uploadTask.then((TaskSnapshot taskSnapshot) async {
-      uploadedPath = await uploadTask.snapshot.ref.getDownloadURL();
-      print(uploadedPath);
+    // String imageFileName = DateTime.now().millisecondsSinceEpoch.toString();
+    // final Reference storageReference =
+    //     FirebaseStorage.instance.ref().child('Images').child(imageFileName);
+    // final UploadTask uploadTask = storageReference.putFile(File(_image.path));
+    // uploadTask.snapshotEvents.listen((event) {
+    //   setState(() {
+    //     _isLoading = true;
+    //   });
+    // });
+    // uploadTask.then((TaskSnapshot taskSnapshot) async {
+    //   uploadedPath = await uploadTask.snapshot.ref.getDownloadURL();
+    //   print(uploadedPath);
 
-      setState(() {
-        _isLoading = false;
-      });
-    }).catchError((error) {});
+    //   setState(() {
+    //     _isLoading = false;
+    //   });
+    // }).catchError((error) {});
   }
 
   @override
