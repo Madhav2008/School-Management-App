@@ -183,7 +183,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
                         width: 5,
                       ),
-                      TextSimpleButton(
+                      GestureDetector(
                         title: 'Register',
                         colors: Colors.redAccent,
                         onPress: () {
