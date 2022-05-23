@@ -20,16 +20,14 @@ class _NavigationScreenState extends State<NavigationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return
-      StreamBuilder(
+    return StreamBuilder(
       stream: Connectivity().onConnectivityChanged,
       builder:
           (BuildContext context, AsyncSnapshot<ConnectivityResult> snapshot) {
         if (snapshot != null &&
             snapshot.hasData &&
             snapshot.data != ConnectivityResult.none) {
-          return
-            Scaffold(
+          return Scaffold(
             bottomNavigationBar: CurvedNavigationBar(
               key: _bottomNavigationKey,
               index: 0,
@@ -66,8 +64,8 @@ class _NavigationScreenState extends State<NavigationScreen> {
           );
         } else {
           return Center(
-            child: Container(
-              color: Colors.white,
+              child: Container(
+            color: Colors.white,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -113,8 +111,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
                 ),
               ],
             ),
-            )
-          );
+          ));
         }
       },
     );
