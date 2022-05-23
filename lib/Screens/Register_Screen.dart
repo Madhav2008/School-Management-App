@@ -58,15 +58,15 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ));
   }
 
-  imagePickerMethod(ImageSource source) async {
-    var pic = await imagePicker.pickImage(source: source);
-    if (pic != null) {
-      // setState(() {
-      //   _image = XFile(pic.path);
-      // });
-    }
-    uploadImage(); // image upload function
-  }
+  // imagePickerMethod(ImageSource source) async {
+  //   var pic = await imagePicker.pickImage(source: source);
+  //   if (pic != null) {
+  //     // setState(() {
+  //     //   _image = XFile(pic.path);
+  //     // });
+  //   }
+  //   uploadImage(); // image upload function
+  // }
 
   void uploadImage() {
     // String imageFileName = DateTime.now().millisecondsSinceEpoch.toString();
