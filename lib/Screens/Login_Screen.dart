@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:school_management_app/Screens/Forget_Password_Screen.dart';
 import 'package:school_management_app/Screens/Register_Screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -129,7 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => RegisterScreen(),
+                            builder: (context) => ForgetScreen(),
                           ),
                         );
                       },
