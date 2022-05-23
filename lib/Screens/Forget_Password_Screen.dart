@@ -134,7 +134,7 @@ class _LoginScreenState extends State<ForgetScreen> {
                         ),
                         child: Center(
                           child: Text(
-                            buttonText,
+                            'Send',
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
