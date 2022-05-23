@@ -56,7 +56,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
                     size: 30,
                     color: (_page == 4) ? Colors.blueAccent : Colors.white),
               ],
-              color: Color.fromRGBO(226, 55, 68, 0.60),
+              color: Colors.blue.shade900,
               buttonBackgroundColor: Colors.grey[50],
               backgroundColor: Color.fromRGBO(226, 55, 68, 0.60),
               animationDuration: Duration(milliseconds: 500),
