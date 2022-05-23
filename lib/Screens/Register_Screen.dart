@@ -414,10 +414,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       colors: Colors.redAccent,
                       onPress: () {
                         Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => LoginScreen(),
-                            ),);
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => LoginScreen(),
+                          ),
+                        );
                       },
                     ),
                   ],
