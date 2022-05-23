@@ -345,7 +345,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       focusedBorder: OutlineInputBorder(
                         borderSide:
-                            BorderSide(color: Colors.redAccent, width: 0.0),
+                            BorderSide(color: Colors.blue, width: 0.0),
                       ),
                       prefixIcon: Icon(
                         Icons.phone,
