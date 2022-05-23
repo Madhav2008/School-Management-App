@@ -128,10 +128,10 @@ class _LoginScreenState extends State<ForgetScreen> {
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: [
-                              Colors.redAccent,
-                              Color.fromRGBO(226, 55, 68, 1.0),
-                              Color.fromRGBO(226, 55, 68, 0.80),
-                              Color.fromRGBO(226, 55, 68, 0.60),
+                              Colors.blueAccent,
+                                Colors.blue.shade700,
+                                Colors.blue.shade800,
+                                Colors.blue.shade900,
                             ],
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
