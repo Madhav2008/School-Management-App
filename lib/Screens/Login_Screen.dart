@@ -166,7 +166,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => Navigation()));
+                                  builder: (context) => Navigation(),));
                         Fluttertoast.showToast(
                           msg: "Login Successfully!!",
                           toastLength: Toast.LENGTH_SHORT,
