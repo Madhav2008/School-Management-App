@@ -143,10 +143,10 @@ class _LoginScreenState extends State<LoginScreen> {
                         //       context,
                         //       MaterialPageRoute(
                         //           builder: (context) => Navigation()));
-                          // Fluttertoast.showToast(
-                          //     msg: "Login Successfully!!",
-                          //     toastLength: Toast.LENGTH_SHORT,
-                          //     gravity: ToastGravity.BOTTOM);
+                        // Fluttertoast.showToast(
+                        //     msg: "Login Successfully!!",
+                        //     toastLength: Toast.LENGTH_SHORT,
+                        //     gravity: ToastGravity.BOTTOM);
                         // }).catchError((error) {
                         //   showDialog(
                         //       context: context,
@@ -190,7 +190,8 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => RegisterScreen(),));
+                                builder: (context) => RegisterScreen(),
+                              ));
                         },
                       ),
                     ],
