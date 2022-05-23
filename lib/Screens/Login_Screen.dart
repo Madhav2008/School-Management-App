@@ -130,6 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     height: 10,
                   ),
                   Align(
+                    alignment: Alignment.topRight,
                     child: Padding(
                       padding: const EdgeInsets.only(right: 40),
                       child: GestureDetector(
