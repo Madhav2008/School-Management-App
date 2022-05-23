@@ -192,7 +192,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 Colors.blueAccent,
                                 Colors.blue.shade700,
                                 Colors.blue.shade800,
-                                Colors.blue.shade700,
+                                Colors.blue.shade900,
                               ],
                               begin: Alignment.centerLeft,
                               end: Alignment.centerRight,
