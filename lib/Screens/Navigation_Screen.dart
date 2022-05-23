@@ -14,6 +14,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
   final List<Widget> _tabItems = [
     HomeScreen(),
     HomeScreen(),
+    HomeScreen(),
     // CategoryScreen(),
     // PostRecipeScreen(),
     // SearchScreenNav(),
