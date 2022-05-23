@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
-  // case the title) provided by the parent (in this case the App widget) and
   // always marked "final".
 
   final String title;
