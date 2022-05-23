@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:school_management_app/Screens/Home_Screen.dart';
 
