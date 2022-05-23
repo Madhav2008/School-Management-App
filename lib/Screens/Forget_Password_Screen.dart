@@ -129,9 +129,9 @@ class _LoginScreenState extends State<ForgetScreen> {
                           gradient: LinearGradient(
                             colors: [
                               Colors.blueAccent,
-                                Colors.blue.shade700,
-                                Colors.blue.shade800,
-                                Colors.blue.shade900,
+                              Colors.blue.shade700,
+                              Colors.blue.shade800,
+                              Colors.blue.shade900,
                             ],
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
