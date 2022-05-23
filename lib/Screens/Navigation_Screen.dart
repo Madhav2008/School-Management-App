@@ -45,7 +45,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
                     color: (_page == 0) ? Colors.blueAccent : Colors.white),
                 Icon(Icons.category_sharp,
                     size: 30,
-                    color: (_page == 1) ? Colors.redAccent : Colors.white),
+                    color: (_page == 1) ? Colors.blueAccent : Colors.white),
                 Icon(Icons.add_box,
                     size: 30,
                     color: (_page == 2) ? Colors.redAccent : Colors.white),
