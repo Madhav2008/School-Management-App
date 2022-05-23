@@ -136,7 +136,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         'Forget password?',
                         style: TextStyle(
                           fontSize: 16.0,
-                          color: Colors.redAccent,
+                          color: Colors.blueAccent,
                         ),
                       ),
                       onTap: () {
