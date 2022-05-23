@@ -68,7 +68,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       controller: emailController,
                       style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
-                        enabledBorder: const OutlineInputBorder(
+                        enabledBorder: OutlineInputBorder(
                           borderSide: const BorderSide(
                               color: Colors.blue.shade900, width: 0.0),
                         ),
