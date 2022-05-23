@@ -185,7 +185,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       GestureDetector(
                         title: 'Register',
-                        colors: Colors.redAccent,
+                        color: Colors.redAccent,
                         onTap: () {
                           Navigator.pushReplacement(
                             context,
