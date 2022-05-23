@@ -113,7 +113,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset(
-                  "https://github.com/Madhav2008/App-Assets/blob/main/RecipoLogo.png?raw=true",
+                  "../assets/images/Logo.png",
                   width: 100,
                   height: 100,
                 ),
