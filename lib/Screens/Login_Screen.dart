@@ -190,7 +190,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             gradient: LinearGradient(
                               colors: [
                                 Colors.blueAccent,
-                                Color.fromRGBO(226, 55, 68, 1.0),
+                                Colors.blue.shade700,
                                 Color.fromRGBO(226, 55, 68, 0.80),
                                 Color.fromRGBO(226, 55, 68, 0.60),
                               ],
