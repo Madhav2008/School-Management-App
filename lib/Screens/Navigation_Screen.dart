@@ -1,6 +1,7 @@
 import 'package:connectivity/connectivity.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:school_management_app/Screens/Home_Screen.dart';
 
 class NavigationScreen extends StatefulWidget {
   const NavigationScreen({Key? key}) : super(key: key);
