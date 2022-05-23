@@ -27,7 +27,7 @@ class _LoginScreenState extends State<LoginScreen> {
             height: MediaQuery.of(context).size.height,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('../assets/images/Login.png'),
+                image: AssetImage('../assets/images/Login.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
