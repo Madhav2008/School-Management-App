@@ -184,7 +184,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         width: 5,
                       ),
                       GestureDetector(
-                        child: Text('Register'),
+                        child: Text('Register',style: TextStyle(),),
                         onTap: () {
                           Navigator.pushReplacement(
                             context,
