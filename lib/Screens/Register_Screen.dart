@@ -100,7 +100,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           height: MediaQuery.of(context).size.height,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('../assets/images/Register.png'),
+              image: AssetImage('../assets/images/Register.jpg'),
               fit: BoxFit.cover,
             ),
           ),
