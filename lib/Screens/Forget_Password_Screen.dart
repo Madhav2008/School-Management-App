@@ -116,9 +116,32 @@ class _LoginScreenState extends State<ForgetScreen> {
                     child: Container(
                       width: MediaQuery.of(context).size.width * 0.5,
                       height: 50,
-                      child: Buttons(
-                        buttonText: 'Send',
-                      ),
+                      child: Container(
+      padding: EdgeInsets.symmetric(horizontal: 55, vertical: 10),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            Colors.redAccent,
+            Color.fromRGBO(226, 55, 68, 1.0),
+            Color.fromRGBO(226, 55, 68, 0.80),
+            Color.fromRGBO(226, 55, 68, 0.60),
+          ],
+          begin: Alignment.centerLeft,
+          end: Alignment.centerRight,
+        ),
+        borderRadius: BorderRadius.circular(40),
+      ),
+      child: Center(
+        child: Text(
+          buttonText,
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+            fontSize: 17.3,
+          ),
+        ),
+      ),
+    );
                     ),
                   ),
                 ),
