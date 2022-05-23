@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 // import 'package:fluttertoast/fluttertoast.dart';
 
@@ -87,8 +86,8 @@ class _LoginScreenState extends State<ForgetScreen> {
                             color: Colors.redAccent, width: 0.0),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                            color: Colors.redAccent, width: 0.0),
+                        borderSide:
+                            BorderSide(color: Colors.redAccent, width: 0.0),
                       ),
                       prefixIcon: Icon(
                         Icons.mail,
