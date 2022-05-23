@@ -169,7 +169,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Fluttertoast.showToast(
                             msg: "Login Successfully!!",
                             toastLength: Toast.LENGTH_SHORT,
-                            gravity: ToastGravity.BOTTOM);
+                            gravity: ToastGravity.BOTTOM,);
                         // }).catchError((error) {
                         //   showDialog(
                         //       context: context,
