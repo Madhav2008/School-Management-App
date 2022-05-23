@@ -70,11 +70,11 @@ class _LoginScreenState extends State<LoginScreen> {
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
                           borderSide: const BorderSide(
-                              color: Colors.redAccent, width: 0.0),
+                              color: Colors.blue.shade900, width: 0.0),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderSide:
-                              BorderSide(color: Colors.redAccent, width: 0.0),
+                              BorderSide(color: Colors.blue.shade900, width: 0.0),
                         ),
                         prefixIcon: Icon(
                           Icons.mail,
@@ -99,11 +99,11 @@ class _LoginScreenState extends State<LoginScreen> {
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
                           borderSide: const BorderSide(
-                              color: Colors.redAccent, width: 0.0),
+                              color: Colors.blue.shade900, width: 0.0),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                            color: Colors.redAccent,
+                            color: Colors.blue.shade900,
                             width: 0.0,
                           ),
                         ),
@@ -130,7 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         'Forget password?',
                         style: TextStyle(
                           fontSize: 16.0,
-                          color: Colors.redAccent,
+                          color: Colors.blue.shade900,
                         ),
                       ),
                       onTap: () {
@@ -183,7 +183,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                               colors: [
-                                Colors.redAccent,
+                                Colors.blue.shade900,
                                 Color.fromRGBO(226, 55, 68, 1.0),
                                 Color.fromRGBO(226, 55, 68, 0.80),
                                 Color.fromRGBO(226, 55, 68, 0.60),
@@ -228,7 +228,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           'Register',
                           style: TextStyle(
                             fontSize: 16.0,
-                            color: Colors.redAccent,
+                            color: Colors.blue.shade900,
                           ),
                         ),
                         onTap: () {
