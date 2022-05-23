@@ -135,14 +135,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   Center(
                     child: GestureDetector(
                       onTap: () async {
-                        authService
-                            .signInWithEmailAndPassword(
-                                emailController.text, passwordController.text)
-                            .then((auth) {
-                          Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Navigation()));
+                        // authService
+                        //     .signInWithEmailAndPassword(
+                        //         emailController.text, passwordController.text)
+                        //     .then((auth) {
+                        //   Navigator.pushReplacement(
+                        //       context,
+                        //       MaterialPageRoute(
+                        //           builder: (context) => Navigation()));
                           // Fluttertoast.showToast(
                           //     msg: "Login Successfully!!",
                           //     toastLength: Toast.LENGTH_SHORT,
