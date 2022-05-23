@@ -64,54 +64,55 @@ class _NavigationScreenState extends State<NavigationScreen> {
           );
         } else {
           return Center(
-              child: Container(
-            color: Colors.white,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      // Icon(Icons.favorite),
-                      // SizedBox(width:5),
-                      Image.asset(
-                        'assets/images/no-internet.png',
-                        width: 130,
-                        height: 130,
-                        // color: Colors.white,
-                        // color: Colors.yellow,
-                      ),
-                      // SizedBox(width:5),
-                      // Icon(Icons.favorite),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      // Icon(Icons.wifi_off),
-                      // SizedBox(width:5),
-                      Text(
-                        "No Internet Access",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 25,
-                          color: Colors.black,
+            child: Container(
+              color: Colors.white,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        // Icon(Icons.favorite),
+                        // SizedBox(width:5),
+                        Image.asset(
+                          'assets/images/no-internet.png',
+                          width: 130,
+                          height: 130,
+                          // color: Colors.white,
                           // color: Colors.yellow,
                         ),
-                      ),
-                      // SizedBox(width:5),
-                      // Icon(Icons.wifi_off),
-                    ],
+                        // SizedBox(width:5),
+                        // Icon(Icons.favorite),
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        // Icon(Icons.wifi_off),
+                        // SizedBox(width:5),
+                        Text(
+                          "No Internet Access",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 25,
+                            color: Colors.black,
+                            // color: Colors.yellow,
+                          ),
+                        ),
+                        // SizedBox(width:5),
+                        // Icon(Icons.wifi_off),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
-          ),);
+          );
         }
       },
     );
