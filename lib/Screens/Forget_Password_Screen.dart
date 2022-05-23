@@ -141,7 +141,7 @@ class _LoginScreenState extends State<ForgetScreen> {
           ),
         ),
       ),
-    );
+    ),
                     ),
                   ),
                 ),
