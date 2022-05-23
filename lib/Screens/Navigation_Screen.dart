@@ -16,6 +16,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
     HomeScreen(),
     HomeScreen(),
     HomeScreen(),
+    HomeScreen(),
     // CategoryScreen(),
     // PostRecipeScreen(),
     // SearchScreenNav(),
