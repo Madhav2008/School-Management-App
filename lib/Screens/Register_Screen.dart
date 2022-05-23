@@ -100,7 +100,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           height: MediaQuery.of(context).size.height,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/images/Register.png'),
+              image: AssetImage("../assets/images/Register.png'),
               fit: BoxFit.cover,
             ),
           ),
@@ -259,8 +259,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             color: Colors.blueAccent, width: 0.0),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide:
-                            BorderSide(color: Colors.blue, width: 0.0),
+                        borderSide: BorderSide(color: Colors.blue, width: 0.0),
                       ),
                       prefixIcon: Icon(
                         Icons.assignment_outlined,
@@ -287,8 +286,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             color: Colors.blueAccent, width: 0.0),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide:
-                            BorderSide(color: Colors.blue, width: 0.0),
+                        borderSide: BorderSide(color: Colors.blue, width: 0.0),
                       ),
                       prefixIcon: Icon(
                         Icons.mail,
@@ -316,8 +314,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             color: Colors.blueAccent, width: 0.0),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide:
-                            BorderSide(color: Colors.blue, width: 0.0),
+                        borderSide: BorderSide(color: Colors.blue, width: 0.0),
                       ),
                       prefixIcon: Icon(
                         Icons.lock,
@@ -344,8 +341,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             color: Colors.blueAccent, width: 0.0),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide:
-                            BorderSide(color: Colors.blue, width: 0.0),
+                        borderSide: BorderSide(color: Colors.blue, width: 0.0),
                       ),
                       prefixIcon: Icon(
                         Icons.phone,
