@@ -120,7 +120,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     padding: const EdgeInsets.only(left: 180),
                     child: GestureDetector(
                       child: Text(
-                        'Register',
+                        'Forget password?',
                         style: TextStyle(
                           fontSize: 16.0,
                           color: Colors.redAccent,
