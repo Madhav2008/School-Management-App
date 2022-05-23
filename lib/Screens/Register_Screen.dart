@@ -90,7 +90,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final authService = Provider.of<AuthService>(context);
+    // final authService = Provider.of<AuthService>(context);
     return Scaffold(
       backgroundColor: Colors.transparent,
       body: SingleChildScrollView(
