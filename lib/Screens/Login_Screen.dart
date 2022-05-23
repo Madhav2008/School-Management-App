@@ -118,22 +118,22 @@ class _LoginScreenState extends State<LoginScreen> {
                   Padding(
                     padding: const EdgeInsets.only(left: 180),
                     child: GestureDetector(
-                        child: Text(
-                          'Register',
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.redAccent,
-                          ),
+                      child: Text(
+                        'Register',
+                        style: TextStyle(
+                          fontSize: 16.0,
+                          color: Colors.redAccent,
                         ),
-                        onTap: () {
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => RegisterScreen(),
-                            ),
-                          );
-                        },
                       ),
+                      onTap: () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => RegisterScreen(),
+                          ),
+                        );
+                      },
+                    ),
                   ),
                   SizedBox(
                     height: 40,
@@ -168,34 +168,34 @@ class _LoginScreenState extends State<LoginScreen> {
                         width: MediaQuery.of(context).size.width * 0.5,
                         height: 50,
                         child: Container(
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 55,
-                          vertical: 10,
-                        ),
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            colors: [
-                              Colors.redAccent,
-                              Color.fromRGBO(226, 55, 68, 1.0),
-                              Color.fromRGBO(226, 55, 68, 0.80),
-                              Color.fromRGBO(226, 55, 68, 0.60),
-                            ],
-                            begin: Alignment.centerLeft,
-                            end: Alignment.centerRight,
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 55,
+                            vertical: 10,
                           ),
-                          borderRadius: BorderRadius.circular(40),
-                        ),
-                        child: Center(
-                          child: Text(
-                            'Login',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 17.3,
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                              colors: [
+                                Colors.redAccent,
+                                Color.fromRGBO(226, 55, 68, 1.0),
+                                Color.fromRGBO(226, 55, 68, 0.80),
+                                Color.fromRGBO(226, 55, 68, 0.60),
+                              ],
+                              begin: Alignment.centerLeft,
+                              end: Alignment.centerRight,
+                            ),
+                            borderRadius: BorderRadius.circular(40),
+                          ),
+                          child: Center(
+                            child: Text(
+                              'Login',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 17.3,
+                              ),
                             ),
                           ),
                         ),
-                      ),
                       ),
                     ),
                   ),
