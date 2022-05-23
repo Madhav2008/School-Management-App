@@ -50,7 +50,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          // Invoke "debug painting" (press "p" in the console, choose the
           // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
           // Column has various properties to control how it sizes itself and
           // how it positions its children. Here we use mainAxisAlignment to
