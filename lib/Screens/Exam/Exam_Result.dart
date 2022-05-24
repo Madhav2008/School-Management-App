@@ -116,7 +116,7 @@ class _ExamResultState extends State<ExamResult>
                         muchDelayedAnimation.value * width, 0, 0),
                     child: DropdownSearch<String>(
                       validator: (v) => v == null ? "Please Select" : null,
-                      hint: "Please Select",
+                      // hint: "Please Select",
                       mode: Mode.MENU,
                       showSelectedItem: true,
                       items: [
