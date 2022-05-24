@@ -10,7 +10,7 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
     required this.title,
     required this.menuenabled,
     required this.notificationenabled,
-    this.ontap,
+    required this.ontap,
   }) : super(key: key);
 
   @override
