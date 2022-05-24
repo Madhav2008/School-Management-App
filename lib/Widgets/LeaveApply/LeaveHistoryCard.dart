@@ -10,7 +10,7 @@ class LeaveHistoryCard extends StatelessWidget {
   const LeaveHistoryCard({
     Key? key,
     required this.status,
-    this.adate,
+    required this.adate,
     this.startdate,
     this.enddate,
     this.reason,
