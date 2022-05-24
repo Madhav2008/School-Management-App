@@ -57,7 +57,7 @@ class _ExamResultState extends State<ExamResult>
             notificationenabled: false,
             title: "Exams",
             ontap: () {
-              _scaffoldKey.currentState.openDrawer();
+              _scaffoldKey.currentState!.openDrawer();
             },
           ),
           drawer: Drawer(
