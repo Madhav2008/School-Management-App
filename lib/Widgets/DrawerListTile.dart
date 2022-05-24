@@ -8,7 +8,7 @@ class DrawerListTile extends StatelessWidget {
   const DrawerListTile({
     Key? key,
     required this.name,
-    this.imgpath,
+    required this.imgpath,
     this.ontap,
   }) : super(key: key);
 
