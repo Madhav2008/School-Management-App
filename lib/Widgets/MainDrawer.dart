@@ -25,7 +25,7 @@ class _MainDrawerState extends State<MainDrawer> {
                   builder: (BuildContext context) => Home(),
                 ),
               );
-            }),
+            },),
         DrawerListTile(
           imgpath: "attendance.png",
           name: "Attendance",
