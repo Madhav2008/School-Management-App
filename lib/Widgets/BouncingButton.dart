@@ -4,8 +4,11 @@ class Bouncing extends StatefulWidget {
   final Widget child;
   final VoidCallback onPress;
 
-  Bouncing({required this.child, Key? key, required this.onPress,})
-      : assert(child != null),
+  Bouncing({
+    required this.child,
+    Key? key,
+    required this.onPress,
+  })  : assert(child != null),
         super(key: key);
 
   @override
