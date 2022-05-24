@@ -272,11 +272,12 @@ class _HomeScreenState extends State<HomeScreen>
                           child: Bouncing(
                             onPress: () {
                               Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (BuildContext context) =>
-                                        LeaveApply(),
-                                  ),);
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      LeaveApply(),
+                                ),
+                              );
                             },
                             child: DashboardCard(
                               name: "Apply Leave",
