@@ -53,7 +53,7 @@ class _MainDrawerState extends State<MainDrawer> {
             );
           },
         ),
-        DrawerListTile(imgpath: "fee.png", name: "Fees", ontap: () {}),
+        DrawerListTile(imgpath: "fee.png", name: "Fees", ontap: () {},),
         DrawerListTile(
           imgpath: "calendar.png",
           name: "Time Table",
