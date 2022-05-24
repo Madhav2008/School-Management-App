@@ -5,11 +5,12 @@ class DrawerListTile extends StatelessWidget {
   final String imgpath;
   final Function ontap;
 
-  const DrawerListTile({Key key, this.name, this.imgpath, this.ontap}) : super(key: key);
+  const DrawerListTile({Key key, this.name, this.imgpath, this.ontap})
+      : super(key: key);
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      onTap:ontap,
+      onTap: ontap,
       leading: Image.asset(
         "assets/${imgpath}",
         height: 30,
