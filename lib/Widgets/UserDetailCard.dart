@@ -25,12 +25,13 @@ class _UserDetailCardState extends State<UserDetailCard>
         curve: Interval(0.2, 0.5, curve: Curves.fastOutSlowIn)));
 
     muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
-        parent: animationController,
-        curve: Interval(
-          0.3,
-          0.5,
-          curve: Curves.fastOutSlowIn,
-        ),));
+      parent: animationController,
+      curve: Interval(
+        0.3,
+        0.5,
+        curve: Curves.fastOutSlowIn,
+      ),
+    ));
   }
 
   @override
