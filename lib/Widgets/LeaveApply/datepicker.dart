@@ -10,7 +10,7 @@ class CustomDatePicker extends StatelessWidget {
 
   const CustomDatePicker({
     Key? key,
-    this.controller,
+    required this.controller,
     this.onchanged,
     this.saved,
     this.validator,
