@@ -11,11 +11,11 @@ class DrawerListTile extends StatelessWidget {
     this.imgpath,
     this.ontap,
   }) : super(key: key);
-  
+
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      onTap: ontap,
+      onTap: ()=>ontap,
       leading: Image.asset(
         "assets/${imgpath}",
         height: 30,
