@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen>
     SystemChrome.setEnabledSystemUIOverlays(
       [],
     );
-    
+
     animationController =
         AnimationController(duration: Duration(seconds: 3), vsync: this);
     animation = Tween(begin: -1.0, end: 0.0).animate(
@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen>
 
     delayedAnimation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
-        curve: Interval(0.5, 1.0, curve: Curves.fastOutSlowIn)));
+        curve: Interval(0.5, 1.0, curve: Curves.fastOutSlowIn,)));
 
     muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
