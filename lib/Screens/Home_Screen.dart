@@ -276,7 +276,7 @@ class _HomeScreenState extends State<HomeScreen>
                                   MaterialPageRoute(
                                     builder: (BuildContext context) =>
                                         LeaveApply(),
-                                  ));
+                                  ),);
                             },
                             child: DashboardCard(
                               name: "Apply Leave",
