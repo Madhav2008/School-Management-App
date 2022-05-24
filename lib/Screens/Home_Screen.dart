@@ -131,7 +131,7 @@ class _HomeScreenState extends State<HomeScreen>
                                   MaterialPageRoute(
                                     builder: (BuildContext context) =>
                                         Attendance(),
-                                  ));
+                                  ),);
                             },
                             child: DashboardCard(
                               name: "Attendance",
