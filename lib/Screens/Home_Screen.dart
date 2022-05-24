@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen>
   void initState() {
     // TODO: implement initState
     super.initState();
-    Firebase.initializeApp();
+    // Firebase.initializeApp();
     SystemChrome.setEnabledSystemUIOverlays([]);
     animationController =
         AnimationController(duration: Duration(seconds: 3), vsync: this);
