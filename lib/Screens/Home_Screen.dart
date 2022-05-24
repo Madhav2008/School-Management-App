@@ -247,9 +247,14 @@ class _HomeScreenState extends State<HomeScreen>
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(30.0, 10, 30, 10,),
+                padding: const EdgeInsets.fromLTRB(
+                  30.0,
+                  10,
+                  30,
+                  10,
+                ),
                 child: Container(
-                  alignment: Alignment(1.0, 0),
+                  alignment: Alignment(1.0, 0,),
                   child: Padding(
                     padding: const EdgeInsets.only(
                       top: 10.0,
