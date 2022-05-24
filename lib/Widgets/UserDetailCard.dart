@@ -26,14 +26,20 @@ class _UserDetailCardState extends State<UserDetailCard>
 
     muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
-        curve: Interval(0.3, 0.5, curve: Curves.fastOutSlowIn,)));
+        curve: Interval(
+          0.3,
+          0.5,
+          curve: Curves.fastOutSlowIn,
+        )));
   }
- @override
+
+  @override
   void dispose() {
     // TODO: implement dispose
     animationController.dispose();
     super.dispose();
   }
+
   Widget build(BuildContext context) {
     animationController.forward();
     final double width = MediaQuery.of(context).size.width;
