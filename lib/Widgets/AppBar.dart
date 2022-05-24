@@ -7,7 +7,7 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
   final Function ontap;
   const CommonAppBar({
     Key? key,
-    this.title,
+    required this.title,
     this.menuenabled,
     this.notificationenabled,
     this.ontap,
