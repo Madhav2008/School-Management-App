@@ -15,7 +15,7 @@ class _TodayAttendanceState extends State<TodayAttendance> {
           AttendanceCard(
             attendance: true,
             endtime: "10 AM",
-            staff: "Deepak",
+            staff: "Madhav",
             starttime: "9 AM",
             subject: "English",
           ),
