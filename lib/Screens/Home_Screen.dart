@@ -25,10 +25,12 @@ class _HomeScreenState extends State<HomeScreen>
     );
     animationController =
         AnimationController(duration: Duration(seconds: 3), vsync: this);
-    animation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
-      parent: animationController,
-      curve: Curves.fastOutSlowIn,
-    ),);
+    animation = Tween(begin: -1.0, end: 0.0).animate(
+      CurvedAnimation(
+        parent: animationController,
+        curve: Curves.fastOutSlowIn,
+      ),
+    );
 
     delayedAnimation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
