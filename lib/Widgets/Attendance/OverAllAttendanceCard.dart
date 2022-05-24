@@ -11,7 +11,7 @@ class OverallAttendanceCard extends StatefulWidget {
     required this.date,
     required this.day,
     this.firsthalf,
-    this.secondhalf,
+    required this.secondhalf,
   }) : super(key: key);
 
   @override
