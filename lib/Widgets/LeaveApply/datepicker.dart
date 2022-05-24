@@ -31,7 +31,7 @@ class CustomDatePicker extends StatelessWidget {
       enableSuggestions: true,
       //locale: Locale('en', 'US'),
       onChanged: (String change) => onchanged,
-      validator: () => validator,
+      validator: (String validate) => validator,
       onSaved: saved,
     );
   }
