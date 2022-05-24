@@ -60,7 +60,7 @@ class _UserDetailCardState extends State<UserDetailCard>
     final double height = MediaQuery.of(context).size.height;
     return AnimatedBuilder(
       animation: animationController,
-      builder: (BuildContext context, Widget child) {
+      builder: (BuildContext context, child) {
         return Padding(
           padding: const EdgeInsets.fromLTRB(10.0, 5, 10, 3),
           child: Container(
