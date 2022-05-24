@@ -27,13 +27,13 @@ class _NavigationScreenState extends State<NavigationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return StreamBuilder(
-      stream: Connectivity().onConnectivityChanged,
-      builder:
-          (BuildContext context, AsyncSnapshot<ConnectivityResult> snapshot) {
-        if (snapshot != null &&
-            snapshot.hasData &&
-            snapshot.data != ConnectivityResult.none) {
+    // return StreamBuilder(
+    //   stream: Connectivity().onConnectivityChanged,
+    //   builder:
+    //       (BuildContext context, AsyncSnapshot<ConnectivityResult> snapshot) {
+    //     if (snapshot != null &&
+    //         snapshot.hasData &&
+    //         snapshot.data != ConnectivityResult.none) {
           return Scaffold(
             bottomNavigationBar: CurvedNavigationBar(
               key: _bottomNavigationKey,
