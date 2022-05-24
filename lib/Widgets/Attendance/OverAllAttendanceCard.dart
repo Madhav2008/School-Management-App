@@ -31,14 +31,20 @@ class _OverallAttendanceCardState extends State<OverallAttendanceCard>
 
     delayedAnimation = Tween(begin: 1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
-        curve: Interval(0.2, 0.6, curve: Curves.fastOutSlowIn,)));
+        curve: Interval(
+          0.2,
+          0.6,
+          curve: Curves.fastOutSlowIn,
+        )));
   }
+
   @override
   void dispose() {
     // TODO: implement dispose
     animationController.dispose();
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
