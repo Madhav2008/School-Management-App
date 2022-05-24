@@ -10,7 +10,15 @@ class SubjectCard extends StatelessWidget {
   final String grade;
   final String mark;
 
-  SubjectCard({Key key, this.subjectname, this.chapter, this.date, this.time, this.grade, this.mark}) : super(key: key);
+  SubjectCard(
+      {Key key,
+      this.subjectname,
+      this.chapter,
+      this.date,
+      this.time,
+      this.grade,
+      this.mark})
+      : super(key: key);
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
