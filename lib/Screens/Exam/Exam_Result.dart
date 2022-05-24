@@ -51,7 +51,7 @@ class _ExamResultState extends State<ExamResult>
     final double height = MediaQuery.of(context).size.height;
     return AnimatedBuilder(
       animation: animationController,
-      builder: (BuildContext context, Widget child) {
+      builder: (BuildContext context, child) {
         final GlobalKey<ScaffoldState> _scaffoldKey =
             new GlobalKey<ScaffoldState>();
         return Scaffold(
