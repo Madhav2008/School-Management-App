@@ -13,7 +13,7 @@ class CustomDatePicker extends StatelessWidget {
     required this.controller,
     required this.onchanged,
     required this.saved,
-    this.validator,
+    required this.validator,
     required this.title,
   }) : super(key: key);
 
