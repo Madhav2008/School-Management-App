@@ -4,10 +4,17 @@ class LeaveHistoryCard extends StatelessWidget {
   final String status;
   final String adate;
   final String startdate;
-    final String enddate;
+  final String enddate;
   final String reason;
 
-  const LeaveHistoryCard({Key key, this.status, this.adate, this.startdate, this.enddate, this.reason}) : super(key: key);
+  const LeaveHistoryCard(
+      {Key key,
+      this.status,
+      this.adate,
+      this.startdate,
+      this.enddate,
+      this.reason})
+      : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Container(
