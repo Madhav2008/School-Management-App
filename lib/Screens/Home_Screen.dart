@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen>
                                   MaterialPageRoute(
                                     builder: (BuildContext context) =>
                                         ExamResult(),
-                                  ));
+                                  ),);
                             },
                             child: DashboardCard(
                               name: "Exam",
