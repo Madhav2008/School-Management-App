@@ -6,9 +6,13 @@ class OverallAttendanceCard extends StatefulWidget {
   final bool firsthalf;
   final bool secondhalf;
 
-  const OverallAttendanceCard(
-      {Key? key, this.date, this.day, this.firsthalf, this.secondhalf,})
-      : super(key: key);
+  const OverallAttendanceCard({
+    Key? key,
+    this.date,
+    this.day,
+    this.firsthalf,
+    this.secondhalf,
+  }) : super(key: key);
 
   @override
   _OverallAttendanceCardState createState() => _OverallAttendanceCardState();
