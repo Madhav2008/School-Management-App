@@ -105,7 +105,7 @@ class _HomeScreenState extends State<HomeScreen>
             children: [
               UserDetailCard(),
               Padding(
-                padding: const EdgeInsets.fromLTRB(30.0, 10, 30, 10),
+                padding: const EdgeInsets.fromLTRB(30.0, 10, 30, 10,),
                 child: Container(
                   alignment: Alignment(1.0, 0),
                   child: Padding(
