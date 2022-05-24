@@ -64,7 +64,10 @@ class _MainDrawerState extends State<MainDrawer> {
           name: "Library",
           ontap: () {},
         ),
-        DrawerListTile(imgpath: "downloads.png", name: "Downloads",),
+        DrawerListTile(
+          imgpath: "downloads.png",
+          name: "Downloads",
+        ),
         DrawerListTile(
           imgpath: "bus.png",
           name: "Track ",
