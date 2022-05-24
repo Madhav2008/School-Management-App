@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen>
           0.5,
           1.0,
           curve: Curves.easeInOut,
-        )));
+        ),));
   }
 
   @override
