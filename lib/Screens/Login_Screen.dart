@@ -159,7 +159,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   Center(
                     child: GestureDetector(
-                      onTap: () {
+                      onTap: () async {
                         // authService
                         //     .signInWithEmailAndPassword(
                         //         emailController.text, passwordController.text)
