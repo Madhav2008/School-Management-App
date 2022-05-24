@@ -38,6 +38,7 @@ dependencies:
   curved_navigation_bar: 
   randomizer: 
   date_time_picker: 
+  dropdown_search
 
 dev_dependencies:
   flutter_test:
