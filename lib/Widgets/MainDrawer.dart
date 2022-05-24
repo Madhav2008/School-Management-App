@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:school_management/Screens/Attendance/Attendance.dart';
-import 'package:school_management/Screens/Exam/Exam_Rseult.dart';
-import 'package:school_management/Screens/Leave_Apply/Leave_apply.dart';
-import 'package:school_management/Screens/home.dart';
-import 'package:school_management/Widgets/DrawerListTile.dart';
 
 class MainDrawer extends StatefulWidget {
   @override
