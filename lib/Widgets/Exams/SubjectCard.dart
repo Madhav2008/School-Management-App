@@ -17,7 +17,7 @@ class SubjectCard extends StatelessWidget {
     required this.date,
     required this.time,
     required this.grade,
-    this.mark,
+    required this.mark,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
