@@ -8,7 +8,7 @@ class LeaveHistoryCard extends StatelessWidget {
   final String reason;
 
   const LeaveHistoryCard({
-    Key key,
+    Key? key,
     this.status,
     this.adate,
     this.startdate,
