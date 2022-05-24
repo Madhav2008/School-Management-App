@@ -117,7 +117,7 @@ class _ExamResultState extends State<ExamResult>
                     child: DropdownSearch<String>(
                       validator: (v) => v == null ? "Please Select" : null,
                       // hint: "Please Select",
-                      mode: Mode.MENU,
+                      // mode: Mode.MENU,
                       showSelectedItem: true,
                       items: [
                         "Quarterly",
