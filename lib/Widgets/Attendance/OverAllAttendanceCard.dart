@@ -10,7 +10,7 @@ class OverallAttendanceCard extends StatefulWidget {
     Key? key,
     required this.date,
     required this.day,
-    this.firsthalf,
+    required this.firsthalf,
     required this.secondhalf,
   }) : super(key: key);
 
