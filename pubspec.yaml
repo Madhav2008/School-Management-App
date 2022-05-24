@@ -36,7 +36,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   fluttertoast: 
   curved_navigation_bar: 
-  connectivity: 
 
 dev_dependencies:
   flutter_test:
