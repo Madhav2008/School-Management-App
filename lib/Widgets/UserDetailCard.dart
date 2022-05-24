@@ -121,7 +121,7 @@ class _UserDetailCardState extends State<UserDetailCard>
                                   Padding(
                                     padding: const EdgeInsets.only(top: 10.0),
                                     child: Text(
-                                      "Deepakkumar",
+                                      "Madhav Arora",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 21,
