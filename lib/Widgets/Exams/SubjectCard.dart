@@ -11,7 +11,7 @@ class SubjectCard extends StatelessWidget {
   final String mark;
 
   SubjectCard({
-    Key key,
+    Key? key,
     this.subjectname,
     this.chapter,
     this.date,
