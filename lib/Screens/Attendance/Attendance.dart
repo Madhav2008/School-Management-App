@@ -26,7 +26,7 @@ class _AttendanceState extends State<Attendance>
         menuenabled: true,
         notificationenabled: true,
         ontap: () {
-          _scaffoldKey.currentState.openDrawer();
+          _scaffoldKey.currentState!.openDrawer();
         },
       ),
       drawer: Drawer(
