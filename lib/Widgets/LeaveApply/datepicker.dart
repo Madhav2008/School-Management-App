@@ -11,7 +11,7 @@ class CustomDatePicker extends StatelessWidget {
   const CustomDatePicker({
     Key? key,
     required this.controller,
-    this.onchanged,
+    required this.onchanged,
     this.saved,
     this.validator,
     this.title,
