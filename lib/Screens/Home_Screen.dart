@@ -251,7 +251,7 @@ class _HomeScreenState extends State<HomeScreen>
                 child: Container(
                   alignment: Alignment(1.0, 0),
                   child: Padding(
-                    padding: const EdgeInsets.only(top: 10.0, right: 20.0),
+                    padding: const EdgeInsets.only(top: 10.0, right: 20.0,),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
