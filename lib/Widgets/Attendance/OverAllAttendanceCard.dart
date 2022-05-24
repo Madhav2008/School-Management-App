@@ -30,12 +30,13 @@ class _OverallAttendanceCardState extends State<OverallAttendanceCard>
         parent: animationController, curve: Curves.fastOutSlowIn));
 
     delayedAnimation = Tween(begin: 1.0, end: 0.0).animate(CurvedAnimation(
-        parent: animationController,
-        curve: Interval(
-          0.2,
-          0.6,
-          curve: Curves.fastOutSlowIn,
-        ),));
+      parent: animationController,
+      curve: Interval(
+        0.2,
+        0.6,
+        curve: Curves.fastOutSlowIn,
+      ),
+    ));
   }
 
   @override
