@@ -381,6 +381,6 @@ class _ExamResultState extends State<ExamResult>
                   ),
                 ),
               ));
-        });
+        },);
   }
 }
