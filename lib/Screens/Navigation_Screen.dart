@@ -27,8 +27,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return 
-    StreamBuilder(
+    return StreamBuilder(
       stream: Connectivity().onConnectivityChanged,
       builder:
           (BuildContext context, AsyncSnapshot<ConnectivityResult> snapshot) {
