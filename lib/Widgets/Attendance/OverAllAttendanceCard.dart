@@ -9,7 +9,7 @@ class OverallAttendanceCard extends StatefulWidget {
   const OverallAttendanceCard({
     Key? key,
     required this.date,
-    this.day,
+    required this.day,
     this.firsthalf,
     this.secondhalf,
   }) : super(key: key);
