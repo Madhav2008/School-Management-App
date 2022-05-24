@@ -13,7 +13,7 @@ class LeaveHistoryCard extends StatelessWidget {
     required this.adate,
     required this.startdate,
     required this.enddate,
-    this.reason,
+    required this.reason,
   }) : super(key: key);
 
   @override
