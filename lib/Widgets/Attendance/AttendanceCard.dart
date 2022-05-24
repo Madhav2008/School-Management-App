@@ -24,7 +24,7 @@ class AttendanceCard extends StatefulWidget {
 class _AttendanceCardState extends State<AttendanceCard>
     with SingleTickerProviderStateMixin {
   late Animation animation, delayedAnimation;
-  AnimationController animationController;
+  late AnimationController animationController;
 
   @override
   void initState() {
