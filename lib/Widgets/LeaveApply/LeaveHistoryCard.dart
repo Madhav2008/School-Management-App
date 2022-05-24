@@ -13,9 +13,9 @@ class LeaveHistoryCard extends StatelessWidget {
       this.adate,
       this.startdate,
       this.enddate,
-      this.reason})
+      this.reason,})
       : super(key: key);
-      
+
   @override
   Widget build(BuildContext context) {
     return Container(
