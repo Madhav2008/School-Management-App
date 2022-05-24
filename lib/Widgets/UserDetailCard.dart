@@ -27,7 +27,7 @@ class _UserDetailCardState extends State<UserDetailCard>
         0.5,
         curve: Curves.fastOutSlowIn,
       ),
-    ));
+    ),);
 
     muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(
       CurvedAnimation(
