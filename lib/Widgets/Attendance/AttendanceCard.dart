@@ -8,14 +8,14 @@ class AttendanceCard extends StatefulWidget {
   final String staff;
   final bool attendance;
 
-  const AttendanceCard(
-      {Key? key,
-      this.starttime,
-      this.endtime,
-      this.subject,
-      this.staff,
-      this.attendance,})
-      : super(key: key);
+  const AttendanceCard({
+    Key? key,
+    this.starttime,
+    this.endtime,
+    this.subject,
+    this.staff,
+    this.attendance,
+  }) : super(key: key);
 
   @override
   _AttendanceCardState createState() => _AttendanceCardState();
