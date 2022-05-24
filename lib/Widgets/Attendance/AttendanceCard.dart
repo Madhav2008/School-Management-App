@@ -42,7 +42,7 @@ class _AttendanceCardState extends State<AttendanceCard>
           0.3,
           0.7,
           curve: Curves.fastOutSlowIn,
-        )));
+        ),));
   }
 
   @override
