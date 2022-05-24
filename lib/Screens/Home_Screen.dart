@@ -257,7 +257,10 @@ class _HomeScreenState extends State<HomeScreen>
                       children: [
                         Transform(
                           transform: Matrix4.translationValues(
-                              muchDelayedAnimation.value * width, 0, 0,),
+                            muchDelayedAnimation.value * width,
+                            0,
+                            0,
+                          ),
                           child: Bouncing(
                             onPress: () {},
                             child: DashboardCard(
