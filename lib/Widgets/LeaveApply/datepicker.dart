@@ -8,14 +8,14 @@ class CustomDatePicker extends StatelessWidget {
   final Function validator;
   final String title;
 
-  const CustomDatePicker(
-      {Key key,
-      this.controller,
-      this.onchanged,
-      this.saved,
-      this.validator,
-      this.title,})
-      : super(key: key);
+  const CustomDatePicker({
+    Key key,
+    this.controller,
+    this.onchanged,
+    this.saved,
+    this.validator,
+    this.title,
+  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return DateTimePicker(
