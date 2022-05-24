@@ -31,7 +31,7 @@ class _UserDetailCardState extends State<UserDetailCard>
         0.5,
         curve: Curves.fastOutSlowIn,
       ),
-    ));
+    ),);
   }
 
   @override
