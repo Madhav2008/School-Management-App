@@ -54,7 +54,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
                     color: (_page == 3) ? Colors.blueAccent : Colors.white),
                 Icon(Icons.account_circle,
                     size: 30,
-                    color: (_page == 4) ? Colors.blueAccent : Colors.white),
+                    color: (_page == 4) ? Colors.blueAccent : Colors.white,),
               ],
               color: Colors.blue.shade900,
               buttonBackgroundColor: Colors.grey[50],
