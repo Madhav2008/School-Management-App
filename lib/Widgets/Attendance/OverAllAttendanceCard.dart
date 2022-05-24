@@ -45,7 +45,7 @@ class _OverallAttendanceCardState extends State<OverallAttendanceCard>
     animationController.forward();
     return AnimatedBuilder(
       animation: animationController,
-      builder: (BuildContext context, Widget child) {
+      builder: (BuildContext context, child) {
         return Padding(
           padding: const EdgeInsets.only(top: 8.0),
           child: Transform(
