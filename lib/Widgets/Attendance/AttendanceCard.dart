@@ -11,7 +11,7 @@ class AttendanceCard extends StatefulWidget {
   const AttendanceCard({
     Key? key,
     required this.starttime,
-    this.endtime,
+    required this.endtime,
     this.subject,
     this.staff,
     this.attendance,
