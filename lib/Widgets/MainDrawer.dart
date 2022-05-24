@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:school_management_app/Screens/Home_Screen.dart';
 import 'package:school_management_app/Widgets/DrawerListTile.dart';
 
 class MainDrawer extends StatefulWidget {
@@ -18,7 +19,7 @@ class _MainDrawerState extends State<MainDrawer> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (BuildContext context) => Home(),
+                builder: (BuildContext context) => HomeScreen(),
               ),
             );
           },
