@@ -13,7 +13,7 @@ class SubjectCard extends StatelessWidget {
   SubjectCard({
     Key? key,
     required this.subjectname,
-    this.chapter,
+    required this.chapter,
     required this.date,
     this.time,
     this.grade,
