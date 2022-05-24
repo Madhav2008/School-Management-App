@@ -8,7 +8,7 @@ class UserDetailCard extends StatefulWidget {
 class _UserDetailCardState extends State<UserDetailCard>
     with SingleTickerProviderStateMixin {
   late Animation animation, delayedAnimation, muchDelayedAnimation, LeftCurve;
-  AnimationController animationController;
+  late AnimationController animationController;
 
   @override
   void initState() {
