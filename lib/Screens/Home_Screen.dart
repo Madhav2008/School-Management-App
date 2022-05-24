@@ -44,14 +44,16 @@ class _HomeScreenState extends State<HomeScreen>
       ),
     );
 
-    muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
-      parent: animationController,
-      curve: Interval(
-        0.8,
-        1.0,
-        curve: Curves.fastOutSlowIn,
+    muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(
+      CurvedAnimation(
+        parent: animationController,
+        curve: Interval(
+          0.8,
+          1.0,
+          curve: Curves.fastOutSlowIn,
+        ),
       ),
-    ),);
+    );
 
     LeftCurve = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
