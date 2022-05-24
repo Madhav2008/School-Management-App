@@ -34,51 +34,51 @@ class _NavigationScreenState extends State<NavigationScreen> {
     //     if (snapshot != null &&
     //         snapshot.hasData &&
     //         snapshot.data != ConnectivityResult.none) {
-          return Scaffold(
-            bottomNavigationBar: CurvedNavigationBar(
-              key: _bottomNavigationKey,
-              index: 0,
-              height: 50,
-              items: [
-                Icon(
-                  Icons.home_filled,
-                  size: 30,
-                  color: (_page == 0) ? Colors.blueAccent : Colors.white,
-                ),
-                Icon(
-                  Icons.category_sharp,
-                  size: 30,
-                  color: (_page == 1) ? Colors.blueAccent : Colors.white,
-                ),
-                Icon(
-                  Icons.add_box,
-                  size: 30,
-                  color: (_page == 2) ? Colors.blueAccent : Colors.white,
-                ),
-                Icon(
-                  Icons.search_sharp,
-                  size: 30,
-                  color: (_page == 3) ? Colors.blueAccent : Colors.white,
-                ),
-                Icon(
-                  Icons.account_circle,
-                  size: 30,
-                  color: (_page == 4) ? Colors.blueAccent : Colors.white,
-                ),
-              ],
-              color: Colors.blue.shade900,
-              buttonBackgroundColor: Colors.grey[50],
-              backgroundColor: Colors.blue.shade900,
-              animationDuration: Duration(milliseconds: 500),
-              onTap: (index) {
-                setState(() {
-                  _page = index;
-                });
-              },
-              letIndexChange: (index) => true,
-            ),
-            body: _tabItems[_page],
-          );
+    return Scaffold(
+      bottomNavigationBar: CurvedNavigationBar(
+        key: _bottomNavigationKey,
+        index: 0,
+        height: 50,
+        items: [
+          Icon(
+            Icons.home_filled,
+            size: 30,
+            color: (_page == 0) ? Colors.blueAccent : Colors.white,
+          ),
+          Icon(
+            Icons.category_sharp,
+            size: 30,
+            color: (_page == 1) ? Colors.blueAccent : Colors.white,
+          ),
+          Icon(
+            Icons.add_box,
+            size: 30,
+            color: (_page == 2) ? Colors.blueAccent : Colors.white,
+          ),
+          Icon(
+            Icons.search_sharp,
+            size: 30,
+            color: (_page == 3) ? Colors.blueAccent : Colors.white,
+          ),
+          Icon(
+            Icons.account_circle,
+            size: 30,
+            color: (_page == 4) ? Colors.blueAccent : Colors.white,
+          ),
+        ],
+        color: Colors.blue.shade900,
+        buttonBackgroundColor: Colors.grey[50],
+        backgroundColor: Colors.blue.shade800,
+        animationDuration: Duration(milliseconds: 500),
+        onTap: (index) {
+          setState(() {
+            _page = index;
+          });
+        },
+        letIndexChange: (index) => true,
+      ),
+      body: _tabItems[_page],
+    );
     //     } else {
     //       return Center(
     //         child: Container(
