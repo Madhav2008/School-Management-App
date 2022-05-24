@@ -16,16 +16,17 @@ class _MainDrawerState extends State<MainDrawer> {
     return ListView(
       children: [
         DrawerListTile(
-            imgpath: "home.png",
-            name: "Home",
-            ontap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (BuildContext context) => Home(),
-                ),
-              );
-            },),
+          imgpath: "home.png",
+          name: "Home",
+          ontap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (BuildContext context) => Home(),
+              ),
+            );
+          },
+        ),
         DrawerListTile(
           imgpath: "attendance.png",
           name: "Attendance",
