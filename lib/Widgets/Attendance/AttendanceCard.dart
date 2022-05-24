@@ -14,7 +14,7 @@ class AttendanceCard extends StatefulWidget {
       this.endtime,
       this.subject,
       this.staff,
-      this.attendance})
+      this.attendance,})
       : super(key: key);
 
   @override
