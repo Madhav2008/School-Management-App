@@ -23,6 +23,7 @@ class _HomeScreenState extends State<HomeScreen>
     SystemChrome.setEnabledSystemUIOverlays(
       [],
     );
+    
     animationController =
         AnimationController(duration: Duration(seconds: 3), vsync: this);
     animation = Tween(begin: -1.0, end: 0.0).animate(
