@@ -32,7 +32,7 @@ class CustomDatePicker extends StatelessWidget {
       //locale: Locale('en', 'US'),
       onChanged: (String change) => onchanged,
       validator: (context)=>validator,
-      onSaved: (String) => saved,
+      onSaved: (context) => saved,
     );
   }
 }
