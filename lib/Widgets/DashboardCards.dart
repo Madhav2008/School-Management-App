@@ -10,6 +10,7 @@ class DashboardCard extends StatelessWidget {
     required this.name,
     required this.imgpath,
   }) : super(key: key);
+  
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
