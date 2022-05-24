@@ -13,7 +13,7 @@ class AttendanceCard extends StatefulWidget {
     required this.starttime,
     required this.endtime,
     this.subject,
-    this.staff,
+    required this.staff,
     required this.attendance,
   }) : super(key: key);
 
