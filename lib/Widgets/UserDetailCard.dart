@@ -22,7 +22,7 @@ class _UserDetailCardState extends State<UserDetailCard>
 
     delayedAnimation = Tween(begin: 1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
-        curve: Interval(0.2, 0.5, curve: Curves.fastOutSlowIn)));
+        curve: Interval(0.2, 0.5, curve: Curves.fastOutSlowIn,)));
 
     muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(
       CurvedAnimation(
