@@ -10,7 +10,7 @@ class ExamResult extends StatefulWidget {
 class _ExamResultState extends State<ExamResult>
     with SingleTickerProviderStateMixin {
   late Animation animation, delayedAnimation, muchDelayedAnimation, LeftCurve;
-  AnimationController animationController;
+  late AnimationController animationController;
   Randomizer randomcolor = Randomizer();
   @override
   void initState() {
