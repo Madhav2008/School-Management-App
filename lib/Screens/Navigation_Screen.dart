@@ -40,9 +40,11 @@ class _NavigationScreenState extends State<NavigationScreen> {
               index: 0,
               height: 50,
               items: [
-                Icon(Icons.home_filled,
-                    size: 30,
-                    color: (_page == 0) ? Colors.blueAccent : Colors.white,),
+                Icon(
+                  Icons.home_filled,
+                  size: 30,
+                  color: (_page == 0) ? Colors.blueAccent : Colors.white,
+                ),
                 Icon(
                   Icons.category_sharp,
                   size: 30,
