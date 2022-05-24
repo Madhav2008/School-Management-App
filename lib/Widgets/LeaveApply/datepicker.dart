@@ -14,7 +14,7 @@ class CustomDatePicker extends StatelessWidget {
       this.onchanged,
       this.saved,
       this.validator,
-      this.title})
+      this.title,})
       : super(key: key);
   @override
   Widget build(BuildContext context) {
