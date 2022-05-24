@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen>
 
     LeftCurve = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
-        curve: Interval(0.5, 1.0, curve: Curves.easeInOut)));
+        curve: Interval(0.5, 1.0, curve: Curves.easeInOut,)));
   }
 
   @override
