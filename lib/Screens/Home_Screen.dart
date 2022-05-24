@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen>
             menuenabled: true,
             notificationenabled: true,
             ontap: () {
-              _scaffoldKey.currentState.openDrawer();
+              _scaffoldKey.currentState!.openDrawer();
             },
             title: "Dashboard",
           ),
