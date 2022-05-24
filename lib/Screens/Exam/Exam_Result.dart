@@ -118,7 +118,7 @@ class _ExamResultState extends State<ExamResult>
                       validator: (v) => v == null ? "Please Select" : null,
                       // hint: "Please Select",
                       // mode: Mode.MENU,
-                      showSelectedItem: true,
+                      // showSelectedItem: true,
                       items: [
                         "Quarterly",
                         "half yearly",
