@@ -218,7 +218,7 @@ class _HomeScreenState extends State<HomeScreen>
                             onPress: () {},
                             child: DashboardCard(
                               name: "TimeTable",
-                              imgpath: "calendar.png",
+                              imgpath: "../assets/images/calendar.png",
                             ),
                           ),
                         ),
