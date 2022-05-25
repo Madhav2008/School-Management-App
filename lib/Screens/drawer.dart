@@ -79,7 +79,7 @@ class NavigationDrawerWidget extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: (){},
+              onTap: () {},
               child: DrawerListTile(
                 imgpath: "../assets/images/calendar.png",
                 name: "Time Table",
