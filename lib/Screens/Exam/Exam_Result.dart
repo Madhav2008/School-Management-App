@@ -15,7 +15,7 @@ class _ExamResultState extends State<ExamResult>
     with SingleTickerProviderStateMixin {
   late Animation animation, delayedAnimation, muchDelayedAnimation, LeftCurve;
   late AnimationController animationController;
-  Randomizer randomcolor = Randomizer();
+  // Randomizer randomcolor = Randomizer();
   @override
   void initState() {
     // TODO: implement initState
