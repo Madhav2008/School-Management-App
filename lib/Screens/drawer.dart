@@ -114,7 +114,8 @@ class NavigationDrawerWidget extends StatelessWidget {
                 name: "Leave apply",
               ),
             ),
-            widget(
+            GestureDetector(
+              onTap: () {},
               child: DrawerListTile(
                 imgpath: "../assets/images/activity.png",
                 name: "Activity",
