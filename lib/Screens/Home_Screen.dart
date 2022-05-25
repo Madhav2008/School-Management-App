@@ -96,11 +96,11 @@ class _HomeScreenState extends State<HomeScreen>
           key: _scaffoldKey,
           drawer: const NavigationDrawerWidget(),
           appBar: CommonAppBar(
-          //   menuenabled: true,
-          //   notificationenabled: true,
-          //   ontap: () => _scaffoldKey.currentState!.openDrawer(),
-          //   title: "Dashboard",
-          // ),
+            menuenabled: true,
+            notificationenabled: true,
+            ontap: () => _scaffoldKey.currentState!.openDrawer(),
+            title: "Dashboard",
+          ),
           // backgroundColor: color1,
           // drawer: Drawer(
           //   elevation: 0,
