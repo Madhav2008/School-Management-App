@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:school_management_app/Widgets/AppBar.dart';
 import 'package:school_management_app/Widgets/BouncingButton.dart';
+import 'package:school_management_app/Widgets/LeaveApply/LeaveHistoryCard.dart';
 import 'package:school_management_app/Widgets/LeaveApply/datepicker.dart';
 import 'package:school_management_app/Widgets/MainDrawer.dart';
 
