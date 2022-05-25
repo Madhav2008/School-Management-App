@@ -58,7 +58,12 @@ class NavigationDrawerWidget extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: () {},
+              onTap: () {Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => ExamResult(),
+                  ),
+                );},
               child: DrawerListTile(
                 imgpath: "../assets/images/exam.png",
                 name: "Examination",
