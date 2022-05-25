@@ -49,7 +49,7 @@ class SubjectCard extends StatelessWidget {
                   width: 5,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
-                    color: randomcolor.getrandomcolor(),
+                    // color: randomcolor.getrandomcolor(),
                   ),
                   height: height * 0.1,
                 ),
