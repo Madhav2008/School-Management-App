@@ -93,6 +93,18 @@ class _HomeScreenState extends State<HomeScreen>
             GlobalKey<ScaffoldState>();
         return Scaffold(
           key: _scaffoldKey,
+          drawer: const NavigationDrawerWidget(),
+      appBar: AppBar(
+        title: const Text(
+          'Home',
+          style: TextStyle(
+            fontSize: 25,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2,
+          ),
+        ),
+        centerTitle: true,
+        backgroundColor: color1,
           // drawer: Drawer(
           //   elevation: 0,
           //   child: MainDrawer(),
