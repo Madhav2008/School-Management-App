@@ -15,6 +15,8 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
+    final GlobalKey<ScaffoldState> _scaffoldKey =
+            GlobalKey<ScaffoldState>();
     return AppBar(
       title: Text(
         "${title}",
