@@ -119,6 +119,7 @@ class NavigationDrawerWidget extends StatelessWidget {
               name: "Activity",
             ),
             GestureDetector(
+              onTap: (){},
               child: DrawerListTile(
                 imgpath: "../assets/images/notification.png",
                 name: "Notification",
