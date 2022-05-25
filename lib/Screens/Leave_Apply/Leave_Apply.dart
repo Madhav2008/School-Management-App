@@ -105,7 +105,7 @@ class _LeaveApplyState extends State<LeaveApply>
             notificationenabled: false,
             title: "Apply Leave",
             ontap: () {
-              _scaffoldKey.currentState.openDrawer();
+              _scaffoldKey.currentState!.openDrawer();
             },
           ),
           drawer: Drawer(
