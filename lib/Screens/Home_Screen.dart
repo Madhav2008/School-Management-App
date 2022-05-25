@@ -187,10 +187,10 @@ class _HomeScreenState extends State<HomeScreen>
         ),
       ),
     ),
-           Drawer(
-            elevation: 0,
-            child: MainDrawer(),
-          ),
+          //  Drawer(
+          //   elevation: 0,
+          //   child: MainDrawer(),
+          // ),
           appBar: CommonAppBar(
             menuenabled: true,
             notificationenabled: true,
