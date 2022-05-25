@@ -3,7 +3,6 @@ import 'package:school_management_app/Screens/Attendance/OverallAttendance.dart'
 import 'package:school_management_app/Screens/Attendance/TodayAttendance.dart';
 import 'package:school_management_app/Screens/drawer.dart';
 import 'package:school_management_app/Widgets/AppBar.dart';
-import 'package:school_management_app/Widgets/MainDrawer.dart';
 import 'package:school_management_app/Widgets/UserDetailCard.dart';
 
 class Attendance extends StatefulWidget {
