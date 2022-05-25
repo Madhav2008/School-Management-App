@@ -84,7 +84,10 @@ class _UserDetailCardState extends State<UserDetailCard>
                         children: [
                           Transform(
                             transform: Matrix4.translationValues(
-                                muchDelayedAnimation.value * width, 0, 0,),
+                              muchDelayedAnimation.value * width,
+                              0,
+                              0,
+                            ),
                             child: Center(
                               child: CircleAvatar(
                                 radius: 28,
@@ -95,7 +98,10 @@ class _UserDetailCardState extends State<UserDetailCard>
                           ),
                           Transform(
                             transform: Matrix4.translationValues(
-                                delayedAnimation.value * width, 0, 0,),
+                              delayedAnimation.value * width,
+                              0,
+                              0,
+                            ),
                             child: Padding(
                               padding: const EdgeInsets.only(left: 15.0),
                               child: Column(
