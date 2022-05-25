@@ -40,7 +40,7 @@ class _MainDrawerState extends State<MainDrawer> {
           },
         ),
         DrawerListTile(
-          imgpath: "classroom.png",
+          imgpath: "../assets/images/classroom.png",
           name: "Class work",
           ontap: () {},
         ),
