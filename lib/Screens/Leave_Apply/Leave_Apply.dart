@@ -317,7 +317,7 @@ class _LeaveApplyState extends State<LeaveApply>
                                     controller: _fromcontroller,
                                     title: "From",
                                     onchanged: (val) =>
-                                        setState(() => _fromvalueChanged = val),
+                                        setState(() => _fromvalueChanged = val,),
                                     validator: (val) {
                                       setState(
                                           () => _fromvalueToValidate = val);
