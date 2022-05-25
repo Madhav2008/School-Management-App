@@ -321,7 +321,7 @@ class _LeaveApplyState extends State<LeaveApply>
                                     ),
                                     validator: (val) {
                                       setState(
-                                          () => _fromvalueToValidate = val);
+                                          () => _fromvalueToValidate = val,);
                                       return null;
                                     },
                                     saved: (val) =>
