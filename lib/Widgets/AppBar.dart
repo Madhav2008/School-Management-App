@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:school_management_app/Widgets/MainDrawer.dart';
 
 class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
   final String title;
@@ -27,9 +26,7 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
       leading: menuenabled == true
           ? IconButton(
               color: Colors.black,
-              onPressed: () => Drawer(
-                child: MainDrawer(),
-              ),
+              onPressed: () => ontap,
               icon: Icon(
                 Icons.menu,
               ),
