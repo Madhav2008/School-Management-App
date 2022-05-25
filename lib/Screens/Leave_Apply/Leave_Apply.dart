@@ -25,7 +25,7 @@ class _LeaveApplyState extends State<LeaveApply>
   String _applyleavevalueToValidate = '';
   String _applyleavevalueSaved = '';
 
-  TextEditingController _fromcontroller;
+  late TextEditingController _fromcontroller;
   String _fromvalueChanged = '';
   String _fromvalueToValidate = '';
   String _fromvalueSaved = '';
