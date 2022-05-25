@@ -42,7 +42,7 @@ class _LeaveApplyState extends State<LeaveApply>
     //SystemChrome.setEnabledSystemUIOverlays([]);
     _applyleavecontroller =
         TextEditingController(text: DateTime.now().toString());
-    _fromcontroller = TextEditingController(text: DateTime.now().toString());
+    _fromcontroller = TextEditingController(text: DateTime.now().toString(),);
     _tocontroller = TextEditingController(
       text: DateTime.now().toString(),
     );
