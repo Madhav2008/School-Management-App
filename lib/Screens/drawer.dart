@@ -24,7 +24,7 @@ class NavigationDrawerWidget extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30),
               ),
-              padding: padding,
+              // padding: padding,
               child: Column(
                 children: [
                   const SizedBox(height: 12),
