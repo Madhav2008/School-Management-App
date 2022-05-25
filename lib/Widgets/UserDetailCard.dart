@@ -153,7 +153,7 @@ class _UserDetailCardState extends State<UserDetailCard>
                                           width: 50,
                                         ),
                                         Text(
-                                          "Section: B",
+                                          "Section: F",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
