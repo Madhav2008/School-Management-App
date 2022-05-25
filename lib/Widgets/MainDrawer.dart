@@ -87,7 +87,7 @@ class _MainDrawerState extends State<MainDrawer> {
           ontap: () {},
         ),
         DrawerListTile(
-          imgpath: "leave_apply.png",
+          imgpath: "../assets/images/leave_apply.png",
           name: "Leave apply",
           ontap: () {
             Navigator.push(
