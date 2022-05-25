@@ -20,11 +20,11 @@ class _AttendanceState extends State<Attendance>
       key: _scaffoldKey,
       appBar: CommonAppBar(
         title: "Attendance",
-        menuenabled: true,
+        // menuenabled: true,
         notificationenabled: true,
-        ontap: () {
-          _scaffoldKey.currentState!.openDrawer();
-        },
+        // ontap: () {
+          // _scaffoldKey.currentState!.openDrawer();
+        // },
       ),
       drawer: Drawer(
         elevation: 0,
