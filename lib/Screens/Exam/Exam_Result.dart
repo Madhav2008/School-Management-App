@@ -37,7 +37,7 @@ class _ExamResultState extends State<ExamResult>
         0.5,
         curve: Curves.fastOutSlowIn,
       ),
-    ));
+    ),);
   }
 
   @override
