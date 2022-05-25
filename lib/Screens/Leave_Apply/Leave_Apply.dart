@@ -40,8 +40,9 @@ class _LeaveApplyState extends State<LeaveApply>
     // TODO: implement initState
     super.initState();
     //SystemChrome.setEnabledSystemUIOverlays([]);
-    _applyleavecontroller =
-        TextEditingController(text: DateTime.now().toString(),);
+    _applyleavecontroller = TextEditingController(
+      text: DateTime.now().toString(),
+    );
     _fromcontroller = TextEditingController(
       text: DateTime.now().toString(),
     );
