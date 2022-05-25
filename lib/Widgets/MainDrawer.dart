@@ -77,7 +77,7 @@ class _MainDrawerState extends State<MainDrawer> {
           ontap: () {},
         ),
         DrawerListTile(
-          imgpath: "downloads.png",
+          imgpath: "../assets/images/downloads.png",
           name: "Downloads",
           ontap: () {},
         ),
