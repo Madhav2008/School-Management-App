@@ -175,11 +175,11 @@ class NavigationDrawerWidget extends StatelessWidget {
     Navigator.of(context).pop();
     switch (index) {
       case 0:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => const MainMenu(),
-          ),
-        );
+        // Navigator.of(context).push(
+        //   MaterialPageRoute(
+        //     builder: (context) => const MainMenu(),
+        //   ),
+        // );
         break;
       case 1:
         // Navigator.of(context).push(
