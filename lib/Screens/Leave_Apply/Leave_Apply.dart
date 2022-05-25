@@ -43,7 +43,7 @@ class _LeaveApplyState extends State<LeaveApply>
     _applyleavecontroller =
         TextEditingController(text: DateTime.now().toString());
     _fromcontroller = TextEditingController(text: DateTime.now().toString());
-    _tocontroller = TextEditingController(text: DateTime.now().toString());
+    _tocontroller = TextEditingController(text: DateTime.now().toString(),);
 
     animationController =
         AnimationController(duration: Duration(seconds: 3), vsync: this);
