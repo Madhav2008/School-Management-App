@@ -56,12 +56,12 @@ class _ExamResultState extends State<ExamResult>
         return Scaffold(
           key: _scaffoldKey,
           appBar: CommonAppBar(
-            menuenabled: true,
+            // menuenabled: true,
             notificationenabled: false,
             title: "Exams",
-            ontap: () {
-              _scaffoldKey.currentState!.openDrawer();
-            },
+            // ontap: () {
+              // _scaffoldKey.currentState!.openDrawer();
+            // },
           ),
           drawer: Drawer(
             elevation: 0,
