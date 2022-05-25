@@ -88,7 +88,7 @@ class _UserDetailCardState extends State<UserDetailCard>
                             child: Center(
                               child: CircleAvatar(
                                 radius: 28,
-                                backgroundImage: AssetImage("assets/home.png"),
+                                backgroundImage: AssetImage("../assets/images/home.png"),
                               ),
                             ),
                           ),
