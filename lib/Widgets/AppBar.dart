@@ -44,16 +44,17 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
             : SizedBox(
                 width: 1,
               ),
-          Theme(
-            data: Theme.of(context).copyWith(
-              dividerColor: Colors.white,
-              iconTheme: const IconThemeData(
-                color: Colors.white,
-              ),
-              textTheme: const TextTheme().apply(
-                bodyColor: Colors.white,
-              ),
-            ),),
+        Theme(
+          data: Theme.of(context).copyWith(
+            dividerColor: Colors.white,
+            iconTheme: const IconThemeData(
+              color: Colors.white,
+            ),
+            textTheme: const TextTheme().apply(
+              bodyColor: Colors.white,
+            ),
+          ),
+        ),
       ],
       centerTitle: true,
       backgroundColor: Colors.transparent,
