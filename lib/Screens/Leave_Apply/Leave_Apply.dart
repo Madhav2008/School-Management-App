@@ -247,7 +247,10 @@ class _LeaveApplyState extends State<LeaveApply>
                     ),
                     Transform(
                       transform: Matrix4.translationValues(
-                          muchDelayedAnimation.value * width, 0, 0,),
+                        muchDelayedAnimation.value * width,
+                        0,
+                        0,
+                      ),
                       child: Text(
                         "Leave Date",
                         style: TextStyle(
