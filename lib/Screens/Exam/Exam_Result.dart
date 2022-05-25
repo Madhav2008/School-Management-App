@@ -32,7 +32,11 @@ class _ExamResultState extends State<ExamResult>
 
     muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
-        curve: Interval(0.3, 0.5, curve: Curves.fastOutSlowIn,)));
+        curve: Interval(
+          0.3,
+          0.5,
+          curve: Curves.fastOutSlowIn,
+        )));
   }
 
   @override
