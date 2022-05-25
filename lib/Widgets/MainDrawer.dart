@@ -67,7 +67,7 @@ class _MainDrawerState extends State<MainDrawer> {
           ontap: () {},
         ),
         DrawerListTile(
-          imgpath: "calendar.png",
+          imgpath: "../assets/images/calendar.png",
           name: "Time Table",
           ontap: () {},
         ),
