@@ -53,7 +53,7 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
               textTheme: const TextTheme().apply(
                 bodyColor: Colors.white,
               ),
-            ),
+            ),),
       ],
       centerTitle: true,
       backgroundColor: Colors.transparent,
