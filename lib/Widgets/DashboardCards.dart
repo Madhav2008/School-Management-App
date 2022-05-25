@@ -34,7 +34,7 @@ class DashboardCard extends StatelessWidget {
         child: Column(
           children: [
             Image.asset(
-              "assets/${imgpath}",
+              "../assets/${imgpath}",
               width: 60,
             ),
             Padding(
