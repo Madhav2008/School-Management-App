@@ -222,7 +222,7 @@ class _LeaveApplyState extends State<LeaveApply>
                     ),
                     Transform(
                       transform: Matrix4.translationValues(
-                          delayedAnimation.value * width, 0, 0),
+                          delayedAnimation.value * width, 0, 0,),
                       child: DropdownSearch<String>(
                         validator: (v) => v == null ? "required field" : null,
                         // hint: "Please Select Leave type",
