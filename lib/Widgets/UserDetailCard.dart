@@ -84,11 +84,12 @@ class _UserDetailCardState extends State<UserDetailCard>
                         children: [
                           Transform(
                             transform: Matrix4.translationValues(
-                                muchDelayedAnimation.value * width, 0, 0),
+                                muchDelayedAnimation.value * width, 0, 0,),
                             child: Center(
                               child: CircleAvatar(
                                 radius: 28,
-                                backgroundImage: AssetImage("../assets/images/home.png"),
+                                backgroundImage:
+                                    AssetImage("../assets/images/home.png"),
                               ),
                             ),
                           ),
