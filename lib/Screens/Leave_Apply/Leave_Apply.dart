@@ -316,8 +316,9 @@ class _LeaveApplyState extends State<LeaveApply>
                                   child: CustomDatePicker(
                                     controller: _fromcontroller,
                                     title: "From",
-                                    onchanged: (val) =>
-                                        setState(() => _fromvalueChanged = val,),
+                                    onchanged: (val) => setState(
+                                      () => _fromvalueChanged = val,
+                                    ),
                                     validator: (val) {
                                       setState(
                                           () => _fromvalueToValidate = val);
