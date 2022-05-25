@@ -55,17 +55,10 @@ class _ExamResultState extends State<ExamResult>
             new GlobalKey<ScaffoldState>();
         return Scaffold(
           key: _scaffoldKey,
+          drawer: const NavigationDrawerWidget(),
           appBar: CommonAppBar(
-            // menuenabled: true,
-            notificationenabled: false,
-            title: "Exams",
-            // ontap: () {
-              // _scaffoldKey.currentState!.openDrawer();
-            // },
-          ),
-          drawer: Drawer(
-            elevation: 0,
-            child: MainDrawer(),
+            notificationenabled: true,
+            title: "Dashboard",
           ),
           body: SingleChildScrollView(
             child: Padding(
