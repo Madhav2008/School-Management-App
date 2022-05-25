@@ -28,7 +28,7 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
       leading: menuenabled == true
           ? IconButton(
               color: Colors.black,
-              onPressed: () => ontap,
+              onPressed: () => _scaffoldKey.currentState!.openDrawer(),
               icon: Icon(
                 Icons.menu,
               ),
