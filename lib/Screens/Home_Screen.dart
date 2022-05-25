@@ -97,40 +97,12 @@ class _HomeScreenState extends State<HomeScreen>
             elevation: 0,
             child: MainDrawer(),
           ),
-          appBar: AppBar(
-      title: Text(
-        "${title}",
-        style: TextStyle(
-          color: Colors.black,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-      leading: menuenabled == true
-          ? IconButton(
-              color: Colors.black,
-              onPressed: () => ontap,
-              icon: Icon(
-                Icons.menu,
-              ),
-            )
-          : null,
-      actions: [
-        notificationenabled == true
-            ? InkWell(
-                onTap: () {},
-                child: Image.asset(
-                  "../assets/images/notification.png",
-                  width: 35,
-                ),
-              )
-            : SizedBox(
-                width: 1,
-              ),
-      ],
-      centerTitle: true,
-      backgroundColor: Colors.transparent,
-      elevation: 0.0,
-    );
+          appBar: CommonAppBar(
+            menuenabled: true,
+            notificationenabled: true,
+            ontap: () => _scaffoldKey.currentState!.openDrawer(),
+            title: "Dashboard",
+          ),
           body: ListView(
             children: [
               UserDetailCard(),
