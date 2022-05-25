@@ -37,7 +37,7 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
             ? InkWell(
                 onTap: () {},
                 child: Image.asset(
-                  "assets/notification.png",
+                  "../assets/images/notification.png",
                   width: 35,
                 ),
               )
