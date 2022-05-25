@@ -101,12 +101,14 @@ class NavigationDrawerWidget extends StatelessWidget {
               name: "Track ",
             ),
             GestureDetector(
-              onTap: () {Navigator.push(
+              onTap: () {
+                Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (BuildContext context) => LeaveApply(),
                   ),
-                );},
+                );
+              },
               child: DrawerListTile(
                 imgpath: "../assets/images/leave_apply.png",
                 name: "Leave apply",
