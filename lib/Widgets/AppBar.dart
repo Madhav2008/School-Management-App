@@ -44,8 +44,6 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
             : SizedBox(
                 width: 1,
               ),
-              actions: [
-          // ChangeThemeButtonWidget(),
           Theme(
             data: Theme.of(context).copyWith(
               dividerColor: Colors.white,
