@@ -146,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen>
                             },
                             child: DashboardCard(
                               name: "Attendance",
-                              imgpath: "attendance.png",
+                              imgpath: "../assets/images/attendance.png",
                             ),
                           ),
                         ),
