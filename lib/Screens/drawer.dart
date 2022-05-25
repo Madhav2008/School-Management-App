@@ -18,14 +18,6 @@ class NavigationDrawerWidget extends StatelessWidget {
             DrawerListTile(
               imgpath: "../assets/images/home.png",
               name: "Home",
-              ontap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (BuildContext context) => HomeScreen(),
-                  ),
-                );
-              },
             ),
             DrawerListTile(
               imgpath: "../assets/images/attendance.png",
