@@ -329,7 +329,7 @@ class _HomeScreenState extends State<HomeScreen>
                             },
                             child: DashboardCard(
                               name: "Apply Leave",
-                              imgpath: "leave_apply.png",
+                              imgpath: "../assets/images/leave_apply.png",
                             ),
                           ),
                         ),
