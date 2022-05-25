@@ -468,7 +468,7 @@ class _LeaveApplyState extends State<LeaveApply>
                     ),
                     Transform(
                       transform: Matrix4.translationValues(
-                          delayedAnimation.value * width, 0, 0),
+                          delayedAnimation.value * width, 0, 0,),
                       child: Bouncing(
                         onPress: () {},
                         child: Container(
