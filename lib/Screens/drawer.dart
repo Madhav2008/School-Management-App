@@ -103,14 +103,6 @@ class NavigationDrawerWidget extends StatelessWidget {
             DrawerListTile(
               imgpath: "../assets/images/leave_apply.png",
               name: "Leave apply",
-              ontap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (BuildContext context) => LeaveApply(),
-                  ),
-                );
-              },
             ),
             DrawerListTile(
               imgpath: "../assets/images/activity.png",
