@@ -380,10 +380,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       );
                       //   final userId = FirebaseAuth.instance.currentUser!.uid;
                       //   saveUser(userId);
-                        Fluttertoast.showToast(
-                            msg: "User Registered Successfully!!",
-                            toastLength: Toast.LENGTH_SHORT,
-                            gravity: ToastGravity.BOTTOM,);
+                      Fluttertoast.showToast(
+                        msg: "User Registered Successfully!!",
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                      );
                       // }).catchError((error) {
                       //   showDialog(
                       //       context: context,
