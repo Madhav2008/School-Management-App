@@ -19,10 +19,10 @@ class _AttendanceState extends State<Attendance>
     return Scaffold(
       key: _scaffoldKey,
       drawer: const NavigationDrawerWidget(),
-          appBar: CommonAppBar(
-            notificationenabled: true,
-            title: "Dashboard",
-          ),
+      appBar: CommonAppBar(
+        notificationenabled: true,
+        title: "Dashboard",
+      ),
       body: SingleChildScrollView(
         child: Column(
           //crossAxisAlignment: CrossAxisAlignment.stretch,
