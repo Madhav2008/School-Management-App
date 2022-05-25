@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:school_management_app/Screens/Home_Screen.dart';
 import 'package:school_management_app/Screens/Login_Screen.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -374,7 +375,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => Navigation(),
+                          builder: (context) => HomeScreen(),
                         ),
                       );
                       //   final userId = FirebaseAuth.instance.currentUser!.uid;
