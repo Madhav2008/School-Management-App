@@ -16,6 +16,12 @@ class NavigationDrawerWidget extends StatelessWidget {
         child: ListView(
           children: [
             GestureDetector(
+              onTap: (){Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => HomeScreen(),
+                  ),
+                );},
               child: DrawerListTile(
                 imgpath: "../assets/images/home.png",
                 name: "Home",
