@@ -196,11 +196,11 @@ class NavigationDrawerWidget extends StatelessWidget {
         );
         break;
       case 3:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => TimeTable(),
-          ),
-        );
+        // Navigator.of(context).push(
+        //   MaterialPageRoute(
+        //     builder: (context) => TimeTable(),
+        //   ),
+        // );
         break;
       case 4:
         // Navigator.of(context).push(
