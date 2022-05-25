@@ -143,7 +143,7 @@ class _UserDetailCardState extends State<UserDetailCard>
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          "Standard: 12",
+                                          "Standard: 9",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
