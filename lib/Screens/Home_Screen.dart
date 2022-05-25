@@ -104,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen>
             letterSpacing: 2,
           ),
         ),
-        centerTitle: true,
+        centerTitle: true,),
         // backgroundColor: color1,
           // drawer: Drawer(
           //   elevation: 0,
