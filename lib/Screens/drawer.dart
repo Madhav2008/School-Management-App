@@ -92,9 +92,11 @@ class NavigationDrawerWidget extends StatelessWidget {
                 name: "Library",
               ),
             ),
-            DrawerListTile(
-              imgpath: "../assets/images/downloads.png",
-              name: "Downloads",
+            widget(
+              child: DrawerListTile(
+                imgpath: "../assets/images/downloads.png",
+                name: "Downloads",
+              ),
             ),
             GestureDetector(
               onTap: () {},
