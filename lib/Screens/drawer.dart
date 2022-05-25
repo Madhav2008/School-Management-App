@@ -104,7 +104,7 @@ class NavigationDrawerWidget extends StatelessWidget {
           ontap: () {},
         ),
       ],
-    )
+    ),
       ),
     );
   }
