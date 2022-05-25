@@ -8,7 +8,6 @@ class DrawerListTile extends StatelessWidget {
     Key? key,
     required this.name,
     required this.imgpath,
-    required this.ontap,
   }) : super(key: key);
 
   @override
