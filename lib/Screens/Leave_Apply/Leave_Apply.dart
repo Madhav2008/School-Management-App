@@ -226,7 +226,7 @@ class _LeaveApplyState extends State<LeaveApply>
                       child: DropdownSearch<String>(
                         validator: (v) => v == null ? "required field" : null,
                         // hint: "Please Select Leave type",
-                        mode: Mode.MENU,
+                        // mode: Mode.MENU,
                         showSelectedItem: true,
                         items: [
                           "Medical",
