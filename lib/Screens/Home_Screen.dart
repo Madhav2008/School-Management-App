@@ -96,7 +96,7 @@ class _HomeScreenState extends State<HomeScreen>
           drawer: const NavigationDrawerWidget(),
       appBar: AppBar(
         title: const Text(
-          'Home',
+          'Dashboard',
           style: TextStyle(
             fontSize: 25,
             fontWeight: FontWeight.bold,
