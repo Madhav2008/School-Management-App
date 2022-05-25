@@ -176,12 +176,13 @@ class _LeaveApplyState extends State<LeaveApply>
                                   onChanged: (val) => setState(
                                       () => _applyleavevalueChanged = val),
                                   validator: (val) {
-                                    setState(
-                                        () => _applyleavevalueToValidate = val!);
+                                    setState(() =>
+                                        _applyleavevalueToValidate = val!);
                                     return null;
                                   },
                                   onSaved: (val) => setState(
-                                      () => _applyleavevalueSaved = val!,),
+                                    () => _applyleavevalueSaved = val!,
+                                  ),
                                 ),
                               ),
                             ),
