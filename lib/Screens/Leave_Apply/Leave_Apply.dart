@@ -305,14 +305,15 @@ class _LeaveApplyState extends State<LeaveApply>
                                   padding: const EdgeInsets.only(left: 4.0),
                                   width: width * 0.28,
                                   decoration: BoxDecoration(
-                                      color: Colors.white38,
-                                      boxShadow: [
-                                        BoxShadow(
-                                          offset: Offset(0, 1),
-                                          blurRadius: 2,
-                                          color: Colors.black26,
-                                        )
-                                      ],),
+                                    color: Colors.white38,
+                                    boxShadow: [
+                                      BoxShadow(
+                                        offset: Offset(0, 1),
+                                        blurRadius: 2,
+                                        color: Colors.black26,
+                                      )
+                                    ],
+                                  ),
                                   child: CustomDatePicker(
                                     controller: _fromcontroller,
                                     title: "From",
