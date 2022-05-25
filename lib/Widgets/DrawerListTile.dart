@@ -17,7 +17,7 @@ class DrawerListTile extends StatelessWidget {
     return ListTile(
       onTap: () => ontap,
       leading: Image.asset(
-        "assets/${imgpath}",
+        "${imgpath}",
         height: 30,
       ),
       contentPadding: EdgeInsets.only(
