@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen>
       animation: animationController,
       builder: (BuildContext context, child) {
         final GlobalKey<ScaffoldState> _scaffoldKey =
-            new GlobalKey<ScaffoldState>();
+             GlobalKey<ScaffoldState>();
         return Scaffold(
           key: _scaffoldKey,
           drawer: Drawer(
