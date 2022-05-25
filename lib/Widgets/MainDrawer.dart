@@ -99,7 +99,7 @@ class _MainDrawerState extends State<MainDrawer> {
           },
         ),
         DrawerListTile(
-          imgpath: "activity.png",
+          imgpath: "../assets/images/activity.png",
           name: "Activity",
           ontap: () {},
         ),
