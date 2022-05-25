@@ -312,7 +312,7 @@ class _LeaveApplyState extends State<LeaveApply>
                                           blurRadius: 2,
                                           color: Colors.black26,
                                         )
-                                      ]),
+                                      ],),
                                   child: CustomDatePicker(
                                     controller: _fromcontroller,
                                     title: "From",
