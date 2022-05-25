@@ -103,17 +103,10 @@ class _LeaveApplyState extends State<LeaveApply>
             new GlobalKey<ScaffoldState>();
         return Scaffold(
           key: _scaffoldKey,
+          drawer: const NavigationDrawerWidget(),
           appBar: CommonAppBar(
-            // menuenabled: true,
-            notificationenabled: false,
-            title: "Apply Leave",
-            // ontap: () {
-              // _scaffoldKey.currentState!.openDrawer();
-            // },
-          ),
-          drawer: Drawer(
-            elevation: 0,
-            child: MainDrawer(),
+            notificationenabled: true,
+            title: "Dashboard",
           ),
           body: Form(
             key: _formkey,
