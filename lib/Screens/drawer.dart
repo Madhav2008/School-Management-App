@@ -72,7 +72,7 @@ class NavigationDrawerWidget extends StatelessWidget {
                         width: 15,
                       ),
                       Icon(
-                        icon,
+                        Icons.golf_course,
                         color: Colors.white,
                         size: 30,
                       ),
