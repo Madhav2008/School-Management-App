@@ -181,7 +181,7 @@ class _LeaveApplyState extends State<LeaveApply>
                                     return null;
                                   },
                                   onSaved: (val) => setState(
-                                      () => _applyleavevalueSaved = val),
+                                      () => _applyleavevalueSaved = val!),
                                 ),
                               ),
                             ),
