@@ -89,7 +89,7 @@ class NavigationDrawerWidget extends StatelessWidget {
                       const SizedBox(
                         width: 20,
                       ),
-                      ChangeThemeButtonWidget(),
+                      // ChangeThemeButtonWidget(),
                     ],
                   ),
                 ],
