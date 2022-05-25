@@ -23,15 +23,15 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
           fontWeight: FontWeight.bold,
         ),
       ),
-      leading: menuenabled == true
-          ? IconButton(
-              color: Colors.black,
-              onPressed: () => ontap,
-              icon: Icon(
-                Icons.menu,
-              ),
-            )
-          : null,
+      // leading: menuenabled == true
+      //     ? IconButton(
+      //         color: Colors.black,
+      //         onPressed: () => ontap,
+      //         icon: Icon(
+      //           Icons.menu,
+      //         ),
+      //       )
+      //     : null,
       actions: [
         notificationenabled == true
             ? InkWell(
