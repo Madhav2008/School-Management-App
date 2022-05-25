@@ -60,7 +60,7 @@ class _LeaveApplyState extends State<LeaveApply>
           0.3,
           0.5,
           curve: Curves.fastOutSlowIn,
-        )));
+        ),));
   }
 
   @override
