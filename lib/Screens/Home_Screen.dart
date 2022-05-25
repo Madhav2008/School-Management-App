@@ -95,17 +95,18 @@ class _HomeScreenState extends State<HomeScreen>
         return Scaffold(
           key: _scaffoldKey,
           drawer: const NavigationDrawerWidget(),
-      appBar: AppBar(
-        title: const Text(
-          'Dashboard',
-          style: TextStyle(
-            fontSize: 25,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2,
+          appBar: AppBar(
+            title: const Text(
+              'Dashboard',
+              style: TextStyle(
+                fontSize: 25,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 2,
+              ),
+            ),
+            centerTitle: true,
           ),
-        ),
-        centerTitle: true,),
-        // backgroundColor: color1,
+          // backgroundColor: color1,
           // drawer: Drawer(
           //   elevation: 0,
           //   child: MainDrawer(),
