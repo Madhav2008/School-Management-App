@@ -20,7 +20,7 @@ class _LeaveApplyState extends State<LeaveApply>
   AnimationController animationController;
   final searchFieldController = TextEditingController();
 
-  TextEditingController _applyleavecontroller;
+  late TextEditingController _applyleavecontroller;
   String _applyleavevalueChanged = '';
   String _applyleavevalueToValidate = '';
   String _applyleavevalueSaved = '';
