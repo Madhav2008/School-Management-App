@@ -104,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen>
           ),
         ),
         centerTitle: true,
-        backgroundColor: color1,
+        // backgroundColor: color1,
           // drawer: Drawer(
           //   elevation: 0,
           //   child: MainDrawer(),
