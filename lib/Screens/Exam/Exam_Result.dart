@@ -5,7 +5,6 @@ import 'package:school_management_app/Screens/drawer.dart';
 import 'package:school_management_app/Widgets/AppBar.dart';
 import 'package:school_management_app/Widgets/BouncingButton.dart';
 import 'package:school_management_app/Widgets/Exams/SubjectCard.dart';
-import 'package:school_management_app/Widgets/MainDrawer.dart';
 
 class ExamResult extends StatefulWidget {
   @override
