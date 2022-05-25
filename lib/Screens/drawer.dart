@@ -78,9 +78,11 @@ class NavigationDrawerWidget extends StatelessWidget {
                 name: "Fees",
               ),
             ),
-            DrawerListTile(
-              imgpath: "../assets/images/calendar.png",
-              name: "Time Table",
+            GestureDetector(
+              child: DrawerListTile(
+                imgpath: "../assets/images/calendar.png",
+                name: "Time Table",
+              ),
             ),
             DrawerListTile(
               imgpath: "../assets/images/library.png",
