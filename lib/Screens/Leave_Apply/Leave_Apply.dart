@@ -225,7 +225,7 @@ class _LeaveApplyState extends State<LeaveApply>
                           delayedAnimation.value * width, 0, 0),
                       child: DropdownSearch<String>(
                         validator: (v) => v == null ? "required field" : null,
-                        hint: "Please Select Leave type",
+                        // hint: "Please Select Leave type",
                         mode: Mode.MENU,
                         showSelectedItem: true,
                         items: [
