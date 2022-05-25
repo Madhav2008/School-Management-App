@@ -18,18 +18,11 @@ class _AttendanceState extends State<Attendance>
         new GlobalKey<ScaffoldState>();
     return Scaffold(
       key: _scaffoldKey,
-      appBar: CommonAppBar(
-        title: "Attendance",
-        // menuenabled: true,
-        notificationenabled: true,
-        // ontap: () {
-        // _scaffoldKey.currentState!.openDrawer();
-        // },
-      ),
-      drawer: Drawer(
-        elevation: 0,
-        child: MainDrawer(),
-      ),
+      drawer: const NavigationDrawerWidget(),
+          appBar: CommonAppBar(
+            notificationenabled: true,
+            title: "Dashboard",
+          ),
       body: SingleChildScrollView(
         child: Column(
           //crossAxisAlignment: CrossAxisAlignment.stretch,
