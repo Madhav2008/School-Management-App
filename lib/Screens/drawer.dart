@@ -9,94 +9,102 @@ class NavigationDrawerWidget extends StatelessWidget {
       child: Material(
         // color: Colors.red,
         child: ListView(
-          children: <Widget>[
-            // buildHeader(
-            //   urlImage: urlImage,
-            //   name: name,
-            //   email: email,
-            //   onClicked: () => Navigator.of(context).push(
-            //     MaterialPageRoute(
-            //       builder: (context) => const Profile(),
-            //     ),
-            //   ),
-            // ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
+      children: [
+        DrawerListTile(
+          imgpath: "../assets/images/home.png",
+          name: "Home",
+          ontap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (BuildContext context) => HomeScreen(),
               ),
-              // padding: padding,
-              child: Column(
-                children: [
-                  const SizedBox(height: 12),
-                  buildMenuItem(
-                    text: 'Take Quiz',
-                    icon: Icons.timer,
-                    onClicked: () => selectedItem(context, 0),
-                  ),
-                  const SizedBox(height: 16),
-                  buildMenuItem(
-                    text: 'Assignments',
-                    icon: Icons.assignment_outlined,
-                    onClicked: () => selectedItem(context, 1),
-                  ),
-                  const SizedBox(height: 16),
-                  buildMenuItem(
-                    text: 'Fees',
-                    icon: Icons.monetization_on_outlined,
-                    onClicked: () => selectedItem(context, 2),
-                  ),
-                  const SizedBox(height: 24),
-                  const Divider(color: Colors.white70),
-                  const SizedBox(height: 24),
-                  buildMenuItem(
-                    text: 'Timetable',
-                    icon: Icons.date_range_outlined,
-                    onClicked: () => selectedItem(context, 3),
-                  ),
-                  const SizedBox(height: 16),
-                  buildMenuItem(
-                    text: 'Notifications',
-                    icon: Icons.notifications_active_outlined,
-                    onClicked: () => selectedItem(context, 4),
-                  ),
-                  const SizedBox(height: 16),
-                  buildMenuItem(
-                    text: "FAQ'S",
-                    icon: Icons.question_answer,
-                    onClicked: () => selectedItem(context, 5),
-                  ),
-                  const SizedBox(height: 16),
-                  Row(
-                    children: [
-                      const SizedBox(
-                        width: 15,
-                      ),
-                      Icon(
-                        Icons.golf_course,
-                        color: Colors.white,
-                        size: 30,
-                      ),
-                      const SizedBox(
-                        width: 25,
-                      ),
-                      Text(
-                        'hi',
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 20,
-                      ),
-                      // ChangeThemeButtonWidget(),
-                    ],
-                  ),
-                ],
-              ),
-            ),
-          ],
+            );
+          },
         ),
+        DrawerListTile(
+          imgpath: "../assets/images/attendance.png",
+          name: "Attendance",
+          ontap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (BuildContext context) => Attendance(),
+              ),
+            );
+          },
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/classroom.png",
+          name: "Class work",
+          ontap: () {},
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/profile.png",
+          name: "Profile",
+          ontap: () {},
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/exam.png",
+          name: "Examination",
+          ontap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (BuildContext context) => ExamResult(),
+              ),
+            );
+          },
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/fee.png",
+          name: "Fees",
+          ontap: () {},
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/calendar.png",
+          name: "Time Table",
+          ontap: () {},
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/library.png",
+          name: "Library",
+          ontap: () {},
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/downloads.png",
+          name: "Downloads",
+          ontap: () {},
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/bus.png",
+          name: "Track ",
+          ontap: () {},
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/leave_apply.png",
+          name: "Leave apply",
+          ontap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (BuildContext context) => LeaveApply(),
+              ),
+            );
+          },
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/activity.png",
+          name: "Activity",
+          ontap: () {},
+        ),
+        DrawerListTile(
+          imgpath: "../assets/images/notification.png",
+          name: "Notification",
+          ontap: () {},
+        ),
+      ],
+    )
       ),
     );
   }
