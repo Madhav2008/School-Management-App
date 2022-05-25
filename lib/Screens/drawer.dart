@@ -95,7 +95,6 @@ class NavigationDrawerWidget extends StatelessWidget {
             DrawerListTile(
               imgpath: "../assets/images/downloads.png",
               name: "Downloads",
-              ontap: () {},
             ),
             DrawerListTile(
               imgpath: "../assets/images/bus.png",
