@@ -81,7 +81,6 @@ class NavigationDrawerWidget extends StatelessWidget {
             DrawerListTile(
               imgpath: "../assets/images/calendar.png",
               name: "Time Table",
-              ontap: () {},
             ),
             DrawerListTile(
               imgpath: "../assets/images/library.png",
