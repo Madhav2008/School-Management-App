@@ -10,16 +10,16 @@ class NavigationDrawerWidget extends StatelessWidget {
         color: color1,
         child: ListView(
           children: <Widget>[
-            buildHeader(
-              urlImage: urlImage,
-              name: name,
-              email: email,
-              onClicked: () => Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => const Profile(),
-                ),
-              ),
-            ),
+            // buildHeader(
+            //   urlImage: urlImage,
+            //   name: name,
+            //   email: email,
+            //   onClicked: () => Navigator.of(context).push(
+            //     MaterialPageRoute(
+            //       builder: (context) => const Profile(),
+            //     ),
+            //   ),
+            // ),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30),
