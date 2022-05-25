@@ -383,7 +383,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         Fluttertoast.showToast(
                             msg: "User Registered Successfully!!",
                             toastLength: Toast.LENGTH_SHORT,
-                            gravity: ToastGravity.BOTTOM);
+                            gravity: ToastGravity.BOTTOM,);
                       // }).catchError((error) {
                       //   showDialog(
                       //       context: context,
