@@ -15,7 +15,6 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
     return AppBar(
       title: Text(
         "${title}",
@@ -27,7 +26,7 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
       leading: menuenabled == true
           ? IconButton(
               color: Colors.black,
-              onPressed: () => _scaffoldKey.currentState!.openDrawer(),
+              onPressed: () => ontap,
               icon: Icon(
                 Icons.menu,
               ),
