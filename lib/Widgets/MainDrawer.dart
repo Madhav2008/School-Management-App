@@ -16,7 +16,7 @@ class _MainDrawerState extends State<MainDrawer> {
     return ListView(
       children: [
         DrawerListTile(
-          imgpath: "home.png",
+          imgpath: "../assets/images/home.png",
           name: "Home",
           ontap: () {
             Navigator.push(
