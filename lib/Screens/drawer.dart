@@ -166,7 +166,7 @@ class NavigationDrawerWidget extends StatelessWidget {
           color: color,
         ),
       ),
-      hoverColor: AppColor.primary,
+      // hoverColor: AppColor.primary,
       onTap: onClicked,
     );
   }
