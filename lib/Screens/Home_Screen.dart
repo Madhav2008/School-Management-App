@@ -186,7 +186,7 @@ class _HomeScreenState extends State<HomeScreen>
           ],
         ),
       ),
-    );
+    ),
            Drawer(
             elevation: 0,
             child: MainDrawer(),
