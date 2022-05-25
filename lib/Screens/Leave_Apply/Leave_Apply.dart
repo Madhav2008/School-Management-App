@@ -3,12 +3,6 @@ import 'package:dropdown_search/dropdown_search.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:school_management/Widgets/AppBar.dart';
-import 'package:school_management/Widgets/BouncingButton.dart';
-import 'package:school_management/Widgets/LeaveApply/LeaveHistoryCard.dart';
-import 'package:school_management/Widgets/LeaveApply/datepicker.dart';
-import 'package:school_management/Widgets/MainDrawer.dart';
-
 class LeaveApply extends StatefulWidget {
   @override
   _LeaveApplyState createState() => _LeaveApplyState();
