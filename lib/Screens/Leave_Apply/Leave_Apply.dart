@@ -227,7 +227,7 @@ class _LeaveApplyState extends State<LeaveApply>
                         validator: (v) => v == null ? "required field" : null,
                         // hint: "Please Select Leave type",
                         // mode: Mode.MENU,
-                        showSelectedItem: true,
+                        // showSelectedItem: true,
                         items: [
                           "Medical",
                           "Family",
