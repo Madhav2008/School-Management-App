@@ -77,7 +77,7 @@ class _LeaveApplyState extends State<LeaveApply>
 
     return AnimatedBuilder(
       animation: animationController,
-      builder: (BuildContext context, Widget child) {
+      builder: (BuildContext context, child) {
         final GlobalKey<ScaffoldState> _scaffoldKey =
             new GlobalKey<ScaffoldState>();
         return Scaffold(
