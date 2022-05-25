@@ -160,7 +160,7 @@ class _HomeScreenState extends State<HomeScreen>
                             onPress: () {},
                             child: DashboardCard(
                               name: "Profile",
-                              imgpath: "profile.png",
+                              imgpath: "../assets/images/profile.png",
                             ),
                           ),
                         ),
