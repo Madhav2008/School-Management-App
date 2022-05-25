@@ -116,7 +116,7 @@ class _UserDetailCardState extends State<UserDetailCard>
                                         borderRadius: BorderRadius.circular(10),
                                       ),
                                       child: Text(
-                                        "15",
+                                        "Roll no. : 15",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                           fontSize: 13,
