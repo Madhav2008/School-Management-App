@@ -75,7 +75,7 @@ class _ExamResultState extends State<ExamResult>
           drawer: const NavigationDrawerWidget(),
           appBar: CommonAppBar(
             notificationenabled: true,
-            title: "Dashboard",
+            title: "Exams",
           ),
           body: SingleChildScrollView(
             child: Padding(
