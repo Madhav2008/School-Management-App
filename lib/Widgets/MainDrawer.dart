@@ -50,7 +50,7 @@ class _MainDrawerState extends State<MainDrawer> {
           ontap: () {},
         ),
         DrawerListTile(
-          imgpath: "exam.png",
+          imgpath: "../assets/images/exam.png",
           name: "Examination",
           ontap: () {
             Navigator.push(
