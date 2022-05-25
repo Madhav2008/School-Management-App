@@ -111,10 +111,9 @@ class NavigationDrawerWidget extends StatelessWidget {
         onTap: onClicked,
         child: Container(
           // color: AppColor.primary1,
-          padding: 
-            const EdgeInsets.symmetric(
-              vertical: 40,
-            ),
+          padding: const EdgeInsets.symmetric(
+            vertical: 40,
+          ),
           child: Row(
             children: [
               CircleAvatar(
