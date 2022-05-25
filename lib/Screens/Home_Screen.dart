@@ -93,10 +93,7 @@ class _HomeScreenState extends State<HomeScreen>
             GlobalKey<ScaffoldState>();
         return Scaffold(
           key: _scaffoldKey,
-          drawer: Drawer(
-            elevation: 0,
-            child: MainDrawer(),
-          ),
+          drawer: MainDrawer(),
           appBar: CommonAppBar(
             menuenabled: true,
             notificationenabled: true,
