@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:randomizer/randomizer.dart';
+// import 'package:randomizer/randomizer.dart';
 
 class SubjectCard extends StatelessWidget {
   // Randomizer randomcolor = Randomizer();
