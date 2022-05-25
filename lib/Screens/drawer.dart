@@ -86,7 +86,7 @@ class NavigationDrawerWidget extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: (){},
+              onTap: () {},
               child: DrawerListTile(
                 imgpath: "../assets/images/library.png",
                 name: "Library",
