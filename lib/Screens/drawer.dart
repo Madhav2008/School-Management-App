@@ -80,7 +80,7 @@ class NavigationDrawerWidget extends StatelessWidget {
                         width: 25,
                       ),
                       Text(
-                        mode,
+                        'hi',
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 16,
