@@ -210,11 +210,11 @@ class NavigationDrawerWidget extends StatelessWidget {
         );
         break;
       case 5:
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => const FAQ_Screen(),
-          ),
-        );
+        // Navigator.of(context).push(
+        //   MaterialPageRoute(
+        //     builder: (context) => const FAQ_Screen(),
+        //   ),
+        // );
         break;
     }
   }
