@@ -93,7 +93,100 @@ class _HomeScreenState extends State<HomeScreen>
             GlobalKey<ScaffoldState>();
         return Scaffold(
           key: _scaffoldKey,
-          drawer:
+          drawer:Drawer(
+      child: Material(
+        color: color1,
+        child: ListView(
+          children: <Widget>[
+            buildHeader(
+              urlImage: urlImage,
+              name: name,
+              email: email,
+              onClicked: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const Profile(),
+                ),
+              ),
+            ),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(30),
+              ),
+              padding: padding,
+              child: Column(
+                children: [
+                  const SizedBox(height: 12),
+                  buildMenuItem(
+                    text: 'Take Quiz',
+                    icon: Icons.timer,
+                    onClicked: () => selectedItem(context, 0),
+                  ),
+                  const SizedBox(height: 16),
+                  buildMenuItem(
+                    text: 'Assignments',
+                    icon: Icons.assignment_outlined,
+                    onClicked: () => selectedItem(context, 1),
+                  ),
+                  const SizedBox(height: 16),
+                  buildMenuItem(
+                    text: 'Fees',
+                    icon: Icons.monetization_on_outlined,
+                    onClicked: () => selectedItem(context, 2),
+                  ),
+                  const SizedBox(height: 24),
+                  const Divider(color: Colors.white70),
+                  const SizedBox(height: 24),
+                  buildMenuItem(
+                    text: 'Timetable',
+                    icon: Icons.date_range_outlined,
+                    onClicked: () => selectedItem(context, 3),
+                  ),
+                  const SizedBox(height: 16),
+                  buildMenuItem(
+                    text: 'Notifications',
+                    icon: Icons.notifications_active_outlined,
+                    onClicked: () => selectedItem(context, 4),
+                  ),
+                  const SizedBox(height: 16),
+                  buildMenuItem(
+                    text: "FAQ'S",
+                    icon: Icons.question_answer,
+                    onClicked: () => selectedItem(context, 5),
+                  ),
+                  const SizedBox(height: 16),
+                  Row(
+                    children: [
+                      const SizedBox(
+                        width: 15,
+                      ),
+                      Icon(
+                        icon,
+                        color: Colors.white,
+                        size: 30,
+                      ),
+                      const SizedBox(
+                        width: 25,
+                      ),
+                      Text(
+                        mode,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 20,
+                      ),
+                      ChangeThemeButtonWidget(),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
            Drawer(
             elevation: 0,
             child: MainDrawer(),
