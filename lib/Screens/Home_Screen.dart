@@ -95,6 +95,7 @@ class _HomeScreenState extends State<HomeScreen>
         return Scaffold(
           key: _scaffoldKey,
           drawer: const NavigationDrawerWidget(),
+          backgroundColor: Colors.red,
           appBar: CommonAppBar(
             // menuenabled: true,
             notificationenabled: true,
