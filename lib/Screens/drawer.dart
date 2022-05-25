@@ -15,9 +15,11 @@ class NavigationDrawerWidget extends StatelessWidget {
         // color: Colors.red,
         child: ListView(
           children: [
-            DrawerListTile(
-              imgpath: "../assets/images/home.png",
-              name: "Home",
+            GestureDetector(
+              child: DrawerListTile(
+                imgpath: "../assets/images/home.png",
+                name: "Home",
+              ),
             ),
             DrawerListTile(
               imgpath: "../assets/images/attendance.png",
