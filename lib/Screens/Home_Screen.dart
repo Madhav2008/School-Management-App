@@ -94,6 +94,7 @@ class _HomeScreenState extends State<HomeScreen>
             GlobalKey<ScaffoldState>();
         return Scaffold(
           key: _scaffoldKey,
+          drawerScrimColor: Colors.black,
           drawer: const NavigationDrawerWidget(),
           appBar: CommonAppBar(
             // menuenabled: true,
