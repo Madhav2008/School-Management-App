@@ -97,7 +97,6 @@ class _HomeScreenState extends State<HomeScreen>
           appBar: CommonAppBar(
             // menuenabled: true,
             notificationenabled: true,
-            // ontap: () => _scaffoldKey.currentState!.openDrawer(),
             title: "Dashboard",
           ),
           // backgroundColor: color1,
