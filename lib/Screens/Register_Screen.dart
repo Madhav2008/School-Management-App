@@ -343,7 +343,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.blue, width: 0.0,),
+                        borderSide: BorderSide(
+                          color: Colors.blue,
+                          width: 0.0,
+                        ),
                       ),
                       prefixIcon: Icon(
                         Icons.phone,
@@ -368,10 +371,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       //     .createUserWithEmailAndPassword(
                       //         emailController.text, passwordController.text)
                       //     .then((value) {
-                        Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Navigation(),));
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Navigation(),
+                          ));
                       //   final userId = FirebaseAuth.instance.currentUser!.uid;
                       //   saveUser(userId);
                       //   Fluttertoast.showToast(
