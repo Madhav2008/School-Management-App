@@ -98,17 +98,6 @@ class _HomeScreenState extends State<HomeScreen>
             notificationenabled: true,
             title: "Dashboard",
           ),
-          // backgroundColor: color1,
-          // drawer: Drawer(
-          //   elevation: 0,
-          //   child: MainDrawer(),
-          // ),
-          // appBar: CommonAppBar(
-          //   menuenabled: true,
-          //   notificationenabled: true,
-          //   ontap: () => _scaffoldKey.currentState!.openDrawer(),
-          //   title: "Dashboard",
-          // ),
           body: ListView(
             children: [
               UserDetailCard(),
