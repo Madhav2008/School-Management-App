@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class DrawerListTile extends StatelessWidget {
   final String name;
   final String imgpath;
-  final Function ontap;
 
   const DrawerListTile({
     Key? key,
