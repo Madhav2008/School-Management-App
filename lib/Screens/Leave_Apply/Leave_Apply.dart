@@ -174,7 +174,7 @@ class _LeaveApplyState extends State<LeaveApply>
                                   enableSuggestions: true,
                                   //locale: Locale('en', 'US'),
                                   onChanged: (val) => setState(
-                                      () => _applyleavevalueChanged = val),
+                                      () => _applyleavevalueChanged = val,),
                                   validator: (val) {
                                     setState(
                                       () => _applyleavevalueToValidate = val!,
