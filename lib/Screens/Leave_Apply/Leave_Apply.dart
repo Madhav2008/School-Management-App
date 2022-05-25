@@ -107,7 +107,7 @@ class _LeaveApplyState extends State<LeaveApply>
           drawer: const NavigationDrawerWidget(),
           appBar: CommonAppBar(
             notificationenabled: true,
-            title: "Dashboard",
+            title: "Apply Leave",
           ),
           body: Form(
             key: _formkey,
