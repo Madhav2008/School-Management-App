@@ -13,8 +13,6 @@ class MainDrawer extends StatefulWidget {
 class _MainDrawerState extends State<MainDrawer> {
   @override
   Widget build(BuildContext context) {
-    final GlobalKey<ScaffoldState> _scaffoldKey =
-            GlobalKey<ScaffoldState>();
     return ListView(
       children: [
         DrawerListTile(
