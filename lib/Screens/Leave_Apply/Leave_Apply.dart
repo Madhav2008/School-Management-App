@@ -105,12 +105,12 @@ class _LeaveApplyState extends State<LeaveApply>
         return Scaffold(
           key: _scaffoldKey,
           appBar: CommonAppBar(
-            menuenabled: true,
+            // menuenabled: true,
             notificationenabled: false,
             title: "Apply Leave",
-            ontap: () {
-              _scaffoldKey.currentState!.openDrawer();
-            },
+            // ontap: () {
+              // _scaffoldKey.currentState!.openDrawer();
+            // },
           ),
           drawer: Drawer(
             elevation: 0,
