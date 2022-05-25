@@ -22,7 +22,7 @@ class _AttendanceState extends State<Attendance>
       drawer: const NavigationDrawerWidget(),
       appBar: CommonAppBar(
         notificationenabled: true,
-        title: "Dashboard",
+        title: "Attendance",
       ),
       body: SingleChildScrollView(
         child: Column(
