@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
   final String title;
-  final bool menuenabled;
+  // final bool menuenabled;
   final bool notificationenabled;
   // final Function ontap;
   const CommonAppBar({
