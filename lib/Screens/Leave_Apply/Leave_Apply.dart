@@ -283,7 +283,7 @@ class _LeaveApplyState extends State<LeaveApply>
                           children: [
                             Transform(
                               transform: Matrix4.translationValues(
-                                  muchDelayedAnimation.value * width, 0, 0),
+                                  muchDelayedAnimation.value * width, 0, 0,),
                               child: Icon(
                                 Icons.calendar_today,
                                 color: Colors.black,
