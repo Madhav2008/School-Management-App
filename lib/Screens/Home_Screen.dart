@@ -268,7 +268,7 @@ class _HomeScreenState extends State<HomeScreen>
                             onPress: () {},
                             child: DashboardCard(
                               name: "Track Bus",
-                              imgpath: "bus.png",
+                              imgpath: "../assets/images/bus.png",
                             ),
                           ),
                         ),
