@@ -375,7 +375,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           context,
                           MaterialPageRoute(
                             builder: (context) => Navigation(),
-                          ));
+                          ),);
                       //   final userId = FirebaseAuth.instance.currentUser!.uid;
                       //   saveUser(userId);
                       //   Fluttertoast.showToast(
