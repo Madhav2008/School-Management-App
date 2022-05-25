@@ -17,7 +17,7 @@ class LeaveApply extends StatefulWidget {
 class _LeaveApplyState extends State<LeaveApply>
     with SingleTickerProviderStateMixin {
   late Animation animation, delayedAnimation, muchDelayedAnimation, LeftCurve;
-  AnimationController animationController;
+  late AnimationController animationController;
   final searchFieldController = TextEditingController();
 
   late TextEditingController _applyleavecontroller;
