@@ -110,7 +110,7 @@ class NavigationDrawerWidget extends StatelessWidget {
       InkWell(
         onTap: onClicked,
         child: Container(
-          color: AppColor.primary1,
+          // color: AppColor.primary1,
           padding: padding.add(
             const EdgeInsets.symmetric(
               vertical: 40,
