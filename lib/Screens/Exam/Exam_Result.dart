@@ -1,7 +1,6 @@
 import 'package:dropdown_search/dropdown_search.dart';
 import 'package:flutter/material.dart';
 import 'package:school_management_app/Screens/drawer.dart';
-// import 'package:randomizer/randomizer.dart';
 import 'package:school_management_app/Widgets/AppBar.dart';
 import 'package:school_management_app/Widgets/BouncingButton.dart';
 import 'package:school_management_app/Widgets/Exams/SubjectCard.dart';
@@ -33,7 +32,7 @@ class _ExamResultState extends State<ExamResult>
 
     muchDelayedAnimation = Tween(begin: -1.0, end: 0.0).animate(CurvedAnimation(
         parent: animationController,
-        curve: Interval(0.3, 0.5, curve: Curves.fastOutSlowIn)));
+        curve: Interval(0.3, 0.5, curve: Curves.fastOutSlowIn,)));
   }
 
   @override
