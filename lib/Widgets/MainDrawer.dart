@@ -104,7 +104,7 @@ class _MainDrawerState extends State<MainDrawer> {
           ontap: () {},
         ),
         DrawerListTile(
-          imgpath: "notification.png",
+          imgpath: "../assets/images/notification.png",
           name: "Notification",
           ontap: () {},
         ),
