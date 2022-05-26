@@ -99,251 +99,251 @@ class _HomeScreenState extends State<HomeScreen>
             title: "Dashboard",
           ),
           body: Stack(
-        children: [
-          Container(
-            width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height,
-            child: Image.asset(
-              '../assets/images/appinfo.jpg',
-              fit: BoxFit.cover,
-            ),
-          ),
-            ListView(
-              children: [
-                UserDetailCard(),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(
-                    30.0,
-                    10,
-                    30,
-                    10,
-                  ),
-                  child: Container(
-                    alignment: Alignment(
-                      1.0,
-                      0,
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.only(
-                        top: 10.0,
-                        right: 20.0,
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Transform(
-                            transform: Matrix4.translationValues(
-                              muchDelayedAnimation.value * width,
-                              0,
-                              0,
-                            ),
-                            child: Bouncing(
-                              onPress: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (BuildContext context) =>
-                                        Attendance(),
-                                  ),
-                                );
-                              },
-                              child: DashboardCard(
-                                name: "Attendance",
-                                imgpath: "../assets/images/attendance.png",
-                              ),
-                            ),
-                          ),
-                          Transform(
-                            transform: Matrix4.translationValues(
-                              delayedAnimation.value * width,
-                              0,
-                              0,
-                            ),
-                            child: Bouncing(
-                              onPress: () {},
-                              child: DashboardCard(
-                                name: "Profile",
-                                imgpath: "../assets/images/profile.png",
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
+            children: [
+              Container(
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height,
+                child: Image.asset(
+                  '../assets/images/appinfo.jpg',
+                  fit: BoxFit.cover,
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(
-                    30.0,
-                    10,
-                    30,
-                    10,
-                  ),
-                  child: Container(
-                    alignment: Alignment(1.0, 0),
-                    child: Padding(
-                      padding: const EdgeInsets.only(
-                        top: 10.0,
-                        right: 20.0,
+              ),
+              ListView(
+                children: [
+                  UserDetailCard(),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(
+                      30.0,
+                      10,
+                      30,
+                      10,
+                    ),
+                    child: Container(
+                      alignment: Alignment(
+                        1.0,
+                        0,
                       ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Transform(
-                            transform: Matrix4.translationValues(
-                              muchDelayedAnimation.value * width,
-                              0,
-                              0,
-                            ),
-                            child: Bouncing(
-                              onPress: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (BuildContext context) =>
-                                        ExamResult(),
-                                  ),
-                                );
-                              },
-                              child: DashboardCard(
-                                name: "Exam",
-                                imgpath: "../assets/images/exam.png",
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                          top: 10.0,
+                          right: 20.0,
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                muchDelayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (BuildContext context) =>
+                                          Attendance(),
+                                    ),
+                                  );
+                                },
+                                child: DashboardCard(
+                                  name: "Attendance",
+                                  imgpath: "../assets/images/attendance.png",
+                                ),
                               ),
                             ),
-                          ),
-                          Transform(
-                            transform: Matrix4.translationValues(
-                              delayedAnimation.value * width,
-                              0,
-                              0,
-                            ),
-                            child: Bouncing(
-                              onPress: () {},
-                              child: DashboardCard(
-                                name: "TimeTable",
-                                imgpath: "../assets/images/calendar.png",
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                delayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {},
+                                child: DashboardCard(
+                                  name: "Profile",
+                                  imgpath: "../assets/images/profile.png",
+                                ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(
-                    30.0,
-                    10,
-                    30,
-                    10,
-                  ),
-                  child: Container(
-                    alignment: Alignment(1.0, 0),
-                    child: Padding(
-                      padding: const EdgeInsets.only(
-                        top: 10.0,
-                        right: 20.0,
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Transform(
-                            transform: Matrix4.translationValues(
-                              muchDelayedAnimation.value * width,
-                              0,
-                              0,
-                            ),
-                            child: Bouncing(
-                              onPress: () {},
-                              child: DashboardCard(
-                                name: "Library",
-                                imgpath: "../assets/images/library.png",
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(
+                      30.0,
+                      10,
+                      30,
+                      10,
+                    ),
+                    child: Container(
+                      alignment: Alignment(1.0, 0),
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                          top: 10.0,
+                          right: 20.0,
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                muchDelayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (BuildContext context) =>
+                                          ExamResult(),
+                                    ),
+                                  );
+                                },
+                                child: DashboardCard(
+                                  name: "Exam",
+                                  imgpath: "../assets/images/exam.png",
+                                ),
                               ),
                             ),
-                          ),
-                          Transform(
-                            transform: Matrix4.translationValues(
-                              delayedAnimation.value * width,
-                              0,
-                              0,
-                            ),
-                            child: Bouncing(
-                              onPress: () {},
-                              child: DashboardCard(
-                                name: "Track Bus",
-                                imgpath: "../assets/images/bus.png",
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                delayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {},
+                                child: DashboardCard(
+                                  name: "TimeTable",
+                                  imgpath: "../assets/images/calendar.png",
+                                ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(
-                    30.0,
-                    10,
-                    30,
-                    10,
-                  ),
-                  child: Container(
-                    alignment: Alignment(
-                      1.0,
-                      0,
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(
+                      30.0,
+                      10,
+                      30,
+                      10,
                     ),
-                    child: Padding(
-                      padding: const EdgeInsets.only(
-                        top: 10.0,
-                        right: 20.0,
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Transform(
-                            transform: Matrix4.translationValues(
-                              muchDelayedAnimation.value * width,
-                              0,
-                              0,
-                            ),
-                            child: Bouncing(
-                              onPress: () {},
-                              child: DashboardCard(
-                                name: "Activity",
-                                imgpath: "../assets/images/activity.png",
+                    child: Container(
+                      alignment: Alignment(1.0, 0),
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                          top: 10.0,
+                          right: 20.0,
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                muchDelayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {},
+                                child: DashboardCard(
+                                  name: "Library",
+                                  imgpath: "../assets/images/library.png",
+                                ),
                               ),
                             ),
-                          ),
-                          Transform(
-                            transform: Matrix4.translationValues(
-                              delayedAnimation.value * width,
-                              0,
-                              0,
-                            ),
-                            child: Bouncing(
-                              onPress: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (BuildContext context) =>
-                                        LeaveApply(),
-                                  ),
-                                );
-                              },
-                              child: DashboardCard(
-                                name: "Apply Leave",
-                                imgpath: "../assets/images/leave_apply.png",
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                delayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {},
+                                child: DashboardCard(
+                                  name: "Track Bus",
+                                  imgpath: "../assets/images/bus.png",
+                                ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   ),
-                ),
-              ],
-            ),
-        ],
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(
+                      30.0,
+                      10,
+                      30,
+                      10,
+                    ),
+                    child: Container(
+                      alignment: Alignment(
+                        1.0,
+                        0,
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                          top: 10.0,
+                          right: 20.0,
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                muchDelayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {},
+                                child: DashboardCard(
+                                  name: "Activity",
+                                  imgpath: "../assets/images/activity.png",
+                                ),
+                              ),
+                            ),
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                delayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (BuildContext context) =>
+                                          LeaveApply(),
+                                    ),
+                                  );
+                                },
+                                child: DashboardCard(
+                                  name: "Apply Leave",
+                                  imgpath: "../assets/images/leave_apply.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
           ),
         );
       },
