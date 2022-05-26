@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen>
               fit: BoxFit.cover,
             ),
           ),
-            child: ListView(
+            ListView(
               children: [
                 UserDetailCard(),
                 Padding(
