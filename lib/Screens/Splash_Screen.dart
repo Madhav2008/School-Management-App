@@ -41,7 +41,6 @@ class _SplashScreenState extends State<SplashScreen> {
             child: Image.asset(
               '../assets/images/back.jpg',
               fit: BoxFit.cover,
-              opacity: Opacity,
             ),
           ),
           Center(
