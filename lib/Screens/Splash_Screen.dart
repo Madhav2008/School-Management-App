@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
       color: const Color(0xff7c94b6),
         image: DecorationImage(
           image: ExactAssetImage('lib/images/pic1.jpg'),
-             )
+             ),
            )
      ),
           Center(
