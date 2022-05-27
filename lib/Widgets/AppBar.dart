@@ -54,7 +54,8 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (BuildContext context) => NotificationsScreen(),
+                          builder: (BuildContext context) =>
+                              NotificationsScreen(),
                         ),
                       );
                     },
