@@ -49,7 +49,13 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
           actions: [
             notificationenabled == true
                 ? InkWell(
-                    onTap: () {},
+                    onTap: () {Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (BuildContext context) =>
+                                          ExamResult(),
+                                    ),
+                                  );},
                     child: Image.asset(
                       "../assets/images/notification.png",
                       width: 35,
