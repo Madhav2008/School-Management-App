@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:vatika/screens/Notifications_Screen/Open_Notification_Screen.dart';
-import 'package:vatika/styles/app_color.dart';
 
 class NotificationsScreen extends StatelessWidget {
   const NotificationsScreen({Key? key}) : super(key: key);
