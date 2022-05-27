@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'School Management',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue.shade900,
       ),
       home: SplashScreen(),
     );
