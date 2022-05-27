@@ -103,9 +103,11 @@ class _HomeScreenState extends State<HomeScreen>
               Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height,
-                child: Image.asset(
-                  '../assets/images/back.jpg',
-                  fit: BoxFit.cover,
+                child: widget(
+                  child: Image.asset(
+                    '../assets/images/back.jpg',
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
               ListView(
