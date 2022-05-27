@@ -48,7 +48,7 @@ class OpenNotificationScreen extends StatelessWidget {
                               text: studentName,
                               style: TextStyle(
                                 fontSize: 14,
-                                color: color,
+                                color: Colors.grey.shade500,
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 2,
                               ),
