@@ -110,7 +110,7 @@ class OpenNotificationScreen extends StatelessWidget {
                       ndescription,
                       style: TextStyle(
                         fontSize: 17,
-                        color: color,
+                        color: Colors.grey.shade500,
                       ),
                     ),
                   )
