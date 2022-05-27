@@ -45,7 +45,7 @@ class _SplashScreenState extends State<SplashScreen> {
           //   ),
           // ),
          Container(
-    decoration: new BoxDecoration(
+    decoration: BoxDecoration(
       color: const Color(0xff7c94b6),
         image: new DecorationImage(
           image: new ExactAssetImage('lib/images/pic1.jpg'),
