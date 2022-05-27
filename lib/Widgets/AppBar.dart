@@ -15,40 +15,42 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppBar(
-      title: Text(
-        "${title}",
-        style: TextStyle(
-          color: Colors.black,
-          fontWeight: FontWeight.bold,
+    return widget(
+      child: AppBar(
+        title: Text(
+          "${title}",
+          style: TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+          ),
         ),
-      ),
-      iconTheme: IconThemeData(color: Colors.black),
-      // leading: menuenabled == true
-      //     ? IconButton(
-      //         color: Colors.black,
-      //         onPressed: () => ontap,
-      //         icon: Icon(
-      //           Icons.menu,
-      //         ),
-      //       )
-      //     : null,
-      actions: [
-        notificationenabled == true
-            ? InkWell(
-                onTap: () {},
-                child: Image.asset(
-                  "../assets/images/notification.png",
-                  width: 35,
+        iconTheme: IconThemeData(color: Colors.black),
+        // leading: menuenabled == true
+        //     ? IconButton(
+        //         color: Colors.black,
+        //         onPressed: () => ontap,
+        //         icon: Icon(
+        //           Icons.menu,
+        //         ),
+        //       )
+        //     : null,
+        actions: [
+          notificationenabled == true
+              ? InkWell(
+                  onTap: () {},
+                  child: Image.asset(
+                    "../assets/images/notification.png",
+                    width: 35,
+                  ),
+                )
+              : SizedBox(
+                  width: 1,
                 ),
-              )
-            : SizedBox(
-                width: 1,
-              ),
-      ],
-      centerTitle: true,
-      backgroundColor: Colors.transparent,
-      elevation: 0.0,
+        ],
+        centerTitle: true,
+        backgroundColor: Colors.transparent,
+        elevation: 0.0,
+      ),
     );
   }
 
