@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:school_management_app/Screens/Notification/Open_Notification_Screen.dart';
 
 class NotificationsScreen extends StatelessWidget {
   const NotificationsScreen({Key? key}) : super(key: key);
