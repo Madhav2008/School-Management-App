@@ -15,17 +15,19 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-                width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height,
-                child: Opacity(
-                  opacity: 0.2,
-                  child: Image.asset(
-                    '../assets/images/back.jpg',
-                    fit: BoxFit.cover,
+    return widget(
+      child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height,
+                  child: Opacity(
+                    opacity: 0.2,
+                    child: Image.asset(
+                      '../assets/images/back.jpg',
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
-              ),
+    ),
       child: AppBar(
         title: Text(
           "${title}",
