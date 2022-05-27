@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'School Management',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primaryColor: Colors.blue.shade900,),
+      theme: ThemeData(
+        primaryColor: Colors.blue.shade900,
+      ),
       home: SplashScreen(),
     );
   }
