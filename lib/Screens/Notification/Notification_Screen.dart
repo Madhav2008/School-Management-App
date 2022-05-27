@@ -19,7 +19,6 @@ class NotificationsScreen extends StatelessWidget {
             letterSpacing: 1,
           ),
         ),
-        backgroundColor: Colors.white,
         centerTitle: true,
       ),
       body: SingleChildScrollView(
