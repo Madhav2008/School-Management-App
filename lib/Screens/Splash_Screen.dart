@@ -45,12 +45,13 @@ class _SplashScreenState extends State<SplashScreen> {
           //   ),
           // ),
           Container(
-              decoration: BoxDecoration(
-            color: const Color(0xff7c94b6),
-            image: DecorationImage(
-              image: ExactAssetImage('lib/images/pic1.jpg'),
+            decoration: BoxDecoration(
+              color: const Color(0xff7c94b6),
+              image: DecorationImage(
+                image: ExactAssetImage('lib/images/pic1.jpg'),
+              ),
             ),
-          ),),
+          ),
           Center(
             child: Image.asset(
               '../assets/images/splash.gif',
