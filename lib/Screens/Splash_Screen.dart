@@ -35,15 +35,15 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          // Container(
-          //   width: MediaQuery.of(context).size.width,
-          //   height: MediaQuery.of(context).size.height,
-          //   child: Image.asset(
-          //     '../assets/images/back.jpg',
-          //     fit: BoxFit.cover,
-          //     opacity: Opacity,
-          //   ),
-          // ),
+          Container(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+            child: Image.asset(
+              '../assets/images/back.jpg',
+              fit: BoxFit.cover,
+              opacity: Opacity,
+            ),
+          ),
           Center(
             child: Image.asset(
               '../assets/images/splash.gif',
