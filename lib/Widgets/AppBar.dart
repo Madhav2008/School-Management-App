@@ -28,9 +28,8 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
                       ),
                     ),
                   ),
-                ],
-    ),
-      child: AppBar(
+                ),
+      AppBar(
         title: Text(
           "${title}",
           style: TextStyle(
