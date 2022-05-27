@@ -44,14 +44,6 @@ class _SplashScreenState extends State<SplashScreen> {
           //     opacity: Opacity,
           //   ),
           // ),
-          Container(
-            decoration: BoxDecoration(
-              color: Color(0xff7c94b6),
-              image: DecorationImage(
-                image: ExactAssetImage('../assets/images/back.jpg'),
-              ),
-            ),
-          ),
           Center(
             child: Image.asset(
               '../assets/images/splash.gif',
