@@ -5,10 +5,6 @@ class OpenNotificationScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final color =
-        Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
-            ? Colors.white
-            : Colors.grey.shade500;
 
     var studentName = 'Madhav Arora';
     var date = '12-12-2021';
