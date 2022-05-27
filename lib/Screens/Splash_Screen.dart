@@ -50,6 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
             height: MediaQuery.of(context).size.height / 2,
           ),
         ),
+            ]
       ),
     );
   }
