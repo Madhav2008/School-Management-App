@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
             child: Opacity(
-              opacity: 0.3,
+              opacity: 0.2,
               child: Image.asset(
                 '../assets/images/back.jpg',
                 fit: BoxFit.cover,
