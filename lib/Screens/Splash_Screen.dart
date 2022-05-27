@@ -44,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
           //     opacity: Opacity,
           //   ),
           // ),
-          child: new Container(
+          new Container(
     decoration: new BoxDecoration(
       color: const Color(0xff7c94b6),
         image: new DecorationImage(
