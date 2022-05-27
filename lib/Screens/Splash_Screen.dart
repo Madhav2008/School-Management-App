@@ -50,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
             image: DecorationImage(
               image: ExactAssetImage('lib/images/pic1.jpg'),
             ),
-          )),
+          ),),
           Center(
             child: Image.asset(
               '../assets/images/splash.gif',
