@@ -34,23 +34,23 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Stack(
-            children: [
-              Container(
-                width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height,
-                child: Image.asset(
-                  '../assets/images/back.jpg',
-                  fit: BoxFit.cover,
-                ),
-              ),
-       Center(
-          child: Image.asset(
-            '../assets/images/splash.gif',
+        children: [
+          Container(
             width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height / 2,
+            height: MediaQuery.of(context).size.height,
+            child: Image.asset(
+              '../assets/images/back.jpg',
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-            ],
+          Center(
+            child: Image.asset(
+              '../assets/images/splash.gif',
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.height / 2,
+            ),
+          ),
+        ],
       ),
     );
   }
