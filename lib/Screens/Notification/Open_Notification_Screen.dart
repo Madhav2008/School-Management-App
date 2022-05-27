@@ -5,7 +5,6 @@ class OpenNotificationScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     var studentName = 'Madhav Arora';
     var date = '12-12-2021';
     var time = '07:10 AM';
