@@ -19,9 +19,9 @@ class Navigation extends StatefulWidget {
 
 class _NavigationState extends State<Navigation> {
   final List<Widget> _tabItems = [
-    HomeScreen(),
     CategoryScreen(),
     PostRecipeScreen(),
+    HomeScreen(),
   ];
   int _page = 0;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
