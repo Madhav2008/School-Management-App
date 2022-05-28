@@ -53,7 +53,7 @@ class _NavigationState extends State<Navigation> {
             color: (_page == 2) ? Colors.blue[900] : Colors.white,
           ),
         ],
-        color: Colors.blue[900],
+        color: Colors.blue.shade900,
         buttonBackgroundColor: Colors.grey[50],
         backgroundColor: Color.fromRGBO(226, 55, 68, 0.60),
         animationDuration: Duration(milliseconds: 500),
