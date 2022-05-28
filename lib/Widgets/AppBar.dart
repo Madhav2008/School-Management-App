@@ -38,7 +38,6 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
           fontWeight: FontWeight.bold,
         ),
       ),
-      elevation: 1,
       iconTheme: IconThemeData(color: Colors.black),
       // leading: menuenabled == true
       //     ? IconButton(
