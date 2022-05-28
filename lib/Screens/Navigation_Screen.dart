@@ -59,7 +59,7 @@ class _NavigationState extends State<Navigation> {
                 ),
                 Icon(Icons.account_circle,
                     size: 30,
-                    color: (_page == 4) ? Colors.redAccent : Colors.white),
+                    color: (_page == 4) ? Colors.redAccent : Colors.white,),
               ],
               color: Color.fromRGBO(226, 55, 68, 0.60),
               buttonBackgroundColor: Colors.grey[50],
