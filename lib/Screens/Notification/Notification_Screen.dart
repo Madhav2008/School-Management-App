@@ -22,9 +22,6 @@ class NotificationsScreen extends StatelessWidget {
         ),
         backgroundColor: Colors.pink[200],
         centerTitle: true,
-        iconTheme: IconThemeData(
-          color: Colors.black,
-        ),
       ),
       body: Stack(
         children: [
