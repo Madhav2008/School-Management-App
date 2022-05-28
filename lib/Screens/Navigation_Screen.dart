@@ -19,7 +19,7 @@ class _NavigationState extends State<Navigation> {
     SettingsScreen(),
     HomeScreen(),
   ];
-  int _page = 0;
+  int _page = 3;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
   @override
