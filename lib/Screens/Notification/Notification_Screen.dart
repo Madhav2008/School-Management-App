@@ -22,6 +22,7 @@ class NotificationsScreen extends StatelessWidget {
         ),
         backgroundColor: Colors.white,
         centerTitle: true,
+        iconTheme: IconThemeData()
       ),
       body: SingleChildScrollView(
         child: Column(
