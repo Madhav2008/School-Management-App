@@ -32,7 +32,7 @@ class NotificationsScreen extends StatelessWidget {
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
             child: Opacity(
-              opacity: 0.2,
+              opacity: 0.3,
               child: Image.asset(
                 '../assets/images/back.jpg',
                 fit: BoxFit.cover,
