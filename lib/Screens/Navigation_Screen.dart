@@ -19,7 +19,7 @@ class Navigation extends StatefulWidget {
 
 class _NavigationState extends State<Navigation> {
   final List<Widget> _tabItems = [
-    CategoryScreen(),
+    Notification(),
     PostRecipeScreen(),
     HomeScreen(),
   ];
