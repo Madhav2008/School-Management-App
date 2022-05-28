@@ -43,7 +43,7 @@ class _NavigationState extends State<Navigation> {
             color: (_page == 0) ? Colors.blueAccent : Colors.white,
           ),
           Icon(
-            Icons.category_sharp,
+            Icons.settings,
             size: 30,
             color: (_page == 1) ? Colors.blueAccent : Colors.white,
           ),
