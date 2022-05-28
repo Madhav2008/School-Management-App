@@ -19,7 +19,7 @@ class NotificationsScreen extends StatelessWidget {
             letterSpacing: 1,
           ),
         ),
-        backgroundColor: Colors.purple[700],
+        backgroundColor: Colors.purple[800],
         centerTitle: true,
       ),
       body: Stack(
