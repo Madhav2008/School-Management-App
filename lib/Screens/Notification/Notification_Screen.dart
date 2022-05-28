@@ -39,7 +39,7 @@ class NotificationsScreen extends StatelessWidget {
                   ),
                 ),
               ),
-        child: SingleChildScrollView(
+        SingleChildScrollView(
           child: Column(
             children: [
               GestureDetector(
