@@ -72,8 +72,8 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
           centerTitle: true,
           backgroundColor: Colors.transparent,
           elevation: 0.0,
-        ),
-      ],
+      //   ),
+      // ],
     );
   }
 
