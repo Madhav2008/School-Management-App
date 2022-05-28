@@ -16,7 +16,8 @@ class CommonAppBar extends StatelessWidget with PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return 
+    Stack(
       children: [
         Container(
           width: MediaQuery.of(context).size.width,
