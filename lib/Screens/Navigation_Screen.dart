@@ -4,7 +4,7 @@ import 'package:Foodybite/screens/post_recipe_screen/post_recipe_screen.dart';
 import 'package:Foodybite/screens/profile_screen/profile_screen.dart';
 import 'package:Foodybite/screens/search_screen/search_screen.dart';
 import 'package:Foodybite/screens/search_screen_nav/search_screen_nav.dart';
-import 'package:connectivity/connectivity.dart';
+// import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/rendering.dart';
