@@ -73,12 +73,12 @@ class _ProfileState extends State<Profile> {
                                 color: Colors.white,
                               ),
                               onPressed: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => const HomeScreen(),
-                                  ),
-                                );
+                                // Navigator.push(
+                                //   context,
+                                //   MaterialPageRoute(
+                                //     builder: (context) => const HomeScreen(),
+                                //   ),
+                                // );
                               },
                             ),
                           ),
