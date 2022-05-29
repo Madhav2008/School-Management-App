@@ -52,7 +52,7 @@ class _ProfileState extends State<Profile> {
                       end: Alignment.bottomRight,
                       colors: [
                         Colors.blue.shade800,
-                        Colors.blue,
+                        Colors.blue.shade900,
                       ],
                     ),
                     borderRadius: BorderRadius.only(
