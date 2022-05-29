@@ -16,7 +16,7 @@ class _ProfileState extends State<Profile> {
     var width = MediaQuery.of(context).size.width;
     var size = MediaQuery.of(context).size;
     // var height = MediaQuery.of(context).size.height;
-    const urlImage = '../assets/images/My.png';
+    const urlImage = '../assets/images/profile.png';
     final color =
         Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
             ? Colors.white
