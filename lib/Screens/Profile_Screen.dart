@@ -690,7 +690,7 @@ class _ProfileState extends State<Profile> {
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: size.width * 0.05,
-                                    fontWeight: FontWeight.bold),
+                                    fontWeight: FontWeight.bold,),
                               ),
                               // color: AppColor.primary,
                             ),
