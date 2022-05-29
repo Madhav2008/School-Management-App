@@ -72,7 +72,7 @@ class NotificationsScreen extends StatelessWidget {
                                       text: message,
                                       style: TextStyle(
                                         fontSize: 16,
-                                        color: Colors.black,
+                                        color: Colors.grey.shade500,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
