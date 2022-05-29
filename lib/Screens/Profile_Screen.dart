@@ -136,7 +136,7 @@ class _ProfileState extends State<Profile> {
                                   bottom: 25.0,
                                 ),
                                 child: Text(
-                                  "Class VIII-C | Roll no: 19",
+                                  "Class IX-F | Roll no: 19",
                                   style: TextStyle(
                                     fontSize: size.width * 0.040,
                                     color: Colors.white.withOpacity(0.7),
@@ -195,7 +195,7 @@ class _ProfileState extends State<Profile> {
                                       left: 8.0,
                                     ),
                                     child: Text(
-                                      'VIII-C',
+                                      'IX-F',
                                       style: TextStyle(
                                         color: Colors.black,
                                         fontSize: 20,
