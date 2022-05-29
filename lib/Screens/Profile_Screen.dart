@@ -388,7 +388,7 @@ class _ProfileState extends State<Profile> {
                                       left: 8.0,
                                     ),
                                     child: Text(
-                                      '2020-2021',
+                                      '2022-2023',
                                       style: TextStyle(
                                         color: Colors.black,
                                         fontSize: 20,
