@@ -594,7 +594,7 @@ class _ProfileState extends State<Profile> {
                               right: 10.0,
                             ),
                             child: Divider(
-                              color: Colors.grey,
+                              color: Colors.grey.shade900,
                             ),
                           ),
                         ],
