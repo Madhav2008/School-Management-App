@@ -155,7 +155,7 @@ class _ProfileState extends State<Profile> {
               child: SingleChildScrollView(
                 child: Container(
                   padding: const EdgeInsets.all(15),
-                  width: width,
+                  width: MediaQuery.of(context).size.width,
                   // height: height,
                   decoration: BoxDecoration(
                     color: Colors.white,
