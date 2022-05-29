@@ -218,7 +218,7 @@ class _ProfileState extends State<Profile> {
                                 ],
                               ),
                               SizedBox(
-                                width: 210,
+                                width: 150,
                                 child: Padding(
                                   padding: const EdgeInsets.only(
                                     top: 5.0,
