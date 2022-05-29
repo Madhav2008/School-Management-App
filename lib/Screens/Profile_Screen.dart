@@ -79,7 +79,7 @@ class _ProfileState extends State<Profile> {
                                 //     builder: (context) => const HomeScreen(),
                                 //   ),
                                 // );
-                                Navigator.pop(context)
+                                Navigator.pop(context);
                               },
                             ),
                           ),
@@ -663,7 +663,7 @@ class _ProfileState extends State<Profile> {
                               context,
                               MaterialPageRoute(
                                 builder: (BuildContext context) =>
-                                   LoginScreen(),
+                                    LoginScreen(),
                               ),
                             );
                           },
