@@ -233,9 +233,9 @@ class _ProfileState extends State<Profile> {
                               ),
                             ],
                           ),
-                          SizedBox(
-                            width: 20,
-                          ),
+                          // SizedBox(
+                          //   width: 20,
+                          // ),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
