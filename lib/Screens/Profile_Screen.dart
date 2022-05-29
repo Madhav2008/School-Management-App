@@ -51,7 +51,7 @@ class _ProfileState extends State<Profile> {
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                       colors: [
-                        Colors.blue,
+                        Colors.blue.shade800,
                         Colors.blue,
                       ],
                     ),
