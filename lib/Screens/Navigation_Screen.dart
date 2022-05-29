@@ -19,7 +19,7 @@ class _NavigationState extends State<Navigation> {
     SettingsScreen(),
     HomeScreen(),
   ];
-  int _page = 3;
+  int _page = 0;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
   @override
@@ -34,7 +34,7 @@ class _NavigationState extends State<Navigation> {
     return Scaffold(
       bottomNavigationBar: CurvedNavigationBar(
         key: _bottomNavigationKey,
-        index: 3,
+        index: 0,
         height: 50,
         items: [
           Icon(
