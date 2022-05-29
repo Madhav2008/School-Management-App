@@ -17,14 +17,14 @@ class _ProfileState extends State<Profile> {
     var size = MediaQuery.of(context).size;
     // var height = MediaQuery.of(context).size.height;
     const urlImage = '../assets/images/profile.png';
-    final color =
-        Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
-            ? Colors.white
-            : Colors.black;
-    final color1 =
-        Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
-            ? Colors.grey.shade900
-            : Colors.white;
+    // final color =
+    //     Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
+    //         ? Colors.white
+    //         : Colors.black;
+    // final color1 =
+    //     Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
+    //         ? Colors.grey.shade900
+    //         : Colors.white;
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
