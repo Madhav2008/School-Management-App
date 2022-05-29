@@ -43,7 +43,7 @@ class _ProfileState extends State<Profile> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Container(
-                  width: size.width,
+                  width: MediaQuery.of(context).size.width,
                   // height: 250,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
