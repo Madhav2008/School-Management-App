@@ -122,7 +122,7 @@ class _ProfileState extends State<Profile> {
                                 child: Text(
                                   "Madhav Arora",
                                   style: TextStyle(
-                                    fontSize: size.width * 0.065,
+                                    fontSize: 65,
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
