@@ -79,6 +79,7 @@ class _ProfileState extends State<Profile> {
                                 //     builder: (context) => const HomeScreen(),
                                 //   ),
                                 // );
+                                Navigator.pop(context)
                               },
                             ),
                           ),
