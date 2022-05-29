@@ -14,8 +14,6 @@ class Profile extends StatefulWidget {
 class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
-    var width = MediaQuery.of(context).size.width;
-    var size = MediaQuery.of(context).size;
     // var height = MediaQuery.of(context).size.height;
     const urlImage = '../assets/images/profile.png';
     // final color =
