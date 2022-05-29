@@ -163,7 +163,15 @@ class _HomeScreenState extends State<HomeScreen>
                                 0,
                               ),
                               child: Bouncing(
-                                onPress: () {},
+                                onPress: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (BuildContext context) =>
+                                          Attendance(),
+                                    ),
+                                  );
+                                },
                                 child: DashboardCard(
                                   name: "Profile",
                                   imgpath: "../assets/images/profile.png",
