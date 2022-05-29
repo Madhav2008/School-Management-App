@@ -667,7 +667,9 @@ class _ProfileState extends State<Profile> {
                             );
                           },
                           child: Container(
-                            margin: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.015),
+                            margin: EdgeInsets.only(
+                                top:
+                                    MediaQuery.of(context).size.height * 0.015),
                             child: Container(
                               decoration: BoxDecoration(
                                 boxShadow: [
@@ -687,7 +689,8 @@ class _ProfileState extends State<Profile> {
                                 'Logout',
                                 style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: MediaQuery.of(context).size.width * 0.05,
+                                  fontSize:
+                                     5,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
