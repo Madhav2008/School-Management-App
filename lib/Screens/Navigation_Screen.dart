@@ -45,7 +45,7 @@ class _NavigationState extends State<Navigation> {
           Icon(
             Icons.settings,
             size: 30,
-            color: (_page == 1) ? Colors.blueAccent : Colors.white,
+            color: (_page == 1) ? Colors.blue.shade900 : Colors.white,
           ),
           Icon(
             Icons.home_filled,
