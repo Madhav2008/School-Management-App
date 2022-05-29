@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+// import 'package:provider/provider.dart';
 import 'package:school_management_app/Screens/Login_Screen.dart';
 
 class Profile extends StatefulWidget {
