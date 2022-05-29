@@ -2,11 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:vatika/screens/Home/HomeScreen.dart';
-import 'package:vatika/screens/Login/LoginScreen.dart';
-import 'package:vatika/screens/Theme/provider/theme_provider.dart';
-import 'package:vatika/styles/app_color.dart';
-import 'package:vatika/styles/app_text_style.dart';
 
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);
