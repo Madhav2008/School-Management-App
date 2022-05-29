@@ -667,7 +667,7 @@ class _ProfileState extends State<Profile> {
                             );
                           },
                           child: Container(
-                            margin: EdgeInsets.only(top: size.height * 0.015),
+                            margin: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.015),
                             child: Container(
                               decoration: BoxDecoration(
                                 boxShadow: [
