@@ -40,7 +40,7 @@ class _NavigationState extends State<Navigation> {
           Icon(
             Icons.mail,
             size: 30,
-            color: (_page == 0) ? Colors.blueAccent : Colors.white,
+            color: (_page == 0) ? Colors.blue.shade900 : Colors.white,
           ),
           Icon(
             Icons.settings,
