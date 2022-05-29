@@ -196,7 +196,7 @@ class _ProfileState extends State<Profile> {
                                     child: Text(
                                       'VIII-C',
                                       style: TextStyle(
-                                        color: color,
+                                        color: Colors.black,
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         letterSpacing: 2,
@@ -211,7 +211,7 @@ class _ProfileState extends State<Profile> {
                                     child: Icon(
                                       Icons.lock,
                                       size: 20,
-                                      color: color,
+                                      color: Colors.black,
                                     ),
                                   ),
                                 ],
@@ -260,7 +260,7 @@ class _ProfileState extends State<Profile> {
                                     child: Text(
                                       '09-10-2008',
                                       style: TextStyle(
-                                        color: color,
+                                        color: Colors.black,
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         letterSpacing: 2,
@@ -275,7 +275,7 @@ class _ProfileState extends State<Profile> {
                                     child: Icon(
                                       Icons.lock,
                                       size: 20,
-                                      color: color,
+                                      color: Colors.black,
                                     ),
                                   ),
                                 ],
@@ -325,7 +325,7 @@ class _ProfileState extends State<Profile> {
                                     child: Text(
                                       '04-10-20',
                                       style: TextStyle(
-                                        color: color,
+                                        color: Colors.black,
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         letterSpacing: 2,
@@ -340,7 +340,7 @@ class _ProfileState extends State<Profile> {
                                     child: Icon(
                                       Icons.lock,
                                       size: 20,
-                                      color: color,
+                                      color: Colors.black,
                                     ),
                                   ),
                                 ],
@@ -389,7 +389,7 @@ class _ProfileState extends State<Profile> {
                                     child: Text(
                                       '2020-2021',
                                       style: TextStyle(
-                                        color: color,
+                                        color: Colors.black,
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold,
                                         letterSpacing: 2,
@@ -404,7 +404,7 @@ class _ProfileState extends State<Profile> {
                                     child: Icon(
                                       Icons.lock,
                                       size: 20,
-                                      color: color,
+                                      color: Colors.black,
                                     ),
                                   ),
                                 ],
@@ -451,7 +451,7 @@ class _ProfileState extends State<Profile> {
                                 child: Text(
                                   'Madhav Arora',
                                   style: TextStyle(
-                                    color: color,
+                                    color: Colors.black,
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                     letterSpacing: 2,
@@ -466,7 +466,7 @@ class _ProfileState extends State<Profile> {
                                 child: Icon(
                                   Icons.lock,
                                   size: 20,
-                                  color: color,
+                                  color: Colors.black,
                                 ),
                               ),
                             ],
@@ -508,7 +508,7 @@ class _ProfileState extends State<Profile> {
                                 child: Text(
                                   'Vijay Arora',
                                   style: TextStyle(
-                                    color: color,
+                                    color: Colors.black,
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                     letterSpacing: 2,
@@ -523,7 +523,7 @@ class _ProfileState extends State<Profile> {
                                 child: Icon(
                                   Icons.lock,
                                   size: 20,
-                                  color: color,
+                                  color: Colors.black,
                                 ),
                               ),
                             ],
@@ -565,7 +565,7 @@ class _ProfileState extends State<Profile> {
                                 child: Text(
                                   'Priya Arora',
                                   style: TextStyle(
-                                    color: color,
+                                    color: Colors.black,
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                     letterSpacing: 2,
@@ -580,7 +580,7 @@ class _ProfileState extends State<Profile> {
                                 child: Icon(
                                   Icons.lock,
                                   size: 20,
-                                  color: color,
+                                  color: Colors.black,
                                 ),
                               ),
                             ],
@@ -622,7 +622,7 @@ class _ProfileState extends State<Profile> {
                                 child: Text(
                                   '9999348444',
                                   style: TextStyle(
-                                    color: color,
+                                    color: Colors.black,
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                     letterSpacing: 2,
@@ -637,7 +637,7 @@ class _ProfileState extends State<Profile> {
                                 child: Icon(
                                   Icons.lock,
                                   size: 20,
-                                  color: color,
+                                  color: Colors.black,
                                 ),
                               ),
                             ],
