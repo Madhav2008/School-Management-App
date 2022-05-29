@@ -678,7 +678,7 @@ class _ProfileState extends State<Profile> {
                                     blurRadius: 3,
                                   )
                                 ],
-                                color: AppColor.primary1,
+                                color: Colors.blue.shade900,
                                 borderRadius: BorderRadius.circular(35),
                               ),
                               padding: const EdgeInsets.symmetric(
