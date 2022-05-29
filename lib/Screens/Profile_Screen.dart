@@ -122,7 +122,7 @@ class _ProfileState extends State<Profile> {
                                 ),
                                 child: Text(
                                   "Madhav Arora",
-                                  style: AppTextStyle.style(
+                                  style: TextStyle(
                                     fontSize: size.width * 0.065,
                                     fontWeight: FontWeight.w600,
                                   ),
@@ -136,7 +136,7 @@ class _ProfileState extends State<Profile> {
                                 ),
                                 child: Text(
                                   "Class VIII-C | Roll no: 19",
-                                  style: AppTextStyle.style(
+                                  style: TextStyle(
                                     fontSize: size.width * 0.040,
                                     color: Colors.white.withOpacity(0.7),
                                     fontWeight: FontWeight.w300,
