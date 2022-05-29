@@ -21,7 +21,7 @@ class _ProfileState extends State<Profile> {
     //     Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
     //         ? Colors.white
     //         : Colors.black;
-    // final color1 =
+    // final Colors.white =
     //     Provider.of<ThemeProvider>(context).themeMode == ThemeMode.dark
     //         ? Colors.grey.shade900
     //         : Colors.white;
@@ -32,8 +32,8 @@ class _ProfileState extends State<Profile> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              color1,
-              color1,
+              Colors.white,
+              Colors.white,
             ],
           ),
         ),
@@ -159,7 +159,7 @@ class _ProfileState extends State<Profile> {
                   width: width,
                   // height: height,
                   decoration: BoxDecoration(
-                    color: color1,
+                    color: Colors.white,
                     borderRadius: BorderRadius.only(
                       topRight: Radius.circular(38),
                       topLeft: Radius.circular(38),
