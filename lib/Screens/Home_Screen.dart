@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:school_management_app/Screens/Attendance/Attendance.dart';
 import 'package:school_management_app/Screens/Exam/Exam_Result.dart';
 import 'package:school_management_app/Screens/Leave_Apply/Leave_apply.dart';
+import 'package:school_management_app/Screens/Profile_Screen.dart';
 import 'package:school_management_app/Screens/drawer.dart';
 import 'package:school_management_app/Widgets/AppBar.dart';
 import 'package:school_management_app/Widgets/BouncingButton.dart';
@@ -168,7 +169,7 @@ class _HomeScreenState extends State<HomeScreen>
                                     context,
                                     MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          Attendance(),
+                                          Profile(),
                                     ),
                                   );
                                 },
