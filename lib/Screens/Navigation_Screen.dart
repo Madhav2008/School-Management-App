@@ -34,7 +34,7 @@ class _NavigationState extends State<Navigation> {
     return Scaffold(
       bottomNavigationBar: CurvedNavigationBar(
         key: _bottomNavigationKey,
-        index: 0,
+        index: 1,
         height: 50,
         items: [
           Icon(
