@@ -239,7 +239,7 @@ class _ProfileState extends State<Profile> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
-                                padding: const EdgeInsets.all(8.0),
+                                // padding: const EdgeInsets.all(8.0),
                                 child: Text(
                                   'Date Of Birth',
                                   style: TextStyle(
