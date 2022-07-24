@@ -144,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen>
                         hintStyle: TextStyle(
                           color: Colors.black,
                         ),
-                        fillColor: Colors.black,
+                        fillColor: Colors.white,
                         filled: true,
                         focusColor: Colors.black,
                       ),
