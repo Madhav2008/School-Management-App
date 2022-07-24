@@ -120,7 +120,8 @@ class _HomeScreenState extends State<HomeScreen>
                     child: TextField(
                       // onChanged: (value) => _runFilter(value),
                       decoration: InputDecoration(
-                        enabledBorder: const OutlineInputBorder( borderRadius: BorderRadius.all(Radius.circular(4.0)),
+                        enabledBorder: const OutlineInputBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(4.0)),
                           borderSide: const BorderSide(
                             color: Colors.blueAccent,
                             width: 0.0,
