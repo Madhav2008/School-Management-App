@@ -124,7 +124,9 @@ class _HomeScreenState extends State<HomeScreen>
                       // onChanged: (value) => _runFilter(value),
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
-                          borderRadius: BorderRadius.all(Radius.circular(100),),
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(100),
+                          ),
                         ),
                         prefixIcon: Icon(
                           Icons.search,
