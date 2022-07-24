@@ -131,7 +131,7 @@ class _HomeScreenState extends State<HomeScreen>
                         ),
                       ),
                       prefixIcon: Icon(
-                        Icons.mail,
+                        Icons.search,
                         color: Colors.white,
                       ),
                       hintText: 'Email',
