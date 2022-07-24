@@ -138,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen>
                         ),
                         hintText: 'Email',
                         hintStyle: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                         ),
                         fillColor: Colors.white,
                         focusColor: Colors.white,
