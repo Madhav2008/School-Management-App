@@ -118,28 +118,29 @@ class _HomeScreenState extends State<HomeScreen>
                   TextField(
                     // onChanged: (value) => _runFilter(value),
                     decoration: InputDecoration(
-                        enabledBorder: const OutlineInputBorder(
-                          borderSide: const BorderSide(
-                            color: Colors.blueAccent,
-                            width: 0.0,
-                          ),
+                      enabledBorder: const OutlineInputBorder(
+                        borderSide: const BorderSide(
+                          color: Colors.blueAccent,
+                          width: 0.0,
                         ),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: Colors.blue,
-                            width: 0.0,
-                          ),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Colors.blue,
+                          width: 0.0,
                         ),
-                        prefixIcon: Icon(
-                          Icons.mail,
-                          color: Colors.white,
-                        ),
-                        hintText: 'Email',
-                        hintStyle: TextStyle(
-                          color: Colors.white,
-                        ),
-                        fillColor: Colors.white,
-                        focusColor: Colors.white,),
+                      ),
+                      prefixIcon: Icon(
+                        Icons.mail,
+                        color: Colors.white,
+                      ),
+                      hintText: 'Email',
+                      hintStyle: TextStyle(
+                        color: Colors.white,
+                      ),
+                      fillColor: Colors.white,
+                      focusColor: Colors.white,
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
