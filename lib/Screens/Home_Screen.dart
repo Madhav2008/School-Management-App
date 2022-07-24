@@ -116,11 +116,21 @@ class _HomeScreenState extends State<HomeScreen>
                 children: [
                   UserDetailCard(),
                   TextField(
-                    // onChanged: (value) => _runFilter(value),
-                    decoration: InputDecoration(
-                      labelText: 'Search',
-                      suffixIcon: Icon(Icons.search),
-                    ),
+                controller: searchController,
+                cursorColor: Colors.red,
+                decoration: InputDecoration(
+                  border: InputBorder.none,
+                  hintText: 'Search Recipe',
+                  icon: IconButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                          builder: (context) => SearchScreen(
+                              searchText: searchController.text)));
+                    },
+                    icon: Icon(Icons.search),
+                    color: Colors.red,
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
