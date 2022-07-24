@@ -116,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen>
                 children: [
                   UserDetailCard(),
                   TextField(
-                    onChanged: (value) => _runFilter(value),
+                    // onChanged: (value) => _runFilter(value),
                     decoration: InputDecoration(
                       labelText: 'Search',
                       suffixIcon: Icon(Icons.search),
