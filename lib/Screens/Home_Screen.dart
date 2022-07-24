@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen>
                   TextField(
                     onChanged: (value) => _runFilter(value),
                     decoration: InputDecoration(
-                        labelText: 'Search', suffixIcon: Icon(Icons.search)),
+                        labelText: 'Search', suffixIcon: Icon(Icons.search),),
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
