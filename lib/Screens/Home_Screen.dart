@@ -121,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen>
                       // onChanged: (value) => _runFilter(value),
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
-                          borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                          borderRadius: BorderRadius.all(Radius.circular()),
                           borderSide: const BorderSide(
                             color: Colors.blueAccent,
                             width: 0.0,
