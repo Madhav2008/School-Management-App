@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen>
                       horizontal: 10.0,
                       vertical: 10.0,
                     ),
-                    child: TextField(
+                    child: TextField(fillColor: Colors.white,
                       // onChanged: (value) => _runFilter(value),
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
