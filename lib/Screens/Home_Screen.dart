@@ -120,25 +120,27 @@ class _HomeScreenState extends State<HomeScreen>
                       horizontal: 10.0,
                       vertical: 10.0,
                     ),
-                    child: TextField(
-                      // onChanged: (value) => _runFilter(value),
-                      decoration: InputDecoration(
-                        enabledBorder: const OutlineInputBorder(
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(100),
+                    child: Material(
+                      child: TextField(
+                        // onChanged: (value) => _runFilter(value),
+                        decoration: InputDecoration(
+                          enabledBorder: const OutlineInputBorder(
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(100),
+                            ),
                           ),
+                          prefixIcon: Icon(
+                            Icons.search,
+                            color: Colors.black,
+                          ),
+                          hintText: 'Search',
+                          hintStyle: TextStyle(
+                            color: Colors.grey,
+                          ),
+                          fillColor: Colors.white,
+                          filled: true,
+                          focusColor: Colors.black,
                         ),
-                        prefixIcon: Icon(
-                          Icons.search,
-                          color: Colors.black,
-                        ),
-                        hintText: 'Search',
-                        hintStyle: TextStyle(
-                          color: Colors.grey,
-                        ),
-                        fillColor: Colors.white,
-                        filled: true,
-                        focusColor: Colors.black,
                       ),
                     ),
                   ),
