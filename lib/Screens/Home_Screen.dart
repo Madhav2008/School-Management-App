@@ -115,8 +115,8 @@ class _HomeScreenState extends State<HomeScreen>
               ListView(
                 children: [
                   UserDetailCard(),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(
+                  const Padding(
+                    padding: EdgeInsets.symmetric(
                       horizontal: 10.0,
                       vertical: 10.0,
                     ),
@@ -126,13 +126,13 @@ class _HomeScreenState extends State<HomeScreen>
                       child: TextField(
                         // onChanged: (value) => _runFilter(value),
                         decoration: InputDecoration(
-                          enabledBorder: const OutlineInputBorder(
+                          enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(100),
                             ),
                             borderSide: BorderSide(color: Colors.white),
                           ),
-                          focusedBorder: const OutlineInputBorder(
+                          focusedBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(100),
                             ),
