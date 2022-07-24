@@ -116,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen>
                 children: [
                   UserDetailCard(),
                   TextField(
-                controller: searchController,
+                // controller: searchController,
                 cursorColor: Colors.red,
                 decoration: InputDecoration(
                   border: InputBorder.none,
