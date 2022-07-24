@@ -125,10 +125,6 @@ class _HomeScreenState extends State<HomeScreen>
                       decoration: InputDecoration(
                         enabledBorder: const OutlineInputBorder(
                           borderRadius: BorderRadius.all(Radius.circular(100)),
-                          borderSide: const BorderSide(
-                            color: Colors.blueAccent,
-                            width: 0.0,
-                          ),
                         ),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
