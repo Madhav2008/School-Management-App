@@ -141,7 +141,7 @@ class _HomeScreenState extends State<HomeScreen>
                           color: Colors.black,
                         ),
                         fillColor: Colors.black,
-                        focusColor: Colors.white,
+                        focusColor: Colors.black,
                       ),
                     ),
                   ),
