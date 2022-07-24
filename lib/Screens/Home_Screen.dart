@@ -132,6 +132,12 @@ class _HomeScreenState extends State<HomeScreen>
                             ),
                             // borderSide: BorderSide.none,
                           ),
+                          enabledBorder: const OutlineInputBorder(
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(100),
+                            ),
+                            // borderSide: BorderSide.none,
+                          ),
                           prefixIcon: Icon(
                             Icons.search,
                             color: Colors.black,
