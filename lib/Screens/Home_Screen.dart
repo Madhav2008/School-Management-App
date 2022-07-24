@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen>
                             borderRadius: BorderRadius.all(
                               Radius.circular(100),
                             ),
-                            borderSide: BorderSide(color: ),
+                            borderSide: BorderSide(color: Colors.white),
                           ),
                           focusedBorder: const OutlineInputBorder(
                             borderRadius: BorderRadius.all(
