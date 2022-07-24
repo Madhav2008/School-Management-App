@@ -129,7 +129,8 @@ class _HomeScreenState extends State<HomeScreen>
                           enabledBorder: const OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(100),
-                            ),borderSide: BorderSide.none,
+                            ),
+                            borderSide: BorderSide.none,
                           ),
                           prefixIcon: Icon(
                             Icons.search,
