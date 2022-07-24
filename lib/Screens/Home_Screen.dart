@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen>
                             borderRadius: BorderRadius.all(
                               Radius.circular(100),
                             ),
-                            borderSide: BorderSide.none,
+                            // borderSide: BorderSide.none,
                           ),
                           prefixIcon: Icon(
                             Icons.search,
