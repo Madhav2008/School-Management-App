@@ -116,7 +116,8 @@ class _HomeScreenState extends State<HomeScreen>
                 children: [
                   UserDetailCard(),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10.0,vertical: 10.0),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 10.0, vertical: 10.0),
                     child: TextField(
                       // onChanged: (value) => _runFilter(value),
                       decoration: InputDecoration(
