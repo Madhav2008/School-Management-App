@@ -123,11 +123,11 @@ class _HomeScreenState extends State<HomeScreen>
                   hintText: 'Search Recipe',
                   icon: IconButton(
                     onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                          builder: (context) => SearchScreen(
-                              searchText: searchController.text)));
+                      // Navigator.push(
+                      //     context,
+                      //     MaterialPageRoute(
+                      //     builder: (context) => SearchScreen(
+                      //         searchText: searchController.text)));
                     },
                     icon: Icon(Icons.search),
                     color: Colors.red,
