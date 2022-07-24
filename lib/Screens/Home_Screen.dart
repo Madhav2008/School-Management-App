@@ -115,31 +115,34 @@ class _HomeScreenState extends State<HomeScreen>
               ListView(
                 children: [
                   UserDetailCard(),
-                  TextField(
-                    // onChanged: (value) => _runFilter(value),
-                    decoration: InputDecoration(
-                      enabledBorder: const OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Colors.blueAccent,
-                          width: 0.0,
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: TextField(
+                      // onChanged: (value) => _runFilter(value),
+                      decoration: InputDecoration(
+                        enabledBorder: const OutlineInputBorder(
+                          borderSide: const BorderSide(
+                            color: Colors.blueAccent,
+                            width: 0.0,
+                          ),
                         ),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Colors.blue,
-                          width: 0.0,
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Colors.blue,
+                            width: 0.0,
+                          ),
                         ),
+                        prefixIcon: Icon(
+                          Icons.search,
+                          color: Colors.black,
+                        ),
+                        hintText: 'Email',
+                        hintStyle: TextStyle(
+                          color: Colors.white,
+                        ),
+                        fillColor: Colors.white,
+                        focusColor: Colors.white,
                       ),
-                      prefixIcon: Icon(
-                        Icons.search,
-                        color: Colors.black,
-                      ),
-                      hintText: 'Email',
-                      hintStyle: TextStyle(
-                        color: Colors.white,
-                      ),
-                      fillColor: Colors.white,
-                      focusColor: Colors.white,
                     ),
                   ),
                   Padding(
