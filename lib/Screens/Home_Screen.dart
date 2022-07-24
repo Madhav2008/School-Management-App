@@ -132,7 +132,7 @@ class _HomeScreenState extends State<HomeScreen>
                             ),
                             // borderSide: BorderSide.none,
                           ),
-                          focusBorder: const OutlineInputBorder(
+                          focusedBorder: const OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(100),
                             ),
