@@ -114,11 +114,12 @@ class _HomeScreenState extends State<HomeScreen>
               ),
               ListView(
                 children: [
-                  UserDetailCard(),TextField(
-              onChanged: (value) => _runFilter(value),
-              decoration: InputDecoration(
-                  labelText: 'Search', suffixIcon: Icon(Icons.search)),
-            ),
+                  UserDetailCard(),
+                  TextField(
+                    onChanged: (value) => _runFilter(value),
+                    decoration: InputDecoration(
+                        labelText: 'Search', suffixIcon: Icon(Icons.search)),
+                  ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
                       30.0,
