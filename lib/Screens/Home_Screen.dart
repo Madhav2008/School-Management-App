@@ -136,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen>
                           Icons.search,
                           color: Colors.black,
                         ),
-                        hintText: 'Email',
+                        hintText: 'Search',
                         hintStyle: TextStyle(
                           color: Colors.black,
                         ),
