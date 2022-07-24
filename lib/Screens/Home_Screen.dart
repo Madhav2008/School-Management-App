@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen>
                       horizontal: 10.0,
                       vertical: 10.0,
                     ),
-                    child: Material(elevation: ,
+                    child: Material(elevation: 18,
                       child: TextField(
                         // onChanged: (value) => _runFilter(value),
                         decoration: InputDecoration(
