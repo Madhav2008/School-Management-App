@@ -131,7 +131,7 @@ class _HomeScreenState extends State<HomeScreen>
                     },
                     icon: Icon(Icons.search),
                     color: Colors.red,
-                  ),
+                  ),),),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
                       30.0,
