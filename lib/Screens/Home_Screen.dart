@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen>
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
                             color: Colors.blue,
-                            width: 0.0,height:10.0
+                            width: 0.0,
                           ),
                         ),
                         prefixIcon: Icon(
