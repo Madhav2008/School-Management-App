@@ -145,7 +145,7 @@ class _HomeScreenState extends State<HomeScreen>
                           hintText: 'Search',
                           hintStyle: TextStyle(
                             color: Colors.grey,
-                            fontSize: 20,
+                            fontSize: 20,backgroundColor: Colors.black
                           ),
                           fillColor: Colors.white,
                           filled: true,
