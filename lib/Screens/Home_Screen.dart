@@ -363,6 +363,64 @@ class _HomeScreenState extends State<HomeScreen>
                                 0,
                               ),
                               child: Bouncing(
+                                onPress: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (BuildContext context) =>
+                                          ExamResult(),
+                                    ),
+                                  );
+                                },
+                                child: DashboardCard(
+                                  name: "Exam",
+                                  imgpath: "../assets/images/exam.png",
+                                ),
+                              ),
+                            ),
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                delayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
+                                onPress: () {},
+                                child: DashboardCard(
+                                  name: "TimeTable",
+                                  imgpath: "../assets/images/calendar.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(
+                      30.0,
+                      10,
+                      30,
+                      10,
+                    ),
+                    child: Container(
+                      alignment: Alignment(1.0, 0),
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                          top: 10.0,
+                          right: 20.0,
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Transform(
+                              transform: Matrix4.translationValues(
+                                muchDelayedAnimation.value * width,
+                                0,
+                                0,
+                              ),
+                              child: Bouncing(
                                 onPress: () {},
                                 child: DashboardCard(
                                   name: "Library",
