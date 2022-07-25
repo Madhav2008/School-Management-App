@@ -8,7 +8,7 @@ import 'package:school_management_app/Screens/drawer.dart';
 import 'package:school_management_app/Widgets/AppBar.dart';
 import 'package:school_management_app/Widgets/BouncingButton.dart';
 import 'package:school_management_app/Widgets/DashboardCards.dart';
-import 'package:school_management_app/Widgets/UserDetailCard.dart';
+import 'package:school_management_app/Widgets/DetailDetailCard.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen>
   void initState() {
     // TODO: implement initState
     super.initState();
-    _foundUsers = _allUsers;
+    _foundDetails = _allDetails;
     _IsSearching = false;
     // Firebase.initializeApp();
     SystemChrome.setEnabledSystemUIOverlays(
@@ -105,15 +105,15 @@ class _HomeScreenState extends State<HomeScreen>
   }
   static get index => null;
 
-  List<Map<String, dynamic>> _foundUsers = [];
+  List<Map<String, dynamic>> _foundDetails = [];
   void _runFilter(String enteredKeyword) {
     List<Map<String, dynamic>> results = [];
     if (enteredKeyword.isEmpty) {
-      results = _allUsers;
+      results = _allDetails;
     } else {
-      results = _allUsers
+      results = _allDetails
           .where(
-            (user) => user["name"].toLowerCase().contains(
+            (Detail) => Detail["name"].toLowerCase().contains(
                   enteredKeyword.toLowerCase(),
                 ),
           )
@@ -121,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen>
     }
 
     setState(() {
-      _foundUsers = results;
+      _foundDetails = results;
     });
   }
 
@@ -157,7 +157,7 @@ class _HomeScreenState extends State<HomeScreen>
               ),
               ListView(
                 children: [
-                  UserDetailCard(),
+                  DetailDetailCard(),
                   const Padding(
                     padding: EdgeInsets.symmetric(
                       horizontal: 10.0,
