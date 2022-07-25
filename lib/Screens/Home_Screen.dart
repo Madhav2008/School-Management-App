@@ -25,7 +25,8 @@ class _HomeScreenState extends State<HomeScreen>
   @override
   void initState() {
     // TODO: implement initState
-    super.initState();
+    super.initState();_foundUsers = _allUsers;
+    _IsSearching = false;
     // Firebase.initializeApp();
     SystemChrome.setEnabledSystemUIOverlays(
       [],
