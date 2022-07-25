@@ -91,7 +91,7 @@ class _HomeScreenState extends State<HomeScreen>
     _HomeScreenState() {
       _search.addListener(() {
         _search.value = query;
-        if (_hi.text.isEmpty) {
+        if (_search.text.isEmpty) {
           setState(() {
             _IsSearching = false;
             _searchText = "";
