@@ -88,7 +88,7 @@ class _HomeScreenState extends State<HomeScreen>
     var query;
     late bool _IsSearching;
     String _searchText = "";
-    _SelectContactState() {
+    _HomeScreenState() {
       _hi.addListener(() {
         _hi.value = query;
         if (_hi.text.isEmpty) {
