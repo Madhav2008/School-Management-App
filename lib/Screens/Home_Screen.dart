@@ -84,26 +84,7 @@ class _HomeScreenState extends State<HomeScreen>
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
-    final TextEditingController _search = TextEditingController();
-    var query;
-    late bool _IsSearching;
-    String _searchText = "";
-    _HomeScreenState() {
-      _search.addListener(() {
-        _search.value = query;
-        if (_search.text.isEmpty) {
-          setState(() {
-            _IsSearching = false;
-            _searchText = "";
-          });
-        } else {
-          setState(() {
-            _IsSearching = true;
-            _searchText = _search.text;
-          });
-        }
-      });
-    }
+    
 
     animationController.forward();
     return AnimatedBuilder(
