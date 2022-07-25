@@ -105,7 +105,8 @@ class _HomeScreenState extends State<HomeScreen>
   }
   static get index => null;
 
-  List<Map<String, dynamic>> _foundUsers = [];void _runFilter(String enteredKeyword) {
+  List<Map<String, dynamic>> _foundUsers = [];
+  void _runFilter(String enteredKeyword) {
     List<Map<String, dynamic>> results = [];
     if (enteredKeyword.isEmpty) {
       results = _allUsers;
@@ -123,6 +124,7 @@ class _HomeScreenState extends State<HomeScreen>
       _foundUsers = results;
     });
   }
+
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
