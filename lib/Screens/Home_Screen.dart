@@ -84,7 +84,6 @@ class _HomeScreenState extends State<HomeScreen>
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
-    
 
     animationController.forward();
     return AnimatedBuilder(
