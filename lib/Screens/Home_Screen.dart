@@ -87,22 +87,23 @@ class _HomeScreenState extends State<HomeScreen>
     final TextEditingController _search = TextEditingController();
     var query;
     late bool _IsSearching;
-    String _searchText = "";_SelectContactState() {
-    _hi.addListener(() {
-      _hi.value = query;
-      if (_hi.text.isEmpty) {
-        setState(() {
-          _IsSearching = false;
-          _searchText = "";
-        });
-      } else {
-        setState(() {
-          _IsSearching = true;
-          _searchText = _hi.text;
-        });
-      }
-    });
-  }
+    String _searchText = "";
+    _SelectContactState() {
+      _hi.addListener(() {
+        _hi.value = query;
+        if (_hi.text.isEmpty) {
+          setState(() {
+            _IsSearching = false;
+            _searchText = "";
+          });
+        } else {
+          setState(() {
+            _IsSearching = true;
+            _searchText = _hi.text;
+          });
+        }
+      });
+    }
 
     animationController.forward();
     return AnimatedBuilder(
