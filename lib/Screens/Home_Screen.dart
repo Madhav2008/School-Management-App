@@ -100,7 +100,8 @@ class _HomeScreenState extends State<HomeScreen>
         });
       }
     });
-  }static get index => null;
+  }
+  static get index => null;
 
   @override
   void initState() {
