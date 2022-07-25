@@ -8,7 +8,7 @@ import 'package:school_management_app/Screens/drawer.dart';
 import 'package:school_management_app/Widgets/AppBar.dart';
 import 'package:school_management_app/Widgets/BouncingButton.dart';
 import 'package:school_management_app/Widgets/DashboardCards.dart';
-import 'package:school_management_app/Widgets/DetailDetailCard.dart';
+import 'package:school_management_app/Widgets/UserDetailCard.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
