@@ -17,7 +17,7 @@ class DashboardCard extends StatelessWidget {
     final double height = MediaQuery.of(context).size.height;
     return Container(
       padding: EdgeInsets.all(10),
-      height: height * 0.10,
+      height: height * 0.15,
       width: width * 0.30,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
