@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen>
         } else {
           setState(() {
             _IsSearching = true;
-            _searchText = _hi.text;
+            _searchText = _search.text;
           });
         }
       });
