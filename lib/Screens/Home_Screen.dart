@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen>
     late bool _IsSearching;
     String _searchText = "";
     _HomeScreenState() {
-      _hi.addListener(() {
+      _search.addListener(() {
         _hi.value = query;
         if (_hi.text.isEmpty) {
           setState(() {
