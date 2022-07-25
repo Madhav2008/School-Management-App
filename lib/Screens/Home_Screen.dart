@@ -100,7 +100,16 @@ class _HomeScreenState extends State<HomeScreen>
         });
       }
     });
+  }static get index => null;
+
+  @override
+  void initState() {
+    super.initState();
+    _foundUsers = _allUsers;
+    _IsSearching = false;
   }
+
+  List<Map<String, dynamic>> _foundUsers = [];
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
