@@ -254,7 +254,7 @@ class _HomeScreenState extends State<HomeScreen>
                                   _foundUsers[index]['name'],
                                 ),
                                 subtitle: Text(
-                                  _foundUsers[index]["about"].toString(),
+                                  _foundDetails[index]["about"].toString(),
                                 ),
                               ),
                             ),
