@@ -239,7 +239,7 @@ class _HomeScreenState extends State<HomeScreen>
                         ? ListView.builder(
                             itemCount: _foundDetails.length,
                             itemBuilder: (context, index) => Card(
-                              key: ValueKey(_foundDetails[index]["id"]),
+                              key: ValueKey(_foundDetails[index]["name"]),
                               color: Colors.transparent,
                               elevation: 4,
                               margin: EdgeInsets.symmetric(vertical: 10),
