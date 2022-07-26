@@ -240,7 +240,7 @@ class _HomeScreenState extends State<HomeScreen>
                             itemCount: _foundUsers.length,
                             itemBuilder: (context, index) => Card(
                               key: ValueKey(_foundUsers[index]["id"]),
-                              color: transparent,
+                              color: Colors.transparent,
                               elevation: 4,
                               margin: EdgeInsets.symmetric(vertical: 10),
                               child: ListTile(
