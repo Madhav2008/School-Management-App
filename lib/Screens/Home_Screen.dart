@@ -195,7 +195,7 @@ class _HomeScreenState extends State<HomeScreen>
               ListView(
                 children: [
                   UserDetailCard(),
-                  const Padding(
+                  Padding(
                     padding: EdgeInsets.symmetric(
                       horizontal: 10.0,
                       vertical: 10.0,
