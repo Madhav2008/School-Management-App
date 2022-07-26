@@ -204,7 +204,7 @@ class _HomeScreenState extends State<HomeScreen>
                       elevation: 18,
                       shadowColor: Colors.black,
                       child: TextField(
-                        onChanged: (func) => _runFilter(func),
+                        onChanged: (value) => _runFilter(value),
                         decoration: InputDecoration(
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
