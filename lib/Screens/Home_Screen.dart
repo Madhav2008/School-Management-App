@@ -234,8 +234,7 @@ class _HomeScreenState extends State<HomeScreen>
                       ),
                     ),
                   ),
-                  Expanded(
-                    child: _foundDetails.isNotEmpty
+                  _foundDetails.isNotEmpty
                         ? ListView.builder(
                             itemCount: _foundDetails.length,
                             itemBuilder: (context, index) => Card(
