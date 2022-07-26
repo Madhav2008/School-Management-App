@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen>
   static get index => null;
 
   List<Map<String, dynamic>> _foundDetails = [];
-  final List<Map<String, dynamic>> _allUsers = [
+  final List<Map<String, dynamic>> _allDetails = [
     {
       "name": "Madhav Arora",
       "message": "Hey Flutter, You are so amazing !",
