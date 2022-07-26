@@ -262,7 +262,7 @@ class _HomeScreenState extends State<HomeScreen>
                             'No results found',
                             style: TextStyle(fontSize: 24),
                           ),
-                  ),
+
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
                       30.0,
