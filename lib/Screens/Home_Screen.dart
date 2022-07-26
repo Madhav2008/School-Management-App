@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen>
   List<Map<String, dynamic>> _foundDetails = [];
   final List<Map<String, dynamic>> _allDetails = [
     {
-      "name": "Madhav Arora",
+      "name": "Attendance",
     },
     {
       "name": "Madhav Arora",
