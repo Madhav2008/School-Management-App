@@ -247,7 +247,8 @@ class _HomeScreenState extends State<HomeScreen>
                                 leading: CircleAvatar(
                                   radius: 25,
                                   backgroundImage: NetworkImage(
-                                    _foundDetails[index]["avatarUrl"].toString(),
+                                    _foundDetails[index]["avatarUrl"]
+                                        .toString(),
                                   ),
                                 ),
                                 title: Text(
