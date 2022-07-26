@@ -105,7 +105,8 @@ class _HomeScreenState extends State<HomeScreen>
   }
   static get index => null;
 
-  List<Map<String, dynamic>> _foundDetails = [];final List<Map<String, dynamic>> _allUsers = [
+  List<Map<String, dynamic>> _foundDetails = [];
+  final List<Map<String, dynamic>> _allUsers = [
     {
       "name": "Madhav Arora",
       "message": "Hey Flutter, You are so amazing !",
@@ -115,7 +116,8 @@ class _HomeScreenState extends State<HomeScreen>
       "about": "I overthink therefore I overam",
       "phoneno": '9999348666',
       "id": 1,
-    },],
+    },
+  ];
   void _runFilter(String enteredKeyword) {
     List<Map<String, dynamic>> results = [];
     if (enteredKeyword.isEmpty) {
