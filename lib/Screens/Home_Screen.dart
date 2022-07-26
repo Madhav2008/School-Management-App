@@ -143,7 +143,6 @@ class _HomeScreenState extends State<HomeScreen>
     },
   ];
 
-
   void _runFilter(String enteredKeyword) {
     List<Map<String, dynamic>> results = [];
     if (enteredKeyword.isEmpty) {
@@ -162,6 +161,7 @@ class _HomeScreenState extends State<HomeScreen>
       _foundDetails = results;
     });
   }
+
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
