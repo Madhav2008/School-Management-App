@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen>
       "name": "Library",
     },
     {
-      "name": "Madhav Arora",
+      "name": "Track Bus",
     },
     {
       "name": "Madhav Arora",
