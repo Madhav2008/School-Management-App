@@ -101,7 +101,7 @@ class _HomeScreenState extends State<HomeScreen>
       }
     });
   }
-  // static get index => null;
+  static get index => null;
 
   List<Map<String, dynamic>> _foundDetails = [];
   final List<Map<String, dynamic>> _allDetails = [
