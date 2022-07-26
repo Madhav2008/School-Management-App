@@ -142,24 +142,7 @@ class _HomeScreenState extends State<HomeScreen>
       "name": "Apply Leave",
     },
   ];
-  void _runFilter(String enteredKeyword) {
-    List<Map<String, dynamic>> results = [];
-    if (enteredKeyword.isEmpty) {
-      results = _allDetails;
-    } else {
-      results = _allDetails
-          .where(
-            (Detail) => Detail["name"].toLowerCase().contains(
-                  enteredKeyword.toLowerCase(),
-                ),
-          )
-          .toList();
-    }
 
-    setState(() {
-      _foundDetails = results;
-    });
-  }
 
   void _runFilter(String enteredKeyword) {
     List<Map<String, dynamic>> results = [];
