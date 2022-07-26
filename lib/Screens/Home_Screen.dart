@@ -115,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen>
       "name": "Exam",
     },
     {
-      "name": "Madhav Arora",
+      "name": "Time Table",
     },
     {
       "name": "Madhav Arora",
