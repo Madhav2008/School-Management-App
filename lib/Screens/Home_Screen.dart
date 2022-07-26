@@ -234,34 +234,7 @@ class _HomeScreenState extends State<HomeScreen>
                       ),
                     ),
                   ),
-                  _foundDetails.isNotEmpty
-                      ? ListView.builder(
-                          itemCount: _foundDetails.length,
-                          itemBuilder: (context, index) => Card(
-                            key: ValueKey(_foundDetails[index]["name"]),
-                            color: Colors.transparent,
-                            elevation: 4,
-                            margin: EdgeInsets.symmetric(vertical: 10),
-                            child: ListTile(
-                              leading: CircleAvatar(
-                                radius: 25,
-                                backgroundImage: NetworkImage(
-                                  _foundDetails[index]["name"].toString(),
-                                ),
-                              ),
-                              title: Text(
-                                _foundDetails[index]['name'],
-                              ),
-                              subtitle: Text(
-                                _foundDetails[index]["name"].toString(),
-                              ),
-                            ),
-                          ),
-                        )
-                      : Text(
-                          'No results found',
-                          style: TextStyle(fontSize: 24),
-                        ),
+                  
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
                       30.0,
