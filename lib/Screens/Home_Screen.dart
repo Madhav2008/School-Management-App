@@ -107,13 +107,7 @@ class _HomeScreenState extends State<HomeScreen>
   final List<Map<String, dynamic>> _allDetails = [
     {
       "name": "Madhav Arora",
-      "message": "Hey Flutter, You are so amazing !",
-      "time": "15:30",
-      "avatarUrl":
-          "https://avatars.githubusercontent.com/u/72864817?s=400&u=2f8a4bd2f1f03f4f6ad73c61abfc5770afd1e135&v=4",
-      "about": "I overthink therefore I overam",
-      "phoneno": '9999348666',
-      "id": 1,
+      
     },
   ];
   void _runFilter(String enteredKeyword) {
