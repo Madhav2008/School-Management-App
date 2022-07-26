@@ -139,7 +139,7 @@ class _HomeScreenState extends State<HomeScreen>
       "name": "Activity",
     },
     {
-      "name": "Madhav Arora",
+      "name": "Apply Leave",
     },
   ];
   void _runFilter(String enteredKeyword) {
