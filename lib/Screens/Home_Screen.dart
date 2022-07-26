@@ -161,6 +161,24 @@ class _HomeScreenState extends State<HomeScreen>
     });
   }
 
+  void _runFilter(String enteredKeyword) {
+    List<Map<String, dynamic>> results = [];
+    if (enteredKeyword.isEmpty) {
+      results = _allDetails;
+    } else {
+      results = _allDetails
+          .where(
+            (Detail) => Detail["name"].toLowerCase().contains(
+                  enteredKeyword.toLowerCase(),
+                ),
+          )
+          .toList();
+    }
+
+    setState(() {
+      _foundDetails = results;
+    });
+  }
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
@@ -203,7 +221,7 @@ class _HomeScreenState extends State<HomeScreen>
                       elevation: 18,
                       shadowColor: Colors.black,
                       child: TextField(
-                        // onChanged: (value) => _runFilter(value),
+                        onChanged: (value) => _runFilter(value),
                         decoration: InputDecoration(
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
