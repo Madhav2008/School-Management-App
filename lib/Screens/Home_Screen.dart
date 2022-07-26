@@ -233,7 +233,36 @@ class _HomeScreenState extends State<HomeScreen>
                         ),
                       ),
                     ),
-                  ),
+                  ),Expanded(
+              child: _foundUsers.isNotEmpty
+                  ? ListView.builder(
+                      itemCount: _foundUsers.length,
+                      itemBuilder: (context, index) => Card(
+                        key: ValueKey(_foundUsers[index]["id"]),
+                        color: transparent,
+                        elevation: 4,
+                        margin: EdgeInsets.symmetric(vertical: 10),
+                        child: ListTile(
+                          leading: CircleAvatar(
+                            radius: 25,
+                            backgroundImage: NetworkImage(
+                              _foundUsers[index]["avatarUrl"].toString(),
+                            ),
+                          ),
+                          title: Text(
+                            _foundUsers[index]['name'],
+                          ),
+                          subtitle: Text(
+                            _foundUsers[index]["about"].toString(),
+                          ),
+                        ),
+                      ),
+                    )
+                  : Text(
+                      'No results found',
+                      style: TextStyle(fontSize: 24),
+                    ),
+            ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
                       30.0,
