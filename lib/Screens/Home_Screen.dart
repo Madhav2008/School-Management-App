@@ -115,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen>
       "about": "I overthink therefore I overam",
       "phoneno": '9999348666',
       "id": 1,
-    },
+    },],
   void _runFilter(String enteredKeyword) {
     List<Map<String, dynamic>> results = [];
     if (enteredKeyword.isEmpty) {
