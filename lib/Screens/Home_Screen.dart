@@ -117,6 +117,9 @@ class _HomeScreenState extends State<HomeScreen>
     {
       "name": "Madhav Arora",
     },
+    {
+      "name": "Madhav Arora",
+    },
   ];
   void _runFilter(String enteredKeyword) {
     List<Map<String, dynamic>> results = [];
